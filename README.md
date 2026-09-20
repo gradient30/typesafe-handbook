@@ -10,6 +10,14 @@
 - 同步：每 6 小时对照 `docs.typesafe.ai/llms.txt` 和各页 Markdown。哈希一变，就新增一条[同步日志](src/content/zh/sync-log.md)，写明改了什么、中文站在侧栏哪一项
 - 风格：明 / 暗 / 彩，切换结果保存在浏览器本地
 
+## 首次启用 Pages（一次性）
+
+仓库刚创建时需要在 GitHub 勾选发布源，之后每次推送和 6 小时对照都会自动更新：
+
+1. 打开 [Settings → Pages](https://github.com/gradient30/typesafe-handbook/settings/pages)
+2. Build and deployment → Source 选择 **GitHub Actions**
+3. 到 [Actions](https://github.com/gradient30/typesafe-handbook/actions) 把最近一次 *Deploy GitHub Pages* 点 **Re-run jobs**
+
 ## 内容
 
 | 部分 | 说明 |
@@ -36,7 +44,7 @@ npm install
 npm run dev
 ```
 
-开发服务器默认监听 `0.0.0.0:8080`。对照官网：
+对照官网：
 
 ```bash
 npm run sync:docs
