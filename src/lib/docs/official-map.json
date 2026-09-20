@@ -1,0 +1,574 @@
+{
+  "capturedAt": "2026-09-20",
+  "source": "https://docs.typesafe.ai/llms.txt",
+  "llmsHash": "9bb713532b8b",
+  "docs": [
+    {
+      "slug": "sync-log",
+      "section": "additive",
+      "kind": "additive",
+      "officialPath": null,
+      "size": null,
+      "hash": null,
+      "translatedAtHash": null
+    },
+    {
+      "slug": "sitemap",
+      "section": "additive",
+      "kind": "additive",
+      "officialPath": null,
+      "size": null,
+      "hash": null,
+      "translatedAtHash": null
+    },
+    {
+      "slug": "architecture",
+      "section": "additive",
+      "kind": "additive",
+      "officialPath": null,
+      "size": null,
+      "hash": null,
+      "translatedAtHash": null
+    },
+    {
+      "slug": "cookbooks",
+      "section": "additive",
+      "kind": "additive",
+      "officialPath": null,
+      "size": null,
+      "hash": null,
+      "translatedAtHash": null
+    },
+    {
+      "slug": "agent-skill",
+      "section": "reference",
+      "kind": "official",
+      "officialPath": "agent-skill.md",
+      "size": 5798,
+      "hash": "5ed8f74a1337",
+      "translatedAtHash": "5ed8f74a1337"
+    },
+    {
+      "slug": "api",
+      "section": "reference",
+      "kind": "official",
+      "officialPath": "api.md",
+      "size": 11772,
+      "hash": "7ea1c82d9d16",
+      "translatedAtHash": "7ea1c82d9d16"
+    },
+    {
+      "slug": "concepts/how-to-build-with-system-one",
+      "section": "foundations",
+      "kind": "official",
+      "officialPath": "concepts/how-to-build-with-system-one.md",
+      "size": 40921,
+      "hash": "d9f4d34c1349",
+      "translatedAtHash": "d9f4d34c1349"
+    },
+    {
+      "slug": "concepts/state",
+      "section": "foundations",
+      "kind": "official",
+      "officialPath": "concepts/state.md",
+      "size": 3874,
+      "hash": "6871d59470c6",
+      "translatedAtHash": "6871d59470c6"
+    },
+    {
+      "slug": "concepts/system-one",
+      "section": "foundations",
+      "kind": "official",
+      "officialPath": "concepts/system-one.md",
+      "size": 4061,
+      "hash": "e072211498bc",
+      "translatedAtHash": "e072211498bc"
+    },
+    {
+      "slug": "concepts/use-case-map",
+      "section": "foundations",
+      "kind": "official",
+      "officialPath": "concepts/use-case-map.md",
+      "size": 11707,
+      "hash": "9d193b6379d1",
+      "translatedAtHash": "9d193b6379d1"
+    },
+    {
+      "slug": "confidence",
+      "section": "foundations",
+      "kind": "official",
+      "officialPath": "confidence.md",
+      "size": 11396,
+      "hash": "97dafe98b779",
+      "translatedAtHash": "97dafe98b779"
+    },
+    {
+      "slug": "cookbooks/autoformat",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/autoformat.md",
+      "size": 41005,
+      "hash": "e0be526400d0",
+      "translatedAtHash": "e0be526400d0"
+    },
+    {
+      "slug": "cookbooks/autoresearch_feature_discovery",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/autoresearch_feature_discovery.md",
+      "size": 71547,
+      "hash": "0aab7e2e6f30",
+      "translatedAtHash": "0aab7e2e6f30"
+    },
+    {
+      "slug": "cookbooks/citation_check",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/citation_check.md",
+      "size": 15370,
+      "hash": "c8b3defc1632",
+      "translatedAtHash": "c8b3defc1632"
+    },
+    {
+      "slug": "cookbooks/classification_using_confidence",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/classification_using_confidence.md",
+      "size": 30746,
+      "hash": "1edca064653c",
+      "translatedAtHash": "1edca064653c"
+    },
+    {
+      "slug": "cookbooks/classifying_rag_passages",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/classifying_rag_passages.md",
+      "size": 32569,
+      "hash": "02c271ada247",
+      "translatedAtHash": "02c271ada247"
+    },
+    {
+      "slug": "cookbooks/consistency_choice_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/consistency_choice_cookbook.md",
+      "size": 49954,
+      "hash": "381b3840c94e",
+      "translatedAtHash": "381b3840c94e"
+    },
+    {
+      "slug": "cookbooks/consistency_noul_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/consistency_noul_cookbook.md",
+      "size": 32442,
+      "hash": "fb141c4937d9",
+      "translatedAtHash": "fb141c4937d9"
+    },
+    {
+      "slug": "cookbooks/date_extraction_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/date_extraction_cookbook.md",
+      "size": 19899,
+      "hash": "3fdf1a1cef19",
+      "translatedAtHash": "3fdf1a1cef19"
+    },
+    {
+      "slug": "cookbooks/entity_alignment",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/entity_alignment.md",
+      "size": 16856,
+      "hash": "c8808786d3e4",
+      "translatedAtHash": "c8808786d3e4"
+    },
+    {
+      "slug": "cookbooks/function_calling",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/function_calling.md",
+      "size": 18910,
+      "hash": "544782348957",
+      "translatedAtHash": "544782348957"
+    },
+    {
+      "slug": "cookbooks/hierarchical_classification",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/hierarchical_classification.md",
+      "size": 36445,
+      "hash": "5525161d2b55",
+      "translatedAtHash": "5525161d2b55"
+    },
+    {
+      "slug": "cookbooks/llm_guardrails",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/llm_guardrails.md",
+      "size": 22708,
+      "hash": "44fc99ba07be",
+      "translatedAtHash": "44fc99ba07be"
+    },
+    {
+      "slug": "cookbooks/parallel_questions",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/parallel_questions.md",
+      "size": 48529,
+      "hash": "e142ddb58aeb",
+      "translatedAtHash": "e142ddb58aeb"
+    },
+    {
+      "slug": "cookbooks/pre_parsed_value_extraction_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/pre_parsed_value_extraction_cookbook.md",
+      "size": 12589,
+      "hash": "5a2026433afc",
+      "translatedAtHash": "5a2026433afc"
+    },
+    {
+      "slug": "cookbooks/rerank_typesafe",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/rerank_typesafe.md",
+      "size": 26143,
+      "hash": "85b8158a7cc0",
+      "translatedAtHash": "85b8158a7cc0"
+    },
+    {
+      "slug": "cookbooks/sde_cascade",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/sde_cascade.md",
+      "size": 32717,
+      "hash": "5d513d682f45",
+      "translatedAtHash": "5d513d682f45"
+    },
+    {
+      "slug": "cookbooks/semantic_find",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/semantic_find.md",
+      "size": 37898,
+      "hash": "1fad271a5cf1",
+      "translatedAtHash": "1fad271a5cf1"
+    },
+    {
+      "slug": "cookbooks/skill_suggestion",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/skill_suggestion.md",
+      "size": 40087,
+      "hash": "62728bba4a38",
+      "translatedAtHash": "62728bba4a38"
+    },
+    {
+      "slug": "demos/smart-home",
+      "section": "demos",
+      "kind": "official",
+      "officialPath": "demos/smart-home.md",
+      "size": 3825,
+      "hash": "155c0af9a4ae",
+      "translatedAtHash": "155c0af9a4ae"
+    },
+    {
+      "slug": "demos",
+      "section": "demos",
+      "kind": "official",
+      "officialPath": "demos.md",
+      "size": 588,
+      "hash": "df111cec8c26",
+      "translatedAtHash": "df111cec8c26"
+    },
+    {
+      "slug": "introduction/machine-learning-primer",
+      "section": "start",
+      "kind": "official",
+      "officialPath": "introduction/machine-learning-primer.md",
+      "size": 6580,
+      "hash": "45e6a22bc175",
+      "translatedAtHash": "45e6a22bc175"
+    },
+    {
+      "slug": "introduction/quickstart",
+      "section": "start",
+      "kind": "official",
+      "officialPath": "introduction/quickstart.md",
+      "size": 7053,
+      "hash": "c30183944985",
+      "translatedAtHash": "c30183944985"
+    },
+    {
+      "slug": "introduction",
+      "section": "start",
+      "kind": "official",
+      "officialPath": "introduction.md",
+      "size": 4317,
+      "hash": "73eb533b5397",
+      "translatedAtHash": "73eb533b5397"
+    },
+    {
+      "slug": "legal",
+      "section": "reference",
+      "kind": "official",
+      "officialPath": "legal.md",
+      "size": 1059,
+      "hash": "4141ec2e7efa",
+      "translatedAtHash": "4141ec2e7efa"
+    },
+    {
+      "slug": "model-jaggedness/jev-1.13",
+      "section": "reference",
+      "kind": "official",
+      "officialPath": "model-jaggedness/jev-1.13.md",
+      "size": 11588,
+      "hash": "e69329bd32e9",
+      "translatedAtHash": "e69329bd32e9"
+    },
+    {
+      "slug": "models",
+      "section": "reference",
+      "kind": "official",
+      "officialPath": "models.md",
+      "size": 7245,
+      "hash": "9d20bb3c90a0",
+      "translatedAtHash": "9d20bb3c90a0"
+    },
+    {
+      "slug": "patterns/composite-scoring",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/composite-scoring.md",
+      "size": 13545,
+      "hash": "538f42d614fb",
+      "translatedAtHash": "538f42d614fb"
+    },
+    {
+      "slug": "patterns/confidence-routing",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/confidence-routing.md",
+      "size": 12168,
+      "hash": "7a4de8d39a24",
+      "translatedAtHash": "7a4de8d39a24"
+    },
+    {
+      "slug": "patterns/fan-out",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/fan-out.md",
+      "size": 13967,
+      "hash": "8d7a251ea6b7",
+      "translatedAtHash": "8d7a251ea6b7"
+    },
+    {
+      "slug": "patterns/intent-routing",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/intent-routing.md",
+      "size": 13444,
+      "hash": "84b670d502b3",
+      "translatedAtHash": "84b670d502b3"
+    },
+    {
+      "slug": "patterns",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns.md",
+      "size": 2020,
+      "hash": "3c810e35f958",
+      "translatedAtHash": "3c810e35f958"
+    },
+    {
+      "slug": "primitives/advanced",
+      "section": "primitives",
+      "kind": "official",
+      "officialPath": "primitives/advanced.md",
+      "size": 19060,
+      "hash": "73eeedee0c3f",
+      "translatedAtHash": "73eeedee0c3f"
+    },
+    {
+      "slug": "primitives/choice",
+      "section": "primitives",
+      "kind": "official",
+      "officialPath": "primitives/choice.md",
+      "size": 26794,
+      "hash": "4c55085131f8",
+      "translatedAtHash": "4c55085131f8"
+    },
+    {
+      "slug": "primitives/noul",
+      "section": "primitives",
+      "kind": "official",
+      "officialPath": "primitives/noul.md",
+      "size": 27363,
+      "hash": "aa7bff0d04bd",
+      "translatedAtHash": "aa7bff0d04bd"
+    },
+    {
+      "slug": "primitives/score",
+      "section": "primitives",
+      "kind": "official",
+      "officialPath": "primitives/score.md",
+      "size": 43992,
+      "hash": "5afe0db1d2d1",
+      "translatedAtHash": "5afe0db1d2d1"
+    },
+    {
+      "slug": "primitives",
+      "section": "primitives",
+      "kind": "official",
+      "officialPath": "primitives.md",
+      "size": 24810,
+      "hash": "130d9136a2f0",
+      "translatedAtHash": "130d9136a2f0"
+    },
+    {
+      "slug": "sdk/javascript/api",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/javascript/api.md",
+      "size": 3327,
+      "hash": "e8abd954c9eb",
+      "translatedAtHash": "e8abd954c9eb"
+    },
+    {
+      "slug": "sdk/javascript/changelog",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/javascript/changelog.md",
+      "size": 508,
+      "hash": "73389d4c0199",
+      "translatedAtHash": "73389d4c0199"
+    },
+    {
+      "slug": "sdk/javascript",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/javascript.md",
+      "size": 1302,
+      "hash": "25ba04f5b558",
+      "translatedAtHash": "25ba04f5b558"
+    },
+    {
+      "slug": "sdk/python/api/clients/async",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/clients/async.md",
+      "size": 32419,
+      "hash": "da93c4bec87f",
+      "translatedAtHash": "da93c4bec87f"
+    },
+    {
+      "slug": "sdk/python/api/clients/sync",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/clients/sync.md",
+      "size": 31811,
+      "hash": "0500d03ae0cc",
+      "translatedAtHash": "0500d03ae0cc"
+    },
+    {
+      "slug": "sdk/python/api/constants",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/constants.md",
+      "size": 1782,
+      "hash": "dfcd6bfd6914",
+      "translatedAtHash": "dfcd6bfd6914"
+    },
+    {
+      "slug": "sdk/python/api/exceptions",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/exceptions.md",
+      "size": 7059,
+      "hash": "c1cec8b4f1e4",
+      "translatedAtHash": "c1cec8b4f1e4"
+    },
+    {
+      "slug": "sdk/python/api/retries",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/retries.md",
+      "size": 15732,
+      "hash": "bdf94b25ae1d",
+      "translatedAtHash": "bdf94b25ae1d"
+    },
+    {
+      "slug": "sdk/python/api/types/common",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/types/common.md",
+      "size": 2942,
+      "hash": "bda3f01322aa",
+      "translatedAtHash": "bda3f01322aa"
+    },
+    {
+      "slug": "sdk/python/api/types/questions",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/types/questions.md",
+      "size": 30016,
+      "hash": "cbad949affff",
+      "translatedAtHash": "cbad949affff"
+    },
+    {
+      "slug": "sdk/python/api/types/responses",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api/types/responses.md",
+      "size": 38625,
+      "hash": "7b0167d010dc",
+      "translatedAtHash": "7b0167d010dc"
+    },
+    {
+      "slug": "sdk/python/api",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api.md",
+      "size": 623,
+      "hash": "fd58d0024e62",
+      "translatedAtHash": "fd58d0024e62"
+    },
+    {
+      "slug": "sdk/python/changelog",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/changelog.md",
+      "size": 1565,
+      "hash": "c49eb12a5580",
+      "translatedAtHash": "c49eb12a5580"
+    },
+    {
+      "slug": "sdk/python/usage",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/usage.md",
+      "size": 7999,
+      "hash": "91d607682c20",
+      "translatedAtHash": "91d607682c20"
+    },
+    {
+      "slug": "sdk/python",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python.md",
+      "size": 3324,
+      "hash": "40d5c6a5fb9b",
+      "translatedAtHash": "40d5c6a5fb9b"
+    },
+    {
+      "slug": "sdk",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk.md",
+      "size": 823,
+      "hash": "bbd9d2eaad4c",
+      "translatedAtHash": "bbd9d2eaad4c"
+    }
+  ]
+}

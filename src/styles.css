@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+:root,
+html[data-theme="dark"] {
+  --app-bg: #0c0f10;
+  --app-bg-elevated: #14191a;
+  --app-bg-subtle: #1b2224;
+  --app-fg: #e7eeec;
+  --app-fg-muted: #8fa3a0;
+  --app-fg-subtle: #6b7d7a;
+  --app-border: #2a3536;
+  --app-border-strong: #3d4e50;
+  --app-accent: #3dbaa8;
+  --app-accent-fg: #0c0f10;
+  --app-card: #121718;
+  --app-primary: #3dbaa8;
+  --app-primary-foreground: #0c0f10;
+  --app-ring: #3dbaa8;
+  --app-destructive: #d07a7a;
+  --app-overlay: 0 24px 80px color-mix(in oklab, black 45%, transparent);
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  --app-bg: #f4f6f5;
+  --app-bg-elevated: #ffffff;
+  --app-bg-subtle: #e7ecea;
+  --app-fg: #15201e;
+  --app-fg-muted: #4a5c59;
+  --app-fg-subtle: #6b7c78;
+  --app-border: #d4ddd9;
+  --app-border-strong: #b3c0bb;
+  --app-accent: #0f7a6c;
+  --app-accent-fg: #ffffff;
+  --app-card: #ffffff;
+  --app-primary: #0f7a6c;
+  --app-primary-foreground: #ffffff;
+  --app-ring: #0f7a6c;
+  --app-destructive: #b42318;
+  --app-overlay: 0 20px 56px color-mix(in oklab, black 14%, transparent);
+  color-scheme: light;
+}
+
+html[data-theme="color"] {
+  --app-bg: #f3ead9;
+  --app-bg-elevated: #fff8ec;
+  --app-bg-subtle: #e8d7bf;
+  --app-fg: #1a2e2b;
+  --app-fg-muted: #4a635c;
+  --app-fg-subtle: #6d837d;
+  --app-border: #d4c0a4;
+  --app-border-strong: #b89a74;
+  --app-accent: #c24e2c;
+  --app-accent-fg: #fff8ec;
+  --app-card: #fff8ec;
+  --app-primary: #c24e2c;
+  --app-primary-foreground: #fff8ec;
+  --app-ring: #0f7a6c;
+  --app-destructive: #b42318;
+  --app-overlay: 0 20px 56px color-mix(in oklab, #3a2416 22%, transparent);
+  color-scheme: light;
+}
+
+@theme {
+  --font-sans: "IBM Plex Sans", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "Noto Sans Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-display: "IBM Plex Sans", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: var(--app-bg);
+  --color-bg-elevated: var(--app-bg-elevated);
+  --color-bg-subtle: var(--app-bg-subtle);
+  --color-fg: var(--app-fg);
+  --color-fg-muted: var(--app-fg-muted);
+  --color-fg-subtle: var(--app-fg-subtle);
+  --color-border: var(--app-border);
+  --color-border-strong: var(--app-border-strong);
+  --color-accent: var(--app-accent);
+  --color-accent-fg: var(--app-accent-fg);
+  --color-card: var(--app-card);
+  --color-primary: var(--app-primary);
+  --color-primary-foreground: var(--app-primary-foreground);
+  --color-ring: var(--app-ring);
+  --color-destructive: var(--app-destructive);
+
+  --shadow-overlay: var(--app-overlay);
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius: 12px;
+}
+
+@layer base {
+  html,
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html[data-theme="color"] body {
+    background-image: radial-gradient(
+      900px 420px at 8% -8%,
+      color-mix(in oklab, var(--color-accent) 10%, transparent),
+      transparent 70%
+    );
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 35%, transparent);
+    color: var(--color-fg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.mermaid-block svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.mermaid-block .nodeLabel,
+.mermaid-block .cluster-label,
+.mermaid-block .edgeLabel {
+  font-family: var(--font-sans);
+}
