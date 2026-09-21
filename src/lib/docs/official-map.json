@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-09-20",
+  "capturedAt": "2026-09-21",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "9bb713532b8b",
+  "llmsHash": "1119b23a65f0",
   "docs": [
     {
       "slug": "sync-log",
@@ -458,8 +458,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/async.md",
-      "size": 32419,
-      "hash": "da93c4bec87f",
+      "size": 32575,
+      "hash": "f45f04e87431",
       "translatedAtHash": "da93c4bec87f"
     },
     {
@@ -467,8 +467,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/sync.md",
-      "size": 31811,
-      "hash": "0500d03ae0cc",
+      "size": 31967,
+      "hash": "55a144c0161e",
       "translatedAtHash": "0500d03ae0cc"
     },
     {
@@ -539,8 +539,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/changelog.md",
-      "size": 1565,
-      "hash": "c49eb12a5580",
+      "size": 1828,
+      "hash": "47c90969dd76",
       "translatedAtHash": "c49eb12a5580"
     },
     {
@@ -548,8 +548,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/usage.md",
-      "size": 7999,
-      "hash": "91d607682c20",
+      "size": 10189,
+      "hash": "9a7d1d4e52fa",
       "translatedAtHash": "91d607682c20"
     },
     {

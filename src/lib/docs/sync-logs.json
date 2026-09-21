@@ -1,5 +1,57 @@
 [
   {
+    "id": "202609211724",
+    "capturedAt": "2026-09-21T17:24:37.148Z",
+    "summary": "4 处官网变动（新增 0 / 改动 4 / 删除 0）",
+    "llmsHash": "1119b23a65f0",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/clients/async",
+        "title": "Asynchronous client",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/clients/async",
+        "handbookHref": "/docs/sdk/python/api/clients/async",
+        "location": "侧栏「SDK」→「Asynchronous client」· 本站 /docs/sdk/python/api/clients/async",
+        "prevHash": "da93c4bec87f",
+        "nextHash": "f45f04e87431",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/clients/sync",
+        "title": "Synchronous client",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/clients/sync",
+        "handbookHref": "/docs/sdk/python/api/clients/sync",
+        "location": "侧栏「SDK」→「Synchronous client」· 本站 /docs/sdk/python/api/clients/sync",
+        "prevHash": "0500d03ae0cc",
+        "nextHash": "55a144c0161e",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/changelog",
+        "title": "Changelog",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/changelog",
+        "handbookHref": "/docs/sdk/python/changelog",
+        "location": "侧栏「SDK」→「Changelog」· 本站 /docs/sdk/python/changelog",
+        "prevHash": "c49eb12a5580",
+        "nextHash": "47c90969dd76",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/usage",
+        "title": "Usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「Usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "91d607682c20",
+        "nextHash": "9a7d1d4e52fa",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "20260921-daily",
     "capturedAt": "2026-09-21T02:24:41.000Z",
     "summary": "启动每日例行汉化：对照官网，正文无变动",
