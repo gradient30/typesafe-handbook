@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/lib/docs/official-map.json src/lib/docs/sync-logs.json src/content/zh/sync-log.md
+          git add src/lib/docs/official-map.json src/lib/docs/sync-logs.json src/lib/docs/cadence.json src/content/zh
           if git diff --cached --quiet; then
             echo "no official doc changes"
             exit 0

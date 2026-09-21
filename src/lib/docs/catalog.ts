@@ -28,9 +28,9 @@ function page(
 }
 
 export const PAGES: DocLink[] = [
-  page("sync-log", "同步日志", "每次对照官网后单独记一条：改了什么、本站哪一页。", ""),
+  page("sync-log", "同步日志", "每日例行对照官网：改了什么、本站哪一页，永久跟译本。", ""),
   page("sitemap", "对照表", "官网每一页的指纹、状态，以及对应的中文站位置。", ""),
-  page("architecture", "本站架构", "汉化站怎么拼起来、如何自动对照官网并写同步日志。", ""),
+  page("architecture", "本站架构", "汉化站怎么拼起来、6 小时指纹和每日重译如何接力。", ""),
   page("introduction", "简介", "Jev 是 TypeSafe 的旗舰 System One 模型：传入状态和类型化问题，直接拿结构化答案。"),
   page("introduction/quickstart", "快速开始", "Playground、HTTP API、Python SDK 与 Agent Skill 的最短上手路径。"),
   page("introduction/machine-learning-primer", "AI 入门", "为什么 TypeSafe 用校准概率训练决策模型，而不是优化生成文本。"),

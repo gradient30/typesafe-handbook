@@ -7,12 +7,12 @@
 - 官方文档：[docs.typesafe.ai](https://docs.typesafe.ai/introduction)
 - 本仓库：**非官方**译本与阅读器。产品名、代码块、JSON 字段与官网路径对齐
 - 发布：GitHub Pages（`main` 推送后自动构建；工作流 `.github/workflows/pages.yml`）
-- 同步：每 6 小时对照 `docs.typesafe.ai/llms.txt` 和各页 Markdown。哈希一变，就新增一条[同步日志](src/content/zh/sync-log.md)，写明改了什么、中文站在侧栏哪一项
+- 同步：每 6 小时对照指纹；**每天 09:00（北京时间）例行重译** 变动页。哈希一变，就新增一条[同步日志](src/content/zh/sync-log.md)，写明改了什么、中文站在侧栏哪一项
 - 风格：明 / 暗 / 彩，切换结果保存在浏览器本地
 
 ## 首次启用 Pages（一次性）
 
-仓库刚创建时需要在 GitHub 勾选发布源，之后每次推送和 6 小时对照都会自动更新：
+仓库刚创建时需要在 GitHub 勾选发布源，之后每次推送、6 小时指纹和每日汉化都会自动更新：
 
 1. 打开 [Settings → Pages](https://github.com/gradient30/typesafe-handbook/settings/pages)
 2. Build and deployment → Source 选择 **GitHub Actions**
@@ -25,7 +25,7 @@
 | 入门 / 基础 / 原语 / 模式 | 概念页完整中文译本 |
 | SDK / HTTP API / 模型 / Agent Skill | 安装、用法、请求形状、价格与限流 |
 | 食谱 | 官方 cookbook 的架构、结论与关键代码（不是实验日志逐行搬运） |
-| [同步日志](src/content/zh/sync-log.md) | 每次官网变动单独一条：改了什么、本站哪个 URL |
+| [同步日志](src/content/zh/sync-log.md) | 每次官网变动单独一条：改了什么、本站哪个 URL；顶部是每日例行节奏 |
 | [对照表](src/content/zh/sitemap.md) | 官网页 SHA-12 指纹与中文站位置 |
 | [本站架构](src/content/zh/architecture.md) | 汉化站如何对照官网并写日志 |
 

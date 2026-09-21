@@ -4,6 +4,9 @@
  * compare with src/lib/docs/official-map.json, and when something moved:
  * append a new entry to src/lib/docs/sync-logs.json describing WHAT changed
  * and WHERE it lives on this Chinese site.
+ *
+ * Fingerprint-only. Daily Grok re-translation is a separate pass that writes
+ * src/content/zh and sets cadence.status back to "current".
  */
 import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync } from "node:fs";
@@ -13,6 +16,7 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const mapFile = join(root, "src/lib/docs/official-map.json");
 const logFile = join(root, "src/lib/docs/sync-logs.json");
+const cadenceFile = join(root, "src/lib/docs/cadence.json");
 const INDEX = "https://docs.typesafe.ai/llms.txt";
 const ORIGIN = "https://docs.typesafe.ai/";
 
@@ -34,7 +38,7 @@ type MapSnapshot = {
 };
 
 type SyncChange = {
-  kind: "added" | "modified" | "removed" | "baseline";
+  kind: "added" | "modified" | "removed" | "baseline" | "check" | "translated";
   slug: string;
   title: string;
   officialUrl: string | null;
@@ -51,6 +55,18 @@ type SyncLog = {
   summary: string;
   llmsHash: string;
   changes: SyncChange[];
+};
+
+type Cadence = {
+  title: string;
+  timezone: string;
+  timeOfDay: string;
+  fingerprint: string;
+  translate: string;
+  lastCheckAt: string;
+  lastChangeAt: string;
+  llmsHash: string;
+  status: "current" | "stale" | "translating";
 };
 
 function sha12(text: string): string {
@@ -94,6 +110,11 @@ async function fetchText(url: string): Promise<string> {
   const res = await fetch(url, { headers: { "User-Agent": "typesafe-handbook-sync" } });
   if (!res.ok) throw new Error(`${url} ${res.status}`);
   return await res.text();
+}
+
+function writeCadence(patch: Partial<Cadence>) {
+  const cadence = JSON.parse(readFileSync(cadenceFile, "utf8")) as Cadence;
+  writeFileSync(cadenceFile, `${JSON.stringify({ ...cadence, ...patch }, null, 2)}\n`);
 }
 
 async function main() {
@@ -163,7 +184,7 @@ async function main() {
         location: locationOf(doc.slug, live?.title || doc.slug),
         prevHash: null,
         nextHash: doc.hash,
-        note: "官网新增页面，中文站尚未翻译。",
+        note: "官网新增页面，等待每日例行汉化写入中文页。",
       });
       continue;
     }
@@ -177,7 +198,7 @@ async function main() {
         location: locationOf(doc.slug, live.title),
         prevHash: prev.hash,
         nextHash: live.hash,
-        note: "官网正文哈希变化，请核对对应中文页。",
+        note: "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。",
       });
     }
     if (!live && prev.hash) {
@@ -202,6 +223,13 @@ async function main() {
     llmsHash,
     docs: nextDocs,
   };
+
+  writeCadence({
+    lastCheckAt: capturedAt,
+    llmsHash,
+    status: changes.length ? "stale" : "current",
+    ...(changes.length ? { lastChangeAt: capturedAt } : {}),
+  });
 
   if (changes.length === 0 && llmsHash === existing.llmsHash) {
     console.log("up to date", llmsHash);

@@ -1,16 +1,19 @@
 import { SYNC_LOGS, type SyncChange, type SyncLog } from "@/lib/docs/sync-logs";
 import { cn } from "@/lib/cn";
 import { HandbookLink } from "./HandbookLink";
+import { CadenceBoard } from "./CadenceBoard";
 
 const KIND: Record<SyncChange["kind"], { label: string; tone: string }> = {
   baseline: { label: "首次全量", tone: "border-border text-fg-subtle" },
+  check: { label: "例行对照", tone: "border-border text-fg-muted" },
+  translated: { label: "已汉化", tone: "border-accent bg-accent/10 text-accent" },
   added: { label: "新增", tone: "border-accent bg-accent/10 text-accent" },
   modified: { label: "改动", tone: "border-accent text-accent" },
   removed: { label: "删除", tone: "border-destructive text-destructive" },
 };
 
 function Pill({ kind }: { kind: SyncChange["kind"] }) {
-  const t = KIND[kind];
+  const t = KIND[kind] ?? KIND.check;
   return (
     <span className={cn("inline-flex rounded-sm border px-1.5 py-0.5 font-mono text-[11px] leading-4", t.tone)}>
       {t.label}
@@ -82,9 +85,10 @@ export function SyncLogBoard() {
   const [latest, ...rest] = SYNC_LOGS;
   return (
     <div className="mt-8 max-w-5xl" data-sync-log-board>
+      <CadenceBoard />
       {latest ? (
         <div>
-          <h2 id="latest" className="scroll-mt-24 border-b border-border pb-2 font-display text-xl font-semibold tracking-tight text-fg">
+          <h2 id="latest" className="mt-10 scroll-mt-24 border-b border-border pb-2 font-display text-xl font-semibold tracking-tight text-fg">
             最近一次
           </h2>
           <LogCard log={latest} featured />

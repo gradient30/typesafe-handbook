@@ -1,0 +1,11 @@
+{
+  "title": "每日例行汉化",
+  "timezone": "Asia/Shanghai",
+  "timeOfDay": "09:00",
+  "fingerprint": "GitHub Actions 每 6 小时对照官网指纹",
+  "translate": "每天 09:00（北京时间）重译变动页，写入同步日志并推送到仓库",
+  "lastCheckAt": "2026-09-21T02:24:41.000Z",
+  "lastChangeAt": "2026-09-20T09:00:00.000Z",
+  "llmsHash": "9bb713532b8b",
+  "status": "current"
+}

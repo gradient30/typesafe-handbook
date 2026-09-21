@@ -1,7 +1,7 @@
 import raw from "./sync-logs.json" with { type: "json" };
 
 export type SyncChange = {
-  kind: "added" | "modified" | "removed" | "baseline";
+  kind: "added" | "modified" | "removed" | "baseline" | "check" | "translated";
   slug: string;
   title: string;
   officialUrl: string | null;

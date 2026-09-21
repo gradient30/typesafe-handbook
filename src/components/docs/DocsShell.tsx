@@ -155,6 +155,7 @@ export function DocsShell({ slug }: { slug: string }) {
     }
     if (slug === "sync-log") {
       return [
+        { id: "cadence", text: "例行更新", level: 2 },
         { id: "latest", text: "最近一次", level: 2 },
         { id: "history", text: "历史记录", level: 2 },
       ];
