@@ -1,5 +1,24 @@
 [
   {
+    "id": "202609212123",
+    "capturedAt": "2026-09-21T21:23:49.579Z",
+    "summary": "Jev with coding agents 有更新",
+    "llmsHash": "e20ac51dbf82",
+    "changes": [
+      {
+        "kind": "added",
+        "slug": "introduction/coding-agents",
+        "title": "Jev with coding agents",
+        "officialUrl": "https://docs.typesafe.ai/introduction/coding-agents",
+        "handbookHref": "/docs/introduction/coding-agents",
+        "location": "侧栏「入门」→「Jev with coding agents」· 本站 /docs/introduction/coding-agents",
+        "prevHash": null,
+        "nextHash": "e61ec4626030",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      }
+    ]
+  },
+  {
     "id": "202609211724",
     "capturedAt": "2026-09-21T17:24:37.148Z",
     "summary": "4 处官网变动（新增 0 / 改动 4 / 删除 0）",

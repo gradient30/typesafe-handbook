@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-09-21",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "1119b23a65f0",
+  "llmsHash": "e20ac51dbf82",
   "docs": [
     {
       "slug": "sync-log",
@@ -569,6 +569,15 @@
       "size": 823,
       "hash": "bbd9d2eaad4c",
       "translatedAtHash": "bbd9d2eaad4c"
+    },
+    {
+      "slug": "introduction/coding-agents",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "introduction/coding-agents.md",
+      "size": 5150,
+      "hash": "e61ec4626030",
+      "translatedAtHash": null
     }
   ]
 }
