@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-22",
+  "capturedAt": "2026-09-24",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "3bad96620779",
   "docs": [
@@ -314,8 +314,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "legal.md",
-      "size": 1059,
-      "hash": "4141ec2e7efa",
+      "size": 1055,
+      "hash": "2d4a97a13e7b",
       "translatedAtHash": "4141ec2e7efa"
     },
     {

@@ -1,5 +1,24 @@
 [
   {
+    "id": "202609242056",
+    "capturedAt": "2026-09-24T20:56:22.925Z",
+    "summary": "Legal 有更新",
+    "llmsHash": "3bad96620779",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "legal",
+        "title": "Legal",
+        "officialUrl": "https://docs.typesafe.ai/legal",
+        "handbookHref": "/docs/legal",
+        "location": "侧栏「参考」→「Legal」· 本站 /docs/legal",
+        "prevHash": "4141ec2e7efa",
+        "nextHash": "2d4a97a13e7b",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202609221034",
     "capturedAt": "2026-09-22T10:34:09.470Z",
     "summary": "17 处官网变动（新增 0 / 改动 17 / 删除 0）",
