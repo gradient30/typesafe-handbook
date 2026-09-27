@@ -1,4 +1,4 @@
-# Python SDK
+# TypeSafe Python SDK
 
 > 安装 TypeSafe Python SDK，用异步或同步客户端发出第一次请求。
 
@@ -22,15 +22,18 @@ uv add typesafe-sdk
 pip install typesafe-sdk
 ```
 
+添加 `http2` 额外依赖（`typesafe-sdk[http2]`）可启用 [HTTP/2 支持](/sdk/python/usage#http2)。
+
 2. 在环境里设置 `TYPESAFE_API_KEY`（在 [控制台](https://console.typesafe.ai/) 创建）
 3. 调用 System One API：
 
 ### Async
 
-配合 [`AsyncTypeSafeClient`](/sdk/python/api)：
+配合 [`AsyncTypeSafeClient`](/sdk/python/api/clients/async)：
 
 ```python
 from typesafe_sdk import AsyncTypeSafeClient, Choice, Noul, Score
+
 
 async def main() -> None:
     async with AsyncTypeSafeClient() as client:
@@ -56,7 +59,7 @@ async def main() -> None:
 
 ### Sync
 
-配合 [`TypeSafeClient`](/sdk/python/api)：
+配合 [`TypeSafeClient`](/sdk/python/api/clients/sync)：
 
 ```python
 from typesafe_sdk import Choice, Noul, Score, TypeSafeClient
@@ -82,6 +85,6 @@ print(response.choices["tone"].choice)
 print(response.scores["urgency"].score)
 ```
 
-## 用法
+## 接下来
 
-更多调用方式、响应模型、重试与环境变量，见 [Python 用法](/sdk/python/usage)。API 签名见 [Python API 参考](/sdk/python/api)。变更记录见 [changelog](/sdk/python/changelog)。
+访问 [用法指南](/sdk/python/usage) 了解更多模式，例如 [类型化响应](/sdk/python/usage#typed-system_one-responses)、[模型选择](/sdk/python/usage#choosing-a-model)、[重试](/sdk/python/usage#retries)、[HTTP/2](/sdk/python/usage#http2) 或 [错误处理](/sdk/python/usage#error-handling)。
