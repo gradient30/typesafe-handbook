@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-24",
+  "capturedAt": "2026-09-27",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "3bad96620779",
   "docs": [
@@ -539,8 +539,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/changelog.md",
-      "size": 1828,
-      "hash": "47c90969dd76",
+      "size": 2079,
+      "hash": "5a106cf423ea",
       "translatedAtHash": "c49eb12a5580"
     },
     {
@@ -548,8 +548,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/usage.md",
-      "size": 10189,
-      "hash": "9a7d1d4e52fa",
+      "size": 17625,
+      "hash": "6c711b829f62",
       "translatedAtHash": "91d607682c20"
     },
     {
@@ -557,8 +557,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python.md",
-      "size": 3324,
-      "hash": "40d5c6a5fb9b",
+      "size": 3714,
+      "hash": "6b8fa1084362",
       "translatedAtHash": "40d5c6a5fb9b"
     },
     {
