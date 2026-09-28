@@ -11,7 +11,6 @@ import asyncio
 
 from typesafe_sdk import AsyncTypeSafeClient, Choice, Noul, Score
 
-
 async def main() -> None:
     async with AsyncTypeSafeClient() as client:
         result = await client.system_one(
@@ -33,7 +32,6 @@ async def main() -> None:
             result.choices["tone"].choice,
             result.scores["urgency"].score,
         )
-
 
 asyncio.run(main())
 ```
@@ -68,42 +66,11 @@ print(
 
 可以把响应模型传给 `system_one`，让返回值更 *type-safe*：
 
-### Async
-
-```python
-import asyncio
-
-from typesafe_sdk import AsyncTypeSafeClient, Noul, NoulAnswer, SystemOneResponse
-
-
-class BillingResponse(SystemOneResponse):
-    billing: NoulAnswer
-
-
-async def main() -> None:
-    async with AsyncTypeSafeClient() as client:
-        result = await client.system_one(
-            "I was charged twice.",
-            {"billing": Noul(instructions="Is this about billing?")},
-            response_model=BillingResponse,
-        )
-        assert 0 <= result.billing.noul <= 1
-        assert result.billing == result.nouls["billing"]
-        print(result.request_id)
-
-
-asyncio.run(main())
-```
-
-### Sync
-
 ```python
 from typesafe_sdk import Noul, NoulAnswer, SystemOneResponse, TypeSafeClient
 
-
 class BillingResponse(SystemOneResponse):
     billing: NoulAnswer
-
 
 with TypeSafeClient() as client:
     result = client.system_one(
@@ -125,14 +92,11 @@ from pydantic import BaseModel
 
 from typesafe_sdk import Noul, NoulAnswer, TypeSafeClient
 
-
 class BillingAnswers(BaseModel):
     billing: NoulAnswer
 
-
 class BillingResponse(BaseModel):
     answers: BillingAnswers
-
 
 result = TypeSafeClient().system_one(
     "I was charged twice.",
@@ -162,13 +126,13 @@ client = TypeSafeClient(model="jev")
 
 ## 配置 base URL
 
-要让 SDK 指向不同的 API 地址，可在客户端上设置 `base_url`，或设置环境变量 `TYPESAFE_BASE_URL`。替代 API 需遵循 [TypeSafe OpenAPI 规范](https://api.typesafe.ai/docs/)。
+要用另一套 API 地址，在客户端上设置 `base_url`，或设置环境变量 `TYPESAFE_BASE_URL`。替代 API 必须遵循 [TypeSafe OpenAPI 规范](https://api.typesafe.ai/docs/)。
 
-例如，通过 AI 网关连接，使用其 API key 与模型 ID。
+例如，用网关自己的 API key 和模型 ID 接进 AI 网关。
 
 ### OpenRouter
 
-使用 OpenRouter API key 与 [OpenRouter 模型 ID](https://openrouter.ai/~typesafe/jev-latest/)：
+使用 OpenRouter API key 和 [OpenRouter 模型 ID](https://openrouter.ai/~typesafe/jev-latest/)：
 
 ```python
 import os
@@ -187,21 +151,44 @@ with TypeSafeClient(
     print(result.nouls["billing"].noul)
 ```
 
-## HTTP/2
+### Vercel AI Gateway
 
-安装时加上 `http2` 额外依赖即可启用 HTTP/2：
+SDK 也可以走 [Vercel 的 TypeSafe 兼容 API](https://vercel.com/docs/ai-gateway/sdks-and-apis/typesafe)：
 
-```sh
-pip install "typesafe-sdk[http2]"
-# 或
-uv add "typesafe-sdk[http2]"
+```python
+import os
+
+from typesafe_sdk import Noul, TypeSafeClient
+
+with TypeSafeClient(
+    api_key=os.environ["AI_GATEWAY_API_KEY"],
+    base_url="https://ai-gateway.vercel.sh/typesafe",
+    model="typesafe-ai/jev",
+) as client:
+    result = client.system_one(
+        "I was charged twice.",
+        {"billing": Noul(instructions="Is this about billing?")},
+    )
+    print(result.nouls["billing"].noul)
 ```
 
-然后在客户端构造时传入 `http2=True`（或依赖环境默认）。详见 [changelog](/sdk/python/changelog) 中 v0.7.2 条目。
+## HTTP/2
+
+并发请求很多时，打开 HTTP/2 往往更合适：多个请求可以复用同一条连接。安装 extra `'typesafe-sdk[http2]'` 即可带上所需依赖。细节见 [`httpx2` 的 HTTP/2 指南](https://pydantic.dev/docs/httpx2/guides/http2/)。
+
+```python
+import httpx2
+
+from typesafe_sdk import TypeSafeClient
+
+client = TypeSafeClient(http_client=httpx2.Client(http2=True))
+```
+
+异步客户端对应 `httpx2.AsyncClient(http2=True)`，传给 `AsyncTypeSafeClient(http_client=...)`。
 
 ## 重试
 
-把自定义 [`RetryPolicy`](/sdk/python/api) 作为 `retry` 传给客户端，或只传给某一次调用。
+把自定义 [`RetryPolicy`](/sdk/python/api) 作为 `retry` 传给客户端，或只传给某一次调用。非法 API key 会在创建客户端时抛出 `TypeSafeError`，不会先发出请求或进入重试。
 
 ### 客户端
 

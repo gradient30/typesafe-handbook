@@ -51,8 +51,8 @@ export type DocRow = {
 };
 
 export function sectionOf(slug: string): string {
-  if (slug === "sync-log" || slug === "sitemap" || slug === "architecture" || slug === "cookbooks") return "additive";
-  if (slug === "introduction" || slug.startsWith("introduction/")) return "start";
+  if (slug === "sync-log" || slug === "sitemap" || slug === "architecture") return "additive";
+  if (slug === "introduction" || slug.startsWith("introduction/") || slug === "cookbooks") return "start";
   if (slug.startsWith("concepts/") || slug === "confidence") return "foundations";
   if (slug === "primitives" || slug.startsWith("primitives/")) return "primitives";
   if (slug === "patterns" || slug.startsWith("patterns/")) return "patterns";

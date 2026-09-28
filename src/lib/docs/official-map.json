@@ -1,10 +1,10 @@
 {
-  "capturedAt": "2026-09-27",
+  "capturedAt": "2026-09-28",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "3bad96620779",
   "docs": [
     {
-      "slug": "sync-log",
+      "slug": "architecture",
       "section": "additive",
       "kind": "additive",
       "officialPath": null,
@@ -22,7 +22,7 @@
       "translatedAtHash": null
     },
     {
-      "slug": "architecture",
+      "slug": "sync-log",
       "section": "additive",
       "kind": "additive",
       "officialPath": null,
@@ -32,30 +32,48 @@
     },
     {
       "slug": "cookbooks",
-      "section": "additive",
-      "kind": "additive",
-      "officialPath": null,
-      "size": null,
-      "hash": null,
-      "translatedAtHash": null
+      "section": "start",
+      "kind": "official",
+      "officialPath": "/cookbooks",
+      "size": 8929,
+      "hash": "bbf49df970d1",
+      "translatedAtHash": "bbf49df970d1"
     },
     {
-      "slug": "agent-skill",
-      "section": "reference",
+      "slug": "introduction",
+      "section": "start",
       "kind": "official",
-      "officialPath": "agent-skill.md",
-      "size": 5798,
-      "hash": "5ed8f74a1337",
-      "translatedAtHash": "5ed8f74a1337"
+      "officialPath": "introduction.md",
+      "size": 4317,
+      "hash": "73eb533b5397",
+      "translatedAtHash": "73eb533b5397"
     },
     {
-      "slug": "api",
-      "section": "reference",
+      "slug": "introduction/coding-agents",
+      "section": "start",
       "kind": "official",
-      "officialPath": "api.md",
-      "size": 11772,
-      "hash": "7ea1c82d9d16",
-      "translatedAtHash": "7ea1c82d9d16"
+      "officialPath": "/introduction/coding-agents",
+      "size": 5150,
+      "hash": "e61ec4626030",
+      "translatedAtHash": "e61ec4626030"
+    },
+    {
+      "slug": "introduction/machine-learning-primer",
+      "section": "start",
+      "kind": "official",
+      "officialPath": "introduction/machine-learning-primer.md",
+      "size": 6580,
+      "hash": "45e6a22bc175",
+      "translatedAtHash": "45e6a22bc175"
+    },
+    {
+      "slug": "introduction/quickstart",
+      "section": "start",
+      "kind": "official",
+      "officialPath": "introduction/quickstart.md",
+      "size": 7053,
+      "hash": "c30183944985",
+      "translatedAtHash": "c30183944985"
     },
     {
       "slug": "concepts/how-to-build-with-system-one",
@@ -103,283 +121,13 @@
       "translatedAtHash": "97dafe98b779"
     },
     {
-      "slug": "cookbooks/autoformat",
-      "section": "cookbooks",
+      "slug": "primitives",
+      "section": "primitives",
       "kind": "official",
-      "officialPath": "cookbooks/autoformat.md",
-      "size": 40882,
-      "hash": "c23355f56ea5",
-      "translatedAtHash": "e0be526400d0"
-    },
-    {
-      "slug": "cookbooks/autoresearch_feature_discovery",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/autoresearch_feature_discovery.md",
-      "size": 71497,
-      "hash": "00ee0cfff9cf",
-      "translatedAtHash": "0aab7e2e6f30"
-    },
-    {
-      "slug": "cookbooks/citation_check",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/citation_check.md",
-      "size": 15254,
-      "hash": "2497e2c62a4c",
-      "translatedAtHash": "c8b3defc1632"
-    },
-    {
-      "slug": "cookbooks/classification_using_confidence",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/classification_using_confidence.md",
-      "size": 30705,
-      "hash": "20afd8e6c651",
-      "translatedAtHash": "1edca064653c"
-    },
-    {
-      "slug": "cookbooks/classifying_rag_passages",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/classifying_rag_passages.md",
-      "size": 32392,
-      "hash": "fbe9208da48e",
-      "translatedAtHash": "02c271ada247"
-    },
-    {
-      "slug": "cookbooks/consistency_choice_cookbook",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/consistency_choice_cookbook.md",
-      "size": 49891,
-      "hash": "e0444c2c4e9c",
-      "translatedAtHash": "381b3840c94e"
-    },
-    {
-      "slug": "cookbooks/consistency_noul_cookbook",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/consistency_noul_cookbook.md",
-      "size": 32392,
-      "hash": "cee9cb98c52c",
-      "translatedAtHash": "fb141c4937d9"
-    },
-    {
-      "slug": "cookbooks/date_extraction_cookbook",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/date_extraction_cookbook.md",
-      "size": 19844,
-      "hash": "c216cb3d293a",
-      "translatedAtHash": "3fdf1a1cef19"
-    },
-    {
-      "slug": "cookbooks/entity_alignment",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/entity_alignment.md",
-      "size": 16563,
-      "hash": "efa473b53ff4",
-      "translatedAtHash": "c8808786d3e4"
-    },
-    {
-      "slug": "cookbooks/function_calling",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/function_calling.md",
-      "size": 18860,
-      "hash": "d6301a7e0e6e",
-      "translatedAtHash": "544782348957"
-    },
-    {
-      "slug": "cookbooks/hierarchical_classification",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/hierarchical_classification.md",
-      "size": 36445,
-      "hash": "5525161d2b55",
-      "translatedAtHash": "5525161d2b55"
-    },
-    {
-      "slug": "cookbooks/llm_guardrails",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/llm_guardrails.md",
-      "size": 22500,
-      "hash": "fb5935988e2c",
-      "translatedAtHash": "44fc99ba07be"
-    },
-    {
-      "slug": "cookbooks/parallel_questions",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/parallel_questions.md",
-      "size": 48484,
-      "hash": "53dfe4516fd6",
-      "translatedAtHash": "e142ddb58aeb"
-    },
-    {
-      "slug": "cookbooks/pre_parsed_value_extraction_cookbook",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/pre_parsed_value_extraction_cookbook.md",
-      "size": 12542,
-      "hash": "c9ebb87b822b",
-      "translatedAtHash": "5a2026433afc"
-    },
-    {
-      "slug": "cookbooks/rerank_typesafe",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/rerank_typesafe.md",
-      "size": 26067,
-      "hash": "5397e56dcdcf",
-      "translatedAtHash": "85b8158a7cc0"
-    },
-    {
-      "slug": "cookbooks/sde_cascade",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/sde_cascade.md",
-      "size": 32667,
-      "hash": "03675753d74f",
-      "translatedAtHash": "5d513d682f45"
-    },
-    {
-      "slug": "cookbooks/semantic_find",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/semantic_find.md",
-      "size": 37844,
-      "hash": "7e30135ddc67",
-      "translatedAtHash": "1fad271a5cf1"
-    },
-    {
-      "slug": "cookbooks/skill_suggestion",
-      "section": "cookbooks",
-      "kind": "official",
-      "officialPath": "cookbooks/skill_suggestion.md",
-      "size": 39773,
-      "hash": "97109e23a38f",
-      "translatedAtHash": "62728bba4a38"
-    },
-    {
-      "slug": "demos/smart-home",
-      "section": "demos",
-      "kind": "official",
-      "officialPath": "demos/smart-home.md",
-      "size": 3825,
-      "hash": "155c0af9a4ae",
-      "translatedAtHash": "155c0af9a4ae"
-    },
-    {
-      "slug": "demos",
-      "section": "demos",
-      "kind": "official",
-      "officialPath": "demos.md",
-      "size": 588,
-      "hash": "df111cec8c26",
-      "translatedAtHash": "df111cec8c26"
-    },
-    {
-      "slug": "introduction/machine-learning-primer",
-      "section": "start",
-      "kind": "official",
-      "officialPath": "introduction/machine-learning-primer.md",
-      "size": 6580,
-      "hash": "45e6a22bc175",
-      "translatedAtHash": "45e6a22bc175"
-    },
-    {
-      "slug": "introduction/quickstart",
-      "section": "start",
-      "kind": "official",
-      "officialPath": "introduction/quickstart.md",
-      "size": 7053,
-      "hash": "c30183944985",
-      "translatedAtHash": "c30183944985"
-    },
-    {
-      "slug": "introduction",
-      "section": "start",
-      "kind": "official",
-      "officialPath": "introduction.md",
-      "size": 4317,
-      "hash": "73eb533b5397",
-      "translatedAtHash": "73eb533b5397"
-    },
-    {
-      "slug": "legal",
-      "section": "reference",
-      "kind": "official",
-      "officialPath": "legal.md",
-      "size": 1055,
-      "hash": "2d4a97a13e7b",
-      "translatedAtHash": "2d4a97a13e7b"
-    },
-    {
-      "slug": "model-jaggedness/jev-1.13",
-      "section": "reference",
-      "kind": "official",
-      "officialPath": "model-jaggedness/jev-1.13.md",
-      "size": 11588,
-      "hash": "e69329bd32e9",
-      "translatedAtHash": "e69329bd32e9"
-    },
-    {
-      "slug": "models",
-      "section": "reference",
-      "kind": "official",
-      "officialPath": "models.md",
-      "size": 7245,
-      "hash": "9d20bb3c90a0",
-      "translatedAtHash": "9d20bb3c90a0"
-    },
-    {
-      "slug": "patterns/composite-scoring",
-      "section": "patterns",
-      "kind": "official",
-      "officialPath": "patterns/composite-scoring.md",
-      "size": 13545,
-      "hash": "538f42d614fb",
-      "translatedAtHash": "538f42d614fb"
-    },
-    {
-      "slug": "patterns/confidence-routing",
-      "section": "patterns",
-      "kind": "official",
-      "officialPath": "patterns/confidence-routing.md",
-      "size": 12168,
-      "hash": "7a4de8d39a24",
-      "translatedAtHash": "7a4de8d39a24"
-    },
-    {
-      "slug": "patterns/fan-out",
-      "section": "patterns",
-      "kind": "official",
-      "officialPath": "patterns/fan-out.md",
-      "size": 13967,
-      "hash": "8d7a251ea6b7",
-      "translatedAtHash": "8d7a251ea6b7"
-    },
-    {
-      "slug": "patterns/intent-routing",
-      "section": "patterns",
-      "kind": "official",
-      "officialPath": "patterns/intent-routing.md",
-      "size": 13444,
-      "hash": "84b670d502b3",
-      "translatedAtHash": "84b670d502b3"
-    },
-    {
-      "slug": "patterns",
-      "section": "patterns",
-      "kind": "official",
-      "officialPath": "patterns.md",
-      "size": 2020,
-      "hash": "3c810e35f958",
-      "translatedAtHash": "3c810e35f958"
+      "officialPath": "primitives.md",
+      "size": 24810,
+      "hash": "130d9136a2f0",
+      "translatedAtHash": "130d9136a2f0"
     },
     {
       "slug": "primitives/advanced",
@@ -418,13 +166,85 @@
       "translatedAtHash": "5afe0db1d2d1"
     },
     {
-      "slug": "primitives",
-      "section": "primitives",
+      "slug": "patterns",
+      "section": "patterns",
       "kind": "official",
-      "officialPath": "primitives.md",
-      "size": 24810,
-      "hash": "130d9136a2f0",
-      "translatedAtHash": "130d9136a2f0"
+      "officialPath": "patterns.md",
+      "size": 2020,
+      "hash": "3c810e35f958",
+      "translatedAtHash": "3c810e35f958"
+    },
+    {
+      "slug": "patterns/composite-scoring",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/composite-scoring.md",
+      "size": 13545,
+      "hash": "538f42d614fb",
+      "translatedAtHash": "538f42d614fb"
+    },
+    {
+      "slug": "patterns/confidence-routing",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/confidence-routing.md",
+      "size": 12168,
+      "hash": "7a4de8d39a24",
+      "translatedAtHash": "7a4de8d39a24"
+    },
+    {
+      "slug": "patterns/fan-out",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/fan-out.md",
+      "size": 13967,
+      "hash": "8d7a251ea6b7",
+      "translatedAtHash": "8d7a251ea6b7"
+    },
+    {
+      "slug": "patterns/intent-routing",
+      "section": "patterns",
+      "kind": "official",
+      "officialPath": "patterns/intent-routing.md",
+      "size": 13444,
+      "hash": "84b670d502b3",
+      "translatedAtHash": "84b670d502b3"
+    },
+    {
+      "slug": "demos",
+      "section": "demos",
+      "kind": "official",
+      "officialPath": "demos.md",
+      "size": 588,
+      "hash": "df111cec8c26",
+      "translatedAtHash": "df111cec8c26"
+    },
+    {
+      "slug": "demos/smart-home",
+      "section": "demos",
+      "kind": "official",
+      "officialPath": "demos/smart-home.md",
+      "size": 3825,
+      "hash": "155c0af9a4ae",
+      "translatedAtHash": "155c0af9a4ae"
+    },
+    {
+      "slug": "sdk",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk.md",
+      "size": 823,
+      "hash": "bbd9d2eaad4c",
+      "translatedAtHash": "bbd9d2eaad4c"
+    },
+    {
+      "slug": "sdk/javascript",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/javascript.md",
+      "size": 1302,
+      "hash": "25ba04f5b558",
+      "translatedAtHash": "25ba04f5b558"
     },
     {
       "slug": "sdk/javascript/api",
@@ -445,13 +265,22 @@
       "translatedAtHash": "73389d4c0199"
     },
     {
-      "slug": "sdk/javascript",
+      "slug": "sdk/python",
       "section": "sdk",
       "kind": "official",
-      "officialPath": "sdk/javascript.md",
-      "size": 1302,
-      "hash": "25ba04f5b558",
-      "translatedAtHash": "25ba04f5b558"
+      "officialPath": "sdk/python.md",
+      "size": 3714,
+      "hash": "6b8fa1084362",
+      "translatedAtHash": "6b8fa1084362"
+    },
+    {
+      "slug": "sdk/python/api",
+      "section": "sdk",
+      "kind": "official",
+      "officialPath": "sdk/python/api.md",
+      "size": 623,
+      "hash": "fd58d0024e62",
+      "translatedAtHash": "fd58d0024e62"
     },
     {
       "slug": "sdk/python/api/clients/async",
@@ -460,7 +289,7 @@
       "officialPath": "sdk/python/api/clients/async.md",
       "size": 32575,
       "hash": "f45f04e87431",
-      "translatedAtHash": "da93c4bec87f"
+      "translatedAtHash": "f45f04e87431"
     },
     {
       "slug": "sdk/python/api/clients/sync",
@@ -469,7 +298,7 @@
       "officialPath": "sdk/python/api/clients/sync.md",
       "size": 31967,
       "hash": "55a144c0161e",
-      "translatedAtHash": "0500d03ae0cc"
+      "translatedAtHash": "55a144c0161e"
     },
     {
       "slug": "sdk/python/api/constants",
@@ -526,15 +355,6 @@
       "translatedAtHash": "7b0167d010dc"
     },
     {
-      "slug": "sdk/python/api",
-      "section": "sdk",
-      "kind": "official",
-      "officialPath": "sdk/python/api.md",
-      "size": 623,
-      "hash": "fd58d0024e62",
-      "translatedAtHash": "fd58d0024e62"
-    },
-    {
       "slug": "sdk/python/changelog",
       "section": "sdk",
       "kind": "official",
@@ -550,34 +370,214 @@
       "officialPath": "sdk/python/usage.md",
       "size": 17497,
       "hash": "cf3feca83e9c",
-      "translatedAtHash": "6c711b829f62"
+      "translatedAtHash": "cf3feca83e9c"
     },
     {
-      "slug": "sdk/python",
-      "section": "sdk",
+      "slug": "agent-skill",
+      "section": "reference",
       "kind": "official",
-      "officialPath": "sdk/python.md",
-      "size": 3714,
-      "hash": "6b8fa1084362",
-      "translatedAtHash": "6b8fa1084362"
+      "officialPath": "agent-skill.md",
+      "size": 5798,
+      "hash": "5ed8f74a1337",
+      "translatedAtHash": "5ed8f74a1337"
     },
     {
-      "slug": "sdk",
-      "section": "sdk",
+      "slug": "api",
+      "section": "reference",
       "kind": "official",
-      "officialPath": "sdk.md",
-      "size": 823,
-      "hash": "bbd9d2eaad4c",
-      "translatedAtHash": "bbd9d2eaad4c"
+      "officialPath": "api.md",
+      "size": 11772,
+      "hash": "7ea1c82d9d16",
+      "translatedAtHash": "7ea1c82d9d16"
     },
     {
-      "slug": "introduction/coding-agents",
-      "section": "other",
+      "slug": "legal",
+      "section": "reference",
       "kind": "official",
-      "officialPath": "introduction/coding-agents.md",
-      "size": 5150,
-      "hash": "e61ec4626030",
-      "translatedAtHash": "e61ec4626030"
+      "officialPath": "legal.md",
+      "size": 1055,
+      "hash": "2d4a97a13e7b",
+      "translatedAtHash": "2d4a97a13e7b"
+    },
+    {
+      "slug": "model-jaggedness/jev-1.13",
+      "section": "reference",
+      "kind": "official",
+      "officialPath": "model-jaggedness/jev-1.13.md",
+      "size": 11588,
+      "hash": "e69329bd32e9",
+      "translatedAtHash": "e69329bd32e9"
+    },
+    {
+      "slug": "models",
+      "section": "reference",
+      "kind": "official",
+      "officialPath": "models.md",
+      "size": 7245,
+      "hash": "9d20bb3c90a0",
+      "translatedAtHash": "9d20bb3c90a0"
+    },
+    {
+      "slug": "cookbooks/autoformat",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/autoformat.md",
+      "size": 40882,
+      "hash": "c23355f56ea5",
+      "translatedAtHash": "c23355f56ea5"
+    },
+    {
+      "slug": "cookbooks/autoresearch_feature_discovery",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/autoresearch_feature_discovery.md",
+      "size": 71497,
+      "hash": "00ee0cfff9cf",
+      "translatedAtHash": "00ee0cfff9cf"
+    },
+    {
+      "slug": "cookbooks/citation_check",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/citation_check.md",
+      "size": 15254,
+      "hash": "2497e2c62a4c",
+      "translatedAtHash": "2497e2c62a4c"
+    },
+    {
+      "slug": "cookbooks/classification_using_confidence",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/classification_using_confidence.md",
+      "size": 30705,
+      "hash": "20afd8e6c651",
+      "translatedAtHash": "20afd8e6c651"
+    },
+    {
+      "slug": "cookbooks/classifying_rag_passages",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/classifying_rag_passages.md",
+      "size": 32392,
+      "hash": "fbe9208da48e",
+      "translatedAtHash": "fbe9208da48e"
+    },
+    {
+      "slug": "cookbooks/consistency_choice_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/consistency_choice_cookbook.md",
+      "size": 49891,
+      "hash": "e0444c2c4e9c",
+      "translatedAtHash": "e0444c2c4e9c"
+    },
+    {
+      "slug": "cookbooks/consistency_noul_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/consistency_noul_cookbook.md",
+      "size": 32392,
+      "hash": "cee9cb98c52c",
+      "translatedAtHash": "cee9cb98c52c"
+    },
+    {
+      "slug": "cookbooks/date_extraction_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/date_extraction_cookbook.md",
+      "size": 19844,
+      "hash": "c216cb3d293a",
+      "translatedAtHash": "c216cb3d293a"
+    },
+    {
+      "slug": "cookbooks/entity_alignment",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/entity_alignment.md",
+      "size": 16563,
+      "hash": "efa473b53ff4",
+      "translatedAtHash": "efa473b53ff4"
+    },
+    {
+      "slug": "cookbooks/function_calling",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/function_calling.md",
+      "size": 18860,
+      "hash": "d6301a7e0e6e",
+      "translatedAtHash": "d6301a7e0e6e"
+    },
+    {
+      "slug": "cookbooks/hierarchical_classification",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/hierarchical_classification.md",
+      "size": 36445,
+      "hash": "5525161d2b55",
+      "translatedAtHash": "5525161d2b55"
+    },
+    {
+      "slug": "cookbooks/llm_guardrails",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/llm_guardrails.md",
+      "size": 22500,
+      "hash": "fb5935988e2c",
+      "translatedAtHash": "fb5935988e2c"
+    },
+    {
+      "slug": "cookbooks/parallel_questions",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/parallel_questions.md",
+      "size": 48484,
+      "hash": "53dfe4516fd6",
+      "translatedAtHash": "53dfe4516fd6"
+    },
+    {
+      "slug": "cookbooks/pre_parsed_value_extraction_cookbook",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/pre_parsed_value_extraction_cookbook.md",
+      "size": 12542,
+      "hash": "c9ebb87b822b",
+      "translatedAtHash": "c9ebb87b822b"
+    },
+    {
+      "slug": "cookbooks/rerank_typesafe",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/rerank_typesafe.md",
+      "size": 26067,
+      "hash": "5397e56dcdcf",
+      "translatedAtHash": "5397e56dcdcf"
+    },
+    {
+      "slug": "cookbooks/sde_cascade",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/sde_cascade.md",
+      "size": 32667,
+      "hash": "03675753d74f",
+      "translatedAtHash": "03675753d74f"
+    },
+    {
+      "slug": "cookbooks/semantic_find",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/semantic_find.md",
+      "size": 37844,
+      "hash": "7e30135ddc67",
+      "translatedAtHash": "7e30135ddc67"
+    },
+    {
+      "slug": "cookbooks/skill_suggestion",
+      "section": "cookbooks",
+      "kind": "official",
+      "officialPath": "cookbooks/skill_suggestion.md",
+      "size": 39773,
+      "hash": "97109e23a38f",
+      "translatedAtHash": "97109e23a38f"
     }
   ]
 }
