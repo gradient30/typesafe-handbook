@@ -1,5 +1,233 @@
 [
   {
+    "id": "202609282245",
+    "capturedAt": "2026-09-28T22:45:09.657Z",
+    "summary": "20 处官网变动（新增 0 / 改动 20 / 删除 0）",
+    "llmsHash": "3bad96620779",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "cookbooks",
+        "title": "Cookbooks",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks",
+        "handbookHref": "/docs/cookbooks",
+        "location": "侧栏「食谱」→「Cookbooks」· 本站 /docs/cookbooks",
+        "prevHash": "bbf49df970d1",
+        "nextHash": "0fa0717f3815",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "introduction",
+        "title": "Introduction",
+        "officialUrl": "https://docs.typesafe.ai/introduction",
+        "handbookHref": "/",
+        "location": "侧栏「入门」→「Introduction」· 本站 /",
+        "prevHash": "73eb533b5397",
+        "nextHash": "e484b102dfe5",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "introduction/coding-agents",
+        "title": "Jev with coding agents",
+        "officialUrl": "https://docs.typesafe.ai/introduction/coding-agents",
+        "handbookHref": "/docs/introduction/coding-agents",
+        "location": "侧栏「入门」→「Jev with coding agents」· 本站 /docs/introduction/coding-agents",
+        "prevHash": "e61ec4626030",
+        "nextHash": "591c36ffd02b",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "concepts/state",
+        "title": "State",
+        "officialUrl": "https://docs.typesafe.ai/concepts/state",
+        "handbookHref": "/docs/concepts/state",
+        "location": "侧栏「TypeSafe 基础」→「State」· 本站 /docs/concepts/state",
+        "prevHash": "6871d59470c6",
+        "nextHash": "0c78c1a347bd",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "concepts/system-one",
+        "title": "System One",
+        "officialUrl": "https://docs.typesafe.ai/concepts/system-one",
+        "handbookHref": "/docs/concepts/system-one",
+        "location": "侧栏「TypeSafe 基础」→「System One」· 本站 /docs/concepts/system-one",
+        "prevHash": "e072211498bc",
+        "nextHash": "bd5ecf9c18ad",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "concepts/use-case-map",
+        "title": "Example use cases",
+        "officialUrl": "https://docs.typesafe.ai/concepts/use-case-map",
+        "handbookHref": "/docs/concepts/use-case-map",
+        "location": "侧栏「TypeSafe 基础」→「Example use cases」· 本站 /docs/concepts/use-case-map",
+        "prevHash": "9d193b6379d1",
+        "nextHash": "8fcbbe46f7b5",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives",
+        "title": "Primitives (Questions)",
+        "officialUrl": "https://docs.typesafe.ai/primitives",
+        "handbookHref": "/docs/primitives",
+        "location": "侧栏「原语」→「Primitives (Questions)」· 本站 /docs/primitives",
+        "prevHash": "130d9136a2f0",
+        "nextHash": "eb51deaaa836",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/advanced",
+        "title": "Advanced: structure",
+        "officialUrl": "https://docs.typesafe.ai/primitives/advanced",
+        "handbookHref": "/docs/primitives/advanced",
+        "location": "侧栏「原语」→「Advanced: structure」· 本站 /docs/primitives/advanced",
+        "prevHash": "73eeedee0c3f",
+        "nextHash": "7fc102da5106",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/noul",
+        "title": "Noul",
+        "officialUrl": "https://docs.typesafe.ai/primitives/noul",
+        "handbookHref": "/docs/primitives/noul",
+        "location": "侧栏「原语」→「Noul」· 本站 /docs/primitives/noul",
+        "prevHash": "aa7bff0d04bd",
+        "nextHash": "8b04eed7b25e",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/score",
+        "title": "Score",
+        "officialUrl": "https://docs.typesafe.ai/primitives/score",
+        "handbookHref": "/docs/primitives/score",
+        "location": "侧栏「原语」→「Score」· 本站 /docs/primitives/score",
+        "prevHash": "5afe0db1d2d1",
+        "nextHash": "ee6afe3494b8",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "patterns",
+        "title": "Patterns",
+        "officialUrl": "https://docs.typesafe.ai/patterns",
+        "handbookHref": "/docs/patterns",
+        "location": "侧栏「模式」→「Patterns」· 本站 /docs/patterns",
+        "prevHash": "3c810e35f958",
+        "nextHash": "570ac5ae2a45",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/usage",
+        "title": "Usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「Usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "7a9f63b8b6f4",
+        "nextHash": "bf5ce8360b16",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "api",
+        "title": "API reference",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「API reference」· 本站 /docs/api",
+        "prevHash": "7ea1c82d9d16",
+        "nextHash": "0252c4126fda",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "Jev 1.13 jaggedness",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「Jev 1.13 jaggedness」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "e69329bd32e9",
+        "nextHash": "e5f4d10c3f67",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "9d20bb3c90a0",
+        "nextHash": "2f808305a59e",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/autoresearch_feature_discovery",
+        "title": "Autoresearch feature discovery",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/autoresearch_feature_discovery",
+        "handbookHref": "/docs/cookbooks/autoresearch_feature_discovery",
+        "location": "侧栏「食谱」→「Autoresearch feature discovery」· 本站 /docs/cookbooks/autoresearch_feature_discovery",
+        "prevHash": "00ee0cfff9cf",
+        "nextHash": "af2595f41e8c",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_choice_cookbook",
+        "title": "Self-consistency: choices",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_choice_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_choice_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: choices」· 本站 /docs/cookbooks/consistency_choice_cookbook",
+        "prevHash": "e0444c2c4e9c",
+        "nextHash": "adbff767c226",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_noul_cookbook",
+        "title": "Self-consistency: nouls",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_noul_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: nouls」· 本站 /docs/cookbooks/consistency_noul_cookbook",
+        "prevHash": "cee9cb98c52c",
+        "nextHash": "037ce3ab766d",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/hierarchical_classification",
+        "title": "Hierarchical classification",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/hierarchical_classification",
+        "handbookHref": "/docs/cookbooks/hierarchical_classification",
+        "location": "侧栏「食谱」→「Hierarchical classification」· 本站 /docs/cookbooks/hierarchical_classification",
+        "prevHash": "5525161d2b55",
+        "nextHash": "2b1b095b8730",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/skill_suggestion",
+        "title": "Skill suggestion",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/skill_suggestion",
+        "handbookHref": "/docs/cookbooks/skill_suggestion",
+        "location": "侧栏「食谱」→「Skill suggestion」· 本站 /docs/cookbooks/skill_suggestion",
+        "prevHash": "97109e23a38f",
+        "nextHash": "fb53dc000c8b",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202609281220",
     "capturedAt": "2026-09-28T12:20:44.323Z",
     "summary": "Usage 有更新",
