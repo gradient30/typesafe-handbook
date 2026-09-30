@@ -1,5 +1,24 @@
 [
   {
+    "id": "202609300118",
+    "capturedAt": "2026-09-30T01:18:34.281Z",
+    "summary": "Models 有更新",
+    "llmsHash": "3bad96620779",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "2f808305a59e",
+        "nextHash": "c4ebee942e3f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202609282245",
     "capturedAt": "2026-09-28T22:45:09.657Z",
     "summary": "20 处官网变动（新增 0 / 改动 20 / 删除 0）",
