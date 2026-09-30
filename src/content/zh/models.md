@@ -9,12 +9,12 @@ Jev 是 TypeSafe 的旗舰模型，也是第一款 [System One 模型](/concepts
 | Jev 1.13 | `jev-1.13.0` |
 | :-- | :-- |
 | 价格（每 Btok / 每 Mtok） | $42 / $0.042 |
-| 限流 | 每秒 250,000 tokens / 每分钟 1,200 次请求 |
+| 限流 | 每秒 100K tokens / 每秒 40 次请求 |
 | 上下文长度 | 每次请求 64k tokens；`state` 加上最长那条问题 32k tokens |
 | 输入 | 仅文本。字符串、JSON 对象，或文本值数组。不接受图像、音频、视频 |
 
 * **价格：** 按输入 token 计费。输出 token 免费。Btok 是十亿 tokens，Mtok 是百万 tokens。
-* **限流：** 按每秒 tokens 和每分钟请求数计量。超过任一上限返回 `429 Too Many Requests`。[客户端 SDK](/sdk) 默认带退避重试，响应里有 `retry-after` 时会尊重它。直接打 HTTP API 时见 [处理限流](/api#handling-rate-limits)。
+* **限流：** 按每秒 tokens 和每秒请求数计量。超过任一上限返回 `429 Too Many Requests`。[客户端 SDK](/sdk) 默认带退避重试，响应里有 `retry-after` 时会尊重它。直接打 HTTP API 时见 [处理限流](/api#handling-rate-limits)。
 * **上下文长度：** Jev 只摄入一次 `state`，再并行地对每一个问题评估。64k 预算覆盖 `state` 加全部问题；32k 预算覆盖 `state` 加最长那一条问题。把许多问题塞进一次请求见 [投机扇出](/patterns/fan-out)；state 变大时准确率怎么变，见 [Jev 1.13 锯齿](/model-jaggedness/jev-1.13)。
 * **输入：** Jev 评估自然语言文本。非文本输入（图像、音频、视频、二进制）先预处理成文本或结构化字段，再作为 `state` 发送。支持的形状见 [State](/concepts/state)。
 
@@ -82,4 +82,4 @@ for (const model of models) {
 * `description` — 这个模型是干什么的。
 * `release_date` — 模型或别名的发布日期。
 
-完整方法签名见 [Python](/sdk/python/api) 与 [JavaScript](/sdk/javascript/api) SDK 参考。
+完整方法签名见 [Python](/sdk/python/api/clients/sync#typesafe_sdk.Models.list) 与 [JavaScript](/sdk/javascript/api/interfaces/Models) SDK 参考。
