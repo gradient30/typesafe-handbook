@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-01",
+  "capturedAt": "2026-10-02",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "4151e8fd18e5",
   "docs": [
@@ -116,8 +116,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "confidence.md",
-      "size": 11509,
-      "hash": "6602889dfe93",
+      "size": 24090,
+      "hash": "5c325ec0c0b6",
       "translatedAtHash": "97dafe98b779"
     },
     {

@@ -1,5 +1,24 @@
 [
   {
+    "id": "202610021134",
+    "capturedAt": "2026-10-02T11:34:22.921Z",
+    "summary": "Confidence 有更新",
+    "llmsHash": "4151e8fd18e5",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "confidence",
+        "title": "Confidence",
+        "officialUrl": "https://docs.typesafe.ai/confidence",
+        "handbookHref": "/docs/confidence",
+        "location": "侧栏「TypeSafe 基础」→「Confidence」· 本站 /docs/confidence",
+        "prevHash": "6602889dfe93",
+        "nextHash": "5c325ec0c0b6",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610012207",
     "capturedAt": "2026-10-01T22:07:06.140Z",
     "summary": "61 处官网变动（新增 0 / 改动 61 / 删除 0）",
