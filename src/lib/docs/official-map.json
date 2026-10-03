@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-02",
+  "capturedAt": "2026-10-03",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "4151e8fd18e5",
   "docs": [
@@ -404,8 +404,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "model-jaggedness/jev-1.13.md",
-      "size": 10849,
-      "hash": "c591ecd05ab7",
+      "size": 9346,
+      "hash": "5d471be7c8d2",
       "translatedAtHash": "e5f4d10c3f67"
     },
     {
@@ -414,7 +414,7 @@
       "kind": "official",
       "officialPath": "models.md",
       "size": 6684,
-      "hash": "da8014e39b65",
+      "hash": "15351adaab85",
       "translatedAtHash": "c4ebee942e3f"
     },
     {

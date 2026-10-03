@@ -1,5 +1,35 @@
 [
   {
+    "id": "202610030122",
+    "capturedAt": "2026-10-03T01:22:41.867Z",
+    "summary": "2 处官网变动（新增 0 / 改动 2 / 删除 0）",
+    "llmsHash": "4151e8fd18e5",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "Jev 1.13 jaggedness",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「Jev 1.13 jaggedness」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "c591ecd05ab7",
+        "nextHash": "5d471be7c8d2",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "da8014e39b65",
+        "nextHash": "15351adaab85",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610021134",
     "capturedAt": "2026-10-02T11:34:22.921Z",
     "summary": "Confidence 有更新",
