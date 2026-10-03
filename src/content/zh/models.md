@@ -9,7 +9,7 @@ Jev 是 TypeSafe 的旗舰模型，也是第一款 [System One 模型](/concepts
 | Jev 1.13 | `jev-1.13.0` |
 | :-- | :-- |
 | 价格（每 Btok / 每 Mtok） | $42 / $0.042 |
-| 限流 | 每秒 100K tokens / 每秒 40 次请求 |
+| 限流 | 每秒 100K tokens / 每秒 80 次请求 |
 | 上下文长度 | 每次请求 64k tokens；`state` 加上最长那条问题 32k tokens |
 | 输入 | 仅文本。字符串、JSON 对象，或文本值数组。不接受图像、音频、视频 |
 
@@ -18,7 +18,7 @@ Jev 是 TypeSafe 的旗舰模型，也是第一款 [System One 模型](/concepts
 * **上下文长度：** Jev 只摄入一次 `state`，再并行地对每一个问题评估。64k 预算覆盖 `state` 加全部问题；32k 预算覆盖 `state` 加最长那一条问题。把许多问题塞进一次请求见 [投机扇出](/patterns/fan-out)；state 变大时准确率怎么变，见 [Jev 1.13 锯齿](/model-jaggedness/jev-1.13)。
 * **输入：** Jev 评估自然语言文本。非文本输入（图像、音频、视频、二进制）先预处理成文本或结构化字段，再作为 `state` 发送。支持的形状见 [State](/concepts/state)。
 
-> 限流正在动态调整。当前需求量很大，上面的数字可能随时变——大额 GPU 到位、放更多用户进来时都会改。稳定之后才能给出更固定的上限。定制和企业套餐可以申请更高限额，联系 [sales@typesafe.ai](mailto:sales@typesafe.ai)。
+> **限流正在动态调整。** 当前需求量很大，上面的数字可能随时变——大额 GPU 到位、放更多用户进来时都会改。稳定之后才能给出更固定的上限。定制和企业套餐可以申请更高限额，联系 [sales@typesafe.ai](mailto:sales@typesafe.ai)。
 
 ## 别名
 
