@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-03",
+  "capturedAt": "2026-10-09",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "4151e8fd18e5",
   "docs": [
@@ -287,8 +287,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/async.md",
-      "size": 32688,
-      "hash": "4caa60c0eafb",
+      "size": 32762,
+      "hash": "fb00e8573113",
       "translatedAtHash": "f45f04e87431"
     },
     {
@@ -296,8 +296,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/sync.md",
-      "size": 32080,
-      "hash": "1524df5a9dc8",
+      "size": 32154,
+      "hash": "d07de11ccd0f",
       "translatedAtHash": "55a144c0161e"
     },
     {
@@ -341,8 +341,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/questions.md",
-      "size": 30129,
-      "hash": "60da0a09dc5b",
+      "size": 33442,
+      "hash": "8add73041d0f",
       "translatedAtHash": "cbad949affff"
     },
     {
@@ -359,8 +359,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/changelog.md",
-      "size": 2192,
-      "hash": "686ef1baf6cf",
+      "size": 2662,
+      "hash": "3b156d9904f7",
       "translatedAtHash": "5a106cf423ea"
     },
     {
@@ -368,8 +368,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/usage.md",
-      "size": 19092,
-      "hash": "a6b916b9d87b",
+      "size": 21965,
+      "hash": "bd11cbe5cbcb",
       "translatedAtHash": "bf5ce8360b16"
     },
     {
