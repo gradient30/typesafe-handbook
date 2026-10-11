@@ -1,5 +1,24 @@
 [
   {
+    "id": "202610110252",
+    "capturedAt": "2026-10-11T02:52:04.591Z",
+    "summary": "Cookbooks 有更新",
+    "llmsHash": "4151e8fd18e5",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "cookbooks",
+        "title": "Cookbooks",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks",
+        "handbookHref": "/docs/cookbooks",
+        "location": "侧栏「食谱」→「Cookbooks」· 本站 /docs/cookbooks",
+        "prevHash": "45f9d361808a",
+        "nextHash": "06a1c77dd730",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610091216",
     "capturedAt": "2026-10-09T12:16:44.326Z",
     "summary": "5 处官网变动（新增 0 / 改动 5 / 删除 0）",
