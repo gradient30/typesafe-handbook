@@ -4,8 +4,8 @@
   "timeOfDay": "09:00",
   "fingerprint": "GitHub Actions 每 6 小时对照官网指纹",
   "translate": "每天 09:00（北京时间）重译变动页，写入同步日志并推送到仓库",
-  "lastCheckAt": "2026-10-11T11:47:57.437Z",
+  "lastCheckAt": "2026-10-11T16:59:59.273Z",
   "lastChangeAt": "2026-10-11T11:47:57.437Z",
   "llmsHash": "2f18013dc6b2",
-  "status": "stale"
+  "status": "current"
 }
