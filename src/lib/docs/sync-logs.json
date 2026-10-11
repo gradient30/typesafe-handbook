@@ -1,5 +1,46 @@
 [
   {
+    "id": "202610111147",
+    "capturedAt": "2026-10-11T11:47:57.437Z",
+    "summary": "3 处官网变动（新增 1 / 改动 2 / 删除 0）",
+    "llmsHash": "2f18013dc6b2",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "cookbooks",
+        "title": "Cookbooks",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks",
+        "handbookHref": "/docs/cookbooks",
+        "location": "侧栏「食谱」→「Cookbooks」· 本站 /docs/cookbooks",
+        "prevHash": "06a1c77dd730",
+        "nextHash": "b7d2b611551b",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "demos/smart-home",
+        "title": "Smart home assistant demo",
+        "officialUrl": "https://docs.typesafe.ai/demos/smart-home",
+        "handbookHref": "/docs/demos/smart-home",
+        "location": "侧栏「演示」→「Smart home assistant demo」· 本站 /docs/demos/smart-home",
+        "prevHash": "ea60b22f8926",
+        "nextHash": "ec928346966d",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "added",
+        "slug": "cookbooks/basic_memory",
+        "title": "Simple memory system",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/basic_memory",
+        "handbookHref": "/docs/cookbooks/basic_memory",
+        "location": "侧栏「食谱」→「Simple memory system」· 本站 /docs/cookbooks/basic_memory",
+        "prevHash": null,
+        "nextHash": "8e894e5b93ac",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      }
+    ]
+  },
+  {
     "id": "202610110252",
     "capturedAt": "2026-10-11T02:52:04.591Z",
     "summary": "Cookbooks 有更新",

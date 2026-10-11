@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-10-11",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "4151e8fd18e5",
+  "llmsHash": "2f18013dc6b2",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 6167,
-      "hash": "06a1c77dd730",
+      "size": 6375,
+      "hash": "b7d2b611551b",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -224,8 +224,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos/smart-home.md",
-      "size": 3938,
-      "hash": "ea60b22f8926",
+      "size": 3920,
+      "hash": "ec928346966d",
       "translatedAtHash": "155c0af9a4ae"
     },
     {
@@ -578,6 +578,15 @@
       "size": 39391,
       "hash": "c59bf591db3d",
       "translatedAtHash": "fb53dc000c8b"
+    },
+    {
+      "slug": "cookbooks/basic_memory",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "cookbooks/basic_memory.md",
+      "size": 28845,
+      "hash": "8e894e5b93ac",
+      "translatedAtHash": null
     }
   ]
 }
