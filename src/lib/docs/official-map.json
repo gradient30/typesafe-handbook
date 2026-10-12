@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-11",
+  "capturedAt": "2026-10-12",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "2f18013dc6b2",
+  "llmsHash": "667dc7dc4b36",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 6375,
-      "hash": "b7d2b611551b",
+      "size": 6704,
+      "hash": "e49ea32fec37",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -586,6 +586,15 @@
       "officialPath": "cookbooks/basic_memory.md",
       "size": 28845,
       "hash": "8e894e5b93ac",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "cookbooks/twitch_chat_filter",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "cookbooks/twitch_chat_filter.md",
+      "size": 24676,
+      "hash": "5cb7a3d1d62e",
       "translatedAtHash": null
     }
   ]
