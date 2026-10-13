@@ -9,15 +9,20 @@ Jev 是 TypeSafe 的旗舰模型，也是第一款 [System One 模型](/concepts
 ```mermaid
 %%{init: {"fontFamily": "IBM Plex Sans, Noto Sans SC, sans-serif", "flowchart": {"rankSpacing": 35, "wrappingWidth": 280}}}%%
 flowchart LR
-    input["state + 问题"]
+    state["你的数据<br/>（state）<br/>文本或 JSON"]
+    questions["你关于数据的问题<br/>（三种类型）"]
 
-    subgraph model["TypeSafe AI 模型"]
+    join@{ shape: f-circ }
+
+    subgraph model["TypeSafe AI 模型：Jev"]
         evaluate["并行地对同一份 state<br/>评估每一个问题"]
     end
 
-    input -- "一次请求" --> model
+    state --- join
+    questions --- join
+    join -- "一次请求" --> model
     model -- "一次响应" --> answers["类型化答案<br/>+ 概率<br/>+ 置信度<br/>（Choice / Score）"]
-    answers --> code["你的代码<br/>分支、排序、路由"]
+    answers --> code["<b>你的代码</b><br/>分支、排序、路由"]
 ```
 
 ## TypeSafe 原语
@@ -42,9 +47,8 @@ System One 最擅长的，是每个问题只问一件范围清楚的事。把它
 
 ## 下一步
 
-* [快速开始](/introduction/quickstart) — 最短上手路径：Playground、HTTP API、SDK。
+* [快速开始](/introduction/quickstart) — 最短上手路径。
 * [AI 入门](/introduction/machine-learning-primer) — 为什么 TypeSafe 训练校准决策模型，而不是优化生成文本。
-* [Jev 与编码智能体](/introduction/coding-agents) — Jev 不是 Claude Code、Cursor 背后的聊天模型。
 * [原语（问题）](/primitives) — 如何定义问题，在 Choice / Score / Noul 之间选择，一次问多个。
 * [Confidence](/confidence) — 确定性怎么报告，以及如何用它做架构决策。
 * [模式](/patterns) — 用 TypeSafe 搭系统的常见架构。
