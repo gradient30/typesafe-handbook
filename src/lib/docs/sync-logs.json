@@ -1,5 +1,46 @@
 [
   {
+    "id": "202610142106",
+    "capturedAt": "2026-10-14T21:06:31.602Z",
+    "summary": "3 处官网变动（新增 0 / 改动 3 / 删除 0）",
+    "llmsHash": "4acbbf437e9f",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "primitives",
+        "title": "Primitives (Questions)",
+        "officialUrl": "https://docs.typesafe.ai/primitives",
+        "handbookHref": "/docs/primitives",
+        "location": "侧栏「原语」→「Primitives (Questions)」· 本站 /docs/primitives",
+        "prevHash": "fe67e1062c34",
+        "nextHash": "64591b3378c9",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "Jev 1.13 jaggedness",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「Jev 1.13 jaggedness」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "5d471be7c8d2",
+        "nextHash": "ae4e822c759c",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "15351adaab85",
+        "nextHash": "fc725f5fafd0",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "20261014-0121",
     "capturedAt": "2026-10-14T01:21:00.000Z",
     "summary": "官网新增 Twitch 聊天过滤器食谱，已完成专业中文摘要汉化。",

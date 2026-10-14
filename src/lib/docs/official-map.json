@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 24185,
-      "hash": "fe67e1062c34",
+      "size": 24641,
+      "hash": "64591b3378c9",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -404,8 +404,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "model-jaggedness/jev-1.13.md",
-      "size": 9346,
-      "hash": "5d471be7c8d2",
+      "size": 9395,
+      "hash": "ae4e822c759c",
       "translatedAtHash": "5d471be7c8d2"
     },
     {
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 6684,
-      "hash": "15351adaab85",
+      "size": 7034,
+      "hash": "fc725f5fafd0",
       "translatedAtHash": "15351adaab85"
     },
     {
