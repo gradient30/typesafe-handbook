@@ -1,1 +1,1 @@
-$(cat /tmp/sync-logs-updated.json)
+$(cat /tmp/sync-logs.json)
