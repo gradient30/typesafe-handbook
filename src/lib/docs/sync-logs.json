@@ -1,1 +1,21 @@
-$(cat /tmp/sync-logs.json)
+[
+  {
+    "id": "20261014-0121",
+    "capturedAt": "2026-10-14T01:21:00.000Z",
+    "summary": "官网新增 Twitch 聊天过滤器食谱，已完成专业中文摘要汉化。",
+    "llmsHash": "4acbbf437e9f",
+    "changes": [
+      {
+        "kind": "translated",
+        "title": "Twitch chat filter",
+        "slug": "cookbooks/twitch_chat_filter",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/twitch_chat_filter.md",
+        "handbookHref": "/docs/cookbooks/twitch_chat_filter",
+        "location": "侧栏「食谱」→「Twitch 聊天过滤器」· 本站 /docs/cookbooks/twitch_chat_filter",
+        "prevHash": null,
+        "nextHash": "5cb7a3d1d62e",
+        "note": "新增食谱，已按架构、结论与关键代码重写中文译本，省略完整实验日志。"
+      }
+    ]
+  }
+]
