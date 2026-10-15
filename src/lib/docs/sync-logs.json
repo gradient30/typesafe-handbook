@@ -1,5 +1,277 @@
 [
   {
+    "id": "202610150124",
+    "capturedAt": "2026-10-15T01:24:05.232Z",
+    "summary": "24 处官网变动（新增 5 / 改动 18 / 删除 1）",
+    "llmsHash": "99f746d2570a",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "introduction",
+        "title": "Introduction",
+        "officialUrl": "https://docs.typesafe.ai/introduction",
+        "handbookHref": "/",
+        "location": "侧栏「入门」→「Introduction」· 本站 /",
+        "prevHash": "8fa5dd1b6e7d",
+        "nextHash": "f1dbcd1857df",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "introduction/quickstart",
+        "title": "Quick start",
+        "officialUrl": "https://docs.typesafe.ai/introduction/quickstart",
+        "handbookHref": "/docs/introduction/quickstart",
+        "location": "侧栏「入门」→「Quick start」· 本站 /docs/introduction/quickstart",
+        "prevHash": "2277c88ee1c7",
+        "nextHash": "ea75cde163d6",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "concepts/state",
+        "title": "State",
+        "officialUrl": "https://docs.typesafe.ai/concepts/state",
+        "handbookHref": "/docs/concepts/state",
+        "location": "侧栏「TypeSafe 基础」→「State」· 本站 /docs/concepts/state",
+        "prevHash": "8ed5a4e719cf",
+        "nextHash": "0058f0fc9c58",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "concepts/system-one",
+        "title": "System One",
+        "officialUrl": "https://docs.typesafe.ai/concepts/system-one",
+        "handbookHref": "/docs/concepts/system-one",
+        "location": "侧栏「TypeSafe 基础」→「System One」· 本站 /docs/concepts/system-one",
+        "prevHash": "a9a536be92d9",
+        "nextHash": "f3ef88c39b3e",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives",
+        "title": "Primitives (Questions)",
+        "officialUrl": "https://docs.typesafe.ai/primitives",
+        "handbookHref": "/docs/primitives",
+        "location": "侧栏「原语」→「Primitives (Questions)」· 本站 /docs/primitives",
+        "prevHash": "64591b3378c9",
+        "nextHash": "acffba767407",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/javascript",
+        "title": "JavaScript SDK",
+        "officialUrl": "https://docs.typesafe.ai/sdk/javascript",
+        "handbookHref": "/docs/sdk/javascript",
+        "location": "侧栏「SDK」→「JavaScript SDK」· 本站 /docs/sdk/javascript",
+        "prevHash": "269059683486",
+        "nextHash": "e97bef8031ae",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/javascript/api",
+        "title": "API reference",
+        "officialUrl": "https://docs.typesafe.ai/sdk/javascript/api",
+        "handbookHref": "/docs/sdk/javascript/api",
+        "location": "侧栏「SDK」→「API reference」· 本站 /docs/sdk/javascript/api",
+        "prevHash": "8a593d34f66b",
+        "nextHash": "4b1cbf108ff7",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/javascript/changelog",
+        "title": "Changelog",
+        "officialUrl": "https://docs.typesafe.ai/sdk/javascript/changelog",
+        "handbookHref": "/docs/sdk/javascript/changelog",
+        "location": "侧栏「SDK」→「Changelog」· 本站 /docs/sdk/javascript/changelog",
+        "prevHash": "6204f65e88fd",
+        "nextHash": "41cd9bfdc044",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python",
+        "title": "TypeSafe Python SDK",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python",
+        "handbookHref": "/docs/sdk/python",
+        "location": "侧栏「SDK」→「TypeSafe Python SDK」· 本站 /docs/sdk/python",
+        "prevHash": "ff4564cfcf2b",
+        "nextHash": "d553ed545130",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/clients/async",
+        "title": "Asynchronous client",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/clients/async",
+        "handbookHref": "/docs/sdk/python/api/clients/async",
+        "location": "侧栏「SDK」→「Asynchronous client」· 本站 /docs/sdk/python/api/clients/async",
+        "prevHash": "fb00e8573113",
+        "nextHash": "dda33893109c",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/clients/sync",
+        "title": "Synchronous client",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/clients/sync",
+        "handbookHref": "/docs/sdk/python/api/clients/sync",
+        "location": "侧栏「SDK」→「Synchronous client」· 本站 /docs/sdk/python/api/clients/sync",
+        "prevHash": "d07de11ccd0f",
+        "nextHash": "779ee50b1ff6",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/common",
+        "title": "Common types",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/common",
+        "handbookHref": "/docs/sdk/python/api/types/common",
+        "location": "侧栏「SDK」→「Common types」· 本站 /docs/sdk/python/api/types/common",
+        "prevHash": "d93bf202cbbd",
+        "nextHash": "c84a0b9417ea",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/questions",
+        "title": "Questions",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/questions",
+        "handbookHref": "/docs/sdk/python/api/types/questions",
+        "location": "侧栏「SDK」→「Questions」· 本站 /docs/sdk/python/api/types/questions",
+        "prevHash": "8add73041d0f",
+        "nextHash": "a4dc58128c47",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/responses",
+        "title": "Answers and responses",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/responses",
+        "handbookHref": "/docs/sdk/python/api/types/responses",
+        "location": "侧栏「SDK」→「Answers and responses」· 本站 /docs/sdk/python/api/types/responses",
+        "prevHash": "03efd826c433",
+        "nextHash": "6bc6f7721690",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/changelog",
+        "title": "Changelog",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/changelog",
+        "handbookHref": "/docs/sdk/python/changelog",
+        "location": "侧栏「SDK」→「Changelog」· 本站 /docs/sdk/python/changelog",
+        "prevHash": "3b156d9904f7",
+        "nextHash": "ce99cdcbf13f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "agent-skill",
+        "title": "Agent skill",
+        "officialUrl": "https://docs.typesafe.ai/agent-skill",
+        "handbookHref": "/docs/agent-skill",
+        "location": "侧栏「参考」→「Agent skill」· 本站 /docs/agent-skill",
+        "prevHash": "58150a9cecb9",
+        "nextHash": "c3f8411c9fbd",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "api",
+        "title": "API reference",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「API reference」· 本站 /docs/api",
+        "prevHash": "6b760275f893",
+        "nextHash": "37f0f3a41917",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "fc725f5fafd0",
+        "nextHash": "02b7682a7176",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "added",
+        "slug": "primitives/box",
+        "title": "Box",
+        "officialUrl": "https://docs.typesafe.ai/primitives/box",
+        "handbookHref": "/docs/primitives/box",
+        "location": "侧栏「原语」→「Box」· 本站 /docs/primitives/box",
+        "prevHash": null,
+        "nextHash": "d75c3d1d52e9",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "images",
+        "title": "Images",
+        "officialUrl": "https://docs.typesafe.ai/images",
+        "handbookHref": "/docs/images",
+        "location": "侧栏「参考」→「Images」· 本站 /docs/images",
+        "prevHash": null,
+        "nextHash": "9dfbc3387fb0",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "sdk/python/usage/basic",
+        "title": "Basic usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage/basic",
+        "handbookHref": "/docs/sdk/python/usage/basic",
+        "location": "侧栏「SDK」→「Basic usage」· 本站 /docs/sdk/python/usage/basic",
+        "prevHash": null,
+        "nextHash": "25a9e959ef68",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "sdk/python/usage/advanced",
+        "title": "Advanced usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage/advanced",
+        "handbookHref": "/docs/sdk/python/usage/advanced",
+        "location": "侧栏「SDK」→「Advanced usage」· 本站 /docs/sdk/python/usage/advanced",
+        "prevHash": null,
+        "nextHash": "30d88a3443a7",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "sdk/python/api/types/assets",
+        "title": "Assets",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/assets",
+        "handbookHref": "/docs/sdk/python/api/types/assets",
+        "location": "侧栏「SDK」→「Assets」· 本站 /docs/sdk/python/api/types/assets",
+        "prevHash": null,
+        "nextHash": "b4e4e7c56607",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      }
+    ]
+  },
+  {
     "id": "202610142106",
     "capturedAt": "2026-10-14T21:06:31.602Z",
     "summary": "3 处官网变动（新增 0 / 改动 3 / 删除 0）",

@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-14",
+  "capturedAt": "2026-10-15",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "4acbbf437e9f",
+  "llmsHash": "99f746d2570a",
   "docs": [
     {
       "slug": "architecture",
@@ -44,8 +44,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction.md",
-      "size": 4667,
-      "hash": "8fa5dd1b6e7d",
+      "size": 4691,
+      "hash": "f1dbcd1857df",
       "translatedAtHash": "8fa5dd1b6e7d"
     },
     {
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 15092,
-      "hash": "2277c88ee1c7",
+      "size": 15088,
+      "hash": "ea75cde163d6",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -89,8 +89,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/state.md",
-      "size": 3669,
-      "hash": "8ed5a4e719cf",
+      "size": 3617,
+      "hash": "0058f0fc9c58",
       "translatedAtHash": "0c78c1a347bd"
     },
     {
@@ -98,8 +98,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/system-one.md",
-      "size": 3903,
-      "hash": "a9a536be92d9",
+      "size": 3933,
+      "hash": "f3ef88c39b3e",
       "translatedAtHash": "bd5ecf9c18ad"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 24641,
-      "hash": "64591b3378c9",
+      "size": 24649,
+      "hash": "acffba767407",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -242,8 +242,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/javascript.md",
-      "size": 1415,
-      "hash": "269059683486",
+      "size": 6874,
+      "hash": "e97bef8031ae",
       "translatedAtHash": "25ba04f5b558"
     },
     {
@@ -251,8 +251,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/javascript/api.md",
-      "size": 3440,
-      "hash": "8a593d34f66b",
+      "size": 4038,
+      "hash": "4b1cbf108ff7",
       "translatedAtHash": "e8abd954c9eb"
     },
     {
@@ -260,8 +260,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/javascript/changelog.md",
-      "size": 621,
-      "hash": "6204f65e88fd",
+      "size": 1631,
+      "hash": "41cd9bfdc044",
       "translatedAtHash": "73389d4c0199"
     },
     {
@@ -269,8 +269,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python.md",
-      "size": 3827,
-      "hash": "ff4564cfcf2b",
+      "size": 4148,
+      "hash": "d553ed545130",
       "translatedAtHash": "6b8fa1084362"
     },
     {
@@ -287,8 +287,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/async.md",
-      "size": 32762,
-      "hash": "fb00e8573113",
+      "size": 38626,
+      "hash": "dda33893109c",
       "translatedAtHash": "f45f04e87431"
     },
     {
@@ -296,8 +296,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/sync.md",
-      "size": 32154,
-      "hash": "d07de11ccd0f",
+      "size": 37991,
+      "hash": "779ee50b1ff6",
       "translatedAtHash": "55a144c0161e"
     },
     {
@@ -332,8 +332,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/common.md",
-      "size": 3055,
-      "hash": "d93bf202cbbd",
+      "size": 4837,
+      "hash": "c84a0b9417ea",
       "translatedAtHash": "bda3f01322aa"
     },
     {
@@ -341,8 +341,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/questions.md",
-      "size": 33442,
-      "hash": "8add73041d0f",
+      "size": 39710,
+      "hash": "a4dc58128c47",
       "translatedAtHash": "cbad949affff"
     },
     {
@@ -350,8 +350,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/responses.md",
-      "size": 38738,
-      "hash": "03efd826c433",
+      "size": 50557,
+      "hash": "6bc6f7721690",
       "translatedAtHash": "7b0167d010dc"
     },
     {
@@ -359,8 +359,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/changelog.md",
-      "size": 2662,
-      "hash": "3b156d9904f7",
+      "size": 3372,
+      "hash": "ce99cdcbf13f",
       "translatedAtHash": "5a106cf423ea"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5911,
-      "hash": "58150a9cecb9",
+      "size": 5905,
+      "hash": "c3f8411c9fbd",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
@@ -386,8 +386,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "api.md",
-      "size": 11344,
-      "hash": "6b760275f893",
+      "size": 12905,
+      "hash": "37f0f3a41917",
       "translatedAtHash": "0252c4126fda"
     },
     {
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 7034,
-      "hash": "fc725f5fafd0",
+      "size": 7971,
+      "hash": "02b7682a7176",
       "translatedAtHash": "15351adaab85"
     },
     {
@@ -595,6 +595,51 @@
       "officialPath": "cookbooks/basic_memory.md",
       "size": 28845,
       "hash": "8e894e5b93ac",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "primitives/box",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "primitives/box.md",
+      "size": 8955,
+      "hash": "d75c3d1d52e9",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "images",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "images.md",
+      "size": 22161,
+      "hash": "9dfbc3387fb0",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "sdk/python/usage/basic",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "sdk/python/usage/basic.md",
+      "size": 20454,
+      "hash": "25a9e959ef68",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "sdk/python/usage/advanced",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "sdk/python/usage/advanced.md",
+      "size": 8932,
+      "hash": "30d88a3443a7",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "sdk/python/api/types/assets",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "sdk/python/api/types/assets.md",
+      "size": 9633,
+      "hash": "b4e4e7c56607",
       "translatedAtHash": null
     }
   ]
