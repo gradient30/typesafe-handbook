@@ -1,54 +1,35 @@
-# 简介
+# Introduction
 
-> Jev 是 TypeSafe 的旗舰模型，也是第一款 System One 模型。传入 state 和类型化问题，直接拿结构化答案，代码可以立刻使用。
+> Jev 是 TypeSafe 的旗舰模型，也是第一个 System One 模型。发送状态和类型化问题；获取代码可直接使用的结构化答案。
 
-大语言模型（LLM）是为「给人读的文本」训练的。当你需要模型做一次判断、并且这份判断要交给代码消费时，就会出现错位：你在逼一个生成系统吐出结构化决策，再把结果解析回代码能依赖的形状。
+大型语言模型 (LLMs) 设计为产生供人类阅读的文本。当你需要模型做出代码将消费的判断时，这会产生不匹配：你正在强迫文本生成系统输出结构化决策，然后将结果解析回代码可以依赖的东西。
 
-Jev 是 TypeSafe 的旗舰模型，也是第一款 [System One 模型](/concepts/system-one)。System One 模型为软件做快速、结构化的决策。Jev 用类型化的 *问题* 去评估一份 *state*，直接返回结构化结果。没有文本生成，也没有解析。你拿到的是类型化取值和概率分布，代码可以按它分支、排序、路由。Choice 和 Score 还会返回 [置信度](/confidence)，用来决定要不要、以及如何根据答案行动。
+Jev 是 TypeSafe 的旗舰模型，也是第一个 [System One 模型](/concepts/system-one)。System One 模型被构建为做出软件可直接使用的快速、结构化决策。Jev 针对 *state* 评估类型化 *questions* 并直接返回结构化结果。无文本生成，无解析。你获得代码可以分支、排序和路由的类型化值和概率分布。一些问题类型还返回 [confidence](/confidence)，代码可以用它决定是否以及如何对答案行动。每个问题类型的页面列出其答案包含什么。
 
-```mermaid
-%%{init: {"fontFamily": "IBM Plex Sans, Noto Sans SC, sans-serif", "flowchart": {"rankSpacing": 35, "wrappingWidth": 280}}}%%
-flowchart LR
-    state["你的数据<br/>（state）<br/>文本或 JSON"]
-    questions["你关于数据的问题<br/>（三种类型）"]
+## TypeSafe primitives
 
-    join@{ shape: f-circ }
-
-    subgraph model["TypeSafe AI 模型：Jev"]
-        evaluate["并行地对同一份 state<br/>评估每一个问题"]
-    end
-
-    state --- join
-    questions --- join
-    join -- "一次请求" --> model
-    model -- "一次响应" --> answers["类型化答案<br/>+ 概率<br/>+ 置信度<br/>（Choice / Score）"]
-    answers --> code["<b>你的代码</b><br/>分支、排序、路由"]
-```
-
-## TypeSafe 原语
-
-TypeSafe 暴露三种 *AI 原语*。和软件原语一样：模块化、可组合、结构化、可靠、快。每种原语问一类 *问题*，返回一类答案。
+TypeSafe 暴露 *AI primitives*。类似于软件原语，我们的 AI 原语是模块化、可组合、结构化、可靠和快速的。每个询问不同类型的 *question* 并返回不同类型的答案。
 
 | 问题类型 | 目标 | 返回 |
-| --- | --- | --- |
-| [Choice](/primitives/choice) | 从给定集合里选一项 | `choice`、`probabilities`、`confidence` |
-| [Score](/primitives/score) | 按有序量表给 state 打分 | `score`、`probabilities`、`confidence` |
-| [Noul](/primitives/noul) | 这句话是真的吗？ | `noul`（0–1） |
+| - | - | - |
+| [Choice](/primitives/choice) | 从列表中选择一个选项 | `choice`, `probabilities`, `confidence` |
+| [Score](/primitives/score) | 在量表上评分状态 | `score`, `probabilities`, `confidence` |
+| [Noul](/primitives/noul) | 这个陈述是真的吗？ | `noul` (0–1) |
 
-三种 *问题* 可以混在同一次 API 调用里。每个问题都针对同一份 *state* 并行、隔离地评估。多加几个问题，响应时间几乎不变。问题彼此独立，不会因为堆在一起而发生 context-rot。
+任何混合的 *question* 类型都可以在单个 API 调用中。每个 *question* 并行且隔离地针对相同 *state* 评估。添加问题几乎不改变响应时间。每个问题独立评估，因此添加更多问题不会造成上下文腐烂。
 
-## 原子问题，在代码里组合
+## 原子问题，在代码中组合
 
-System One 最擅长的，是每个问题只问一件范围清楚的事。把它想成「有经验的人拿到足够上下文后几秒钟就能做的直觉判断」。
+System One 模型在每个问题询问一个特定、范围良好的事物时工作最佳。将每个问题视为直觉检查确定：给定正确上下文，一个高度知识渊博的人可以在几秒钟内做出的判断类型。
 
-如果这个问题需要长推理，或同时权衡多个独立因素，就拆开。每个因素单独问，再用代码里的逻辑把结果合起来。这样每一次评估都更稳，权重也完全由你控制。
+如果你想询问的问题需要扩展推理或权衡多个独立因素，分解它。将每个因素作为单独问题询问，然后用代码中的逻辑组合结果。这保持每个单独评估可靠，并给你对维度如何加权的完全控制。
 
-例如，不要问「给这份创业路演打分」，而是分别问市场规模、技术可行性、差异化，再用你自己的公式合成。优先级变了，改代码里的系数就行，不用重写提示词。
+例如，不要 "rate this startup pitch"，而是分别询问市场规模、技术可行性和差异化。用你自己的公式组合分数。当优先级改变时，在代码中改变系数而不是重写提示。
 
 ## 下一步
 
-* [快速开始](/introduction/quickstart) — 最短上手路径。
-* [AI 入门](/introduction/machine-learning-primer) — 为什么 TypeSafe 训练校准决策模型，而不是优化生成文本。
-* [原语（问题）](/primitives) — 如何定义问题，在 Choice / Score / Noul 之间选择，一次问多个。
-* [Confidence](/confidence) — 确定性怎么报告，以及如何用它做架构决策。
-* [模式](/patterns) — 用 TypeSafe 搭系统的常见架构。
+* [Quick Start](/introduction/quickstart) — 立即开始所需的一切。
+* [AI Primer](/introduction/machine-learning-primer) — 为什么 TypeSafe 为校准决策而不是生成文本训练模型。
+* [Primitives (Questions)](/primitives) — 如何定义问题、选择问题类型，以及一次询问几个。
+* [Confidence](/confidence) — TypeSafe 如何报告确定性，以及如何在架构上使用它。
+* [Patterns](/patterns) — 用 TypeSafe 构建系统的常见模式。
