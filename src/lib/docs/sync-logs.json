@@ -1,5 +1,24 @@
 [
   {
+    "id": "202610161545",
+    "capturedAt": "2026-10-16T15:45:43.307Z",
+    "summary": "sdk/python/usage 有更新",
+    "llmsHash": "99f746d2570a",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610161020",
     "capturedAt": "2026-10-16T10:20:26.258Z",
     "summary": "sdk/python/usage 有更新",
