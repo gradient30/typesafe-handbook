@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 6704,
-      "hash": "e49ea32fec37",
+      "size": 6702,
+      "hash": "010d0c5f7d46",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -62,8 +62,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/machine-learning-primer.md",
-      "size": 6693,
-      "hash": "62f4354cfcdc",
+      "size": 4866,
+      "hash": "83f3e91d95d7",
       "translatedAtHash": "45e6a22bc175"
     },
     {
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 15088,
-      "hash": "ea75cde163d6",
+      "size": 14062,
+      "hash": "c7a01049b23a",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -80,8 +80,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/how-to-build-with-system-one.md",
-      "size": 41034,
-      "hash": "9f5a20ac3938",
+      "size": 19202,
+      "hash": "b1665949144e",
       "translatedAtHash": "d9f4d34c1349"
     },
     {
@@ -89,8 +89,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/state.md",
-      "size": 3617,
-      "hash": "0058f0fc9c58",
+      "size": 3614,
+      "hash": "9c6e8bb5d1bb",
       "translatedAtHash": "0c78c1a347bd"
     },
     {
@@ -98,8 +98,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/system-one.md",
-      "size": 3933,
-      "hash": "f3ef88c39b3e",
+      "size": 3927,
+      "hash": "aa5f6b10f6d9",
       "translatedAtHash": "bd5ecf9c18ad"
     },
     {
@@ -107,8 +107,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/use-case-map.md",
-      "size": 11155,
-      "hash": "4dd749d67252",
+      "size": 9869,
+      "hash": "e4b19e93edcb",
       "translatedAtHash": "8fcbbe46f7b5"
     },
     {
@@ -116,8 +116,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "confidence.md",
-      "size": 24090,
-      "hash": "5c325ec0c0b6",
+      "size": 11310,
+      "hash": "ff8338dfc857",
       "translatedAtHash": "5c325ec0c0b6"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 24649,
-      "hash": "acffba767407",
+      "size": 14922,
+      "hash": "a7f5ccea9427",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -134,8 +134,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/advanced.md",
-      "size": 18943,
-      "hash": "650a61153fe3",
+      "size": 4418,
+      "hash": "b6d071c20b29",
       "translatedAtHash": "7fc102da5106"
     },
     {
@@ -143,8 +143,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/choice.md",
-      "size": 27220,
-      "hash": "bfa3abb0a399",
+      "size": 15252,
+      "hash": "46e0e5eb59c2",
       "translatedAtHash": "4c55085131f8"
     },
     {
@@ -152,8 +152,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/noul.md",
-      "size": 26498,
-      "hash": "bf5d8c6700fb",
+      "size": 15949,
+      "hash": "dc2c07c0284c",
       "translatedAtHash": "8b04eed7b25e"
     },
     {
@@ -161,8 +161,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/score.md",
-      "size": 43749,
-      "hash": "a6ed8f5021eb",
+      "size": 20251,
+      "hash": "350ce08644c5",
       "translatedAtHash": "ee6afe3494b8"
     },
     {
@@ -170,8 +170,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns.md",
-      "size": 1590,
-      "hash": "2e4e92e424f2",
+      "size": 1588,
+      "hash": "4c0a04dffbde",
       "translatedAtHash": "570ac5ae2a45"
     },
     {
@@ -179,8 +179,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/composite-scoring.md",
-      "size": 13658,
-      "hash": "043dc1d58d91",
+      "size": 3066,
+      "hash": "8ac4ec2e8112",
       "translatedAtHash": "538f42d614fb"
     },
     {
@@ -188,8 +188,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/confidence-routing.md",
-      "size": 12536,
-      "hash": "61906b78d3cb",
+      "size": 3404,
+      "hash": "418ef8dfe9b8",
       "translatedAtHash": "7a4de8d39a24"
     },
     {
@@ -197,8 +197,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/fan-out.md",
-      "size": 14280,
-      "hash": "7a81fc064779",
+      "size": 4109,
+      "hash": "7374e45cd147",
       "translatedAtHash": "8d7a251ea6b7"
     },
     {
@@ -206,8 +206,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/intent-routing.md",
-      "size": 13804,
-      "hash": "94aeca51a9c3",
+      "size": 4289,
+      "hash": "ac288d4e4c61",
       "translatedAtHash": "84b670d502b3"
     },
     {
@@ -215,8 +215,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos.md",
-      "size": 701,
-      "hash": "4faa2fa2b756",
+      "size": 699,
+      "hash": "0af006e33253",
       "translatedAtHash": "df111cec8c26"
     },
     {
@@ -224,8 +224,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos/smart-home.md",
-      "size": 3920,
-      "hash": "ec928346966d",
+      "size": 3775,
+      "hash": "780b0a5e4172",
       "translatedAtHash": "155c0af9a4ae"
     },
     {
@@ -233,8 +233,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk.md",
-      "size": 936,
-      "hash": "874e852726f1",
+      "size": 898,
+      "hash": "415039e506c5",
       "translatedAtHash": "bbd9d2eaad4c"
     },
     {
@@ -269,8 +269,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python.md",
-      "size": 4148,
-      "hash": "d553ed545130",
+      "size": 3726,
+      "hash": "c21de2b50103",
       "translatedAtHash": "6b8fa1084362"
     },
     {
@@ -278,8 +278,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api.md",
-      "size": 736,
-      "hash": "9b5fde7a2568",
+      "size": 710,
+      "hash": "0130e4d7f9fb",
       "translatedAtHash": "fd58d0024e62"
     },
     {
@@ -287,8 +287,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/async.md",
-      "size": 38626,
-      "hash": "dda33893109c",
+      "size": 17602,
+      "hash": "21ba9548c262",
       "translatedAtHash": "f45f04e87431"
     },
     {
@@ -296,8 +296,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/sync.md",
-      "size": 37991,
-      "hash": "779ee50b1ff6",
+      "size": 17009,
+      "hash": "e14f05a6f021",
       "translatedAtHash": "55a144c0161e"
     },
     {
@@ -305,8 +305,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/constants.md",
-      "size": 1895,
-      "hash": "73d81e80043e",
+      "size": 1472,
+      "hash": "a589efc99884",
       "translatedAtHash": "dfcd6bfd6914"
     },
     {
@@ -314,8 +314,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/exceptions.md",
-      "size": 7172,
-      "hash": "8d0ea798ce78",
+      "size": 3363,
+      "hash": "1227a3546b3e",
       "translatedAtHash": "c1cec8b4f1e4"
     },
     {
@@ -323,8 +323,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/retries.md",
-      "size": 15845,
-      "hash": "6b1137deabfa",
+      "size": 7121,
+      "hash": "f4742dcb379c",
       "translatedAtHash": "bdf94b25ae1d"
     },
     {
@@ -332,8 +332,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/common.md",
-      "size": 4837,
-      "hash": "c84a0b9417ea",
+      "size": 2373,
+      "hash": "29befb7452ca",
       "translatedAtHash": "bda3f01322aa"
     },
     {
@@ -341,8 +341,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/questions.md",
-      "size": 39710,
-      "hash": "a4dc58128c47",
+      "size": 25402,
+      "hash": "ed8800eb7f13",
       "translatedAtHash": "cbad949affff"
     },
     {
@@ -350,8 +350,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/responses.md",
-      "size": 50557,
-      "hash": "6bc6f7721690",
+      "size": 34486,
+      "hash": "08b198a7d70e",
       "translatedAtHash": "7b0167d010dc"
     },
     {
@@ -359,8 +359,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/changelog.md",
-      "size": 3372,
-      "hash": "ce99cdcbf13f",
+      "size": 2635,
+      "hash": "2ac864f93cb1",
       "translatedAtHash": "5a106cf423ea"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5936,
-      "hash": "d2ed0deb2e52",
+      "size": 5809,
+      "hash": "20eb1a849059",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
@@ -404,8 +404,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "model-jaggedness/jev-1.13.md",
-      "size": 9395,
-      "hash": "ae4e822c759c",
+      "size": 9385,
+      "hash": "407ccfd1dbb5",
       "translatedAtHash": "5d471be7c8d2"
     },
     {
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 7978,
-      "hash": "b643bc957614",
+      "size": 7688,
+      "hash": "d78f8db1fa61",
       "translatedAtHash": "b643bc957614"
     },
     {
@@ -422,8 +422,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoformat.md",
-      "size": 40995,
-      "hash": "cb5db3e079d3",
+      "size": 40926,
+      "hash": "0430f8b6d1f7",
       "translatedAtHash": "c23355f56ea5"
     },
     {
@@ -431,8 +431,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoresearch_feature_discovery.md",
-      "size": 71468,
-      "hash": "24e0854e5a58",
+      "size": 71123,
+      "hash": "3b0d2849f46b",
       "translatedAtHash": "af2595f41e8c"
     },
     {
@@ -440,8 +440,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/citation_check.md",
-      "size": 15367,
-      "hash": "76bdeead0640",
+      "size": 15298,
+      "hash": "ad91d38e7efc",
       "translatedAtHash": "2497e2c62a4c"
     },
     {
@@ -449,8 +449,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/classification_using_confidence.md",
-      "size": 30818,
-      "hash": "6b5bed0126a9",
+      "size": 30610,
+      "hash": "82c46b83463a",
       "translatedAtHash": "20afd8e6c651"
     },
     {
@@ -458,8 +458,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/classifying_rag_passages.md",
-      "size": 32706,
-      "hash": "a1267a404b72",
+      "size": 32509,
+      "hash": "933e4dff10b7",
       "translatedAtHash": "fbe9208da48e"
     },
     {
@@ -467,8 +467,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_choice_cookbook.md",
-      "size": 49510,
-      "hash": "a1a8481c676f",
+      "size": 49047,
+      "hash": "29c783687984",
       "translatedAtHash": "adbff767c226"
     },
     {
@@ -476,8 +476,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_noul_cookbook.md",
-      "size": 32065,
-      "hash": "7d0a90fc22b7",
+      "size": 31741,
+      "hash": "321e29f0a67e",
       "translatedAtHash": "037ce3ab766d"
     },
     {
@@ -485,8 +485,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/date_extraction_cookbook.md",
-      "size": 19957,
-      "hash": "28565d596103",
+      "size": 19790,
+      "hash": "7be9d428531d",
       "translatedAtHash": "c216cb3d293a"
     },
     {
@@ -494,8 +494,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/entity_alignment.md",
-      "size": 16884,
-      "hash": "c5aa6dba0b49",
+      "size": 16707,
+      "hash": "98c8a50a13ab",
       "translatedAtHash": "efa473b53ff4"
     },
     {
@@ -503,8 +503,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/function_calling.md",
-      "size": 18973,
-      "hash": "c03cd58ac34d",
+      "size": 18577,
+      "hash": "a3b296e445f9",
       "translatedAtHash": "d6301a7e0e6e"
     },
     {
@@ -512,8 +512,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/hierarchical_classification.md",
-      "size": 35776,
-      "hash": "c88074597b5d",
+      "size": 35252,
+      "hash": "4ccaed424d83",
       "translatedAtHash": "2b1b095b8730"
     },
     {
@@ -521,8 +521,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/llm_guardrails.md",
-      "size": 22845,
-      "hash": "798d204918d9",
+      "size": 22776,
+      "hash": "7482a1f9358c",
       "translatedAtHash": "fb5935988e2c"
     },
     {
@@ -530,8 +530,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/parallel_questions.md",
-      "size": 48597,
-      "hash": "1f4574474139",
+      "size": 48528,
+      "hash": "99430b2845ba",
       "translatedAtHash": "53dfe4516fd6"
     },
     {
@@ -539,8 +539,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/pre_parsed_value_extraction_cookbook.md",
-      "size": 12655,
-      "hash": "a5242dbf4df6",
+      "size": 12476,
+      "hash": "71e547a710e4",
       "translatedAtHash": "c9ebb87b822b"
     },
     {
@@ -548,8 +548,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/rerank_typesafe.md",
-      "size": 26180,
-      "hash": "7d8969ab0d85",
+      "size": 25732,
+      "hash": "7d95fc36ebfe",
       "translatedAtHash": "5397e56dcdcf"
     },
     {
@@ -557,8 +557,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/sde_cascade.md",
-      "size": 32780,
-      "hash": "90ab0294cb0d",
+      "size": 32527,
+      "hash": "c69d71fae569",
       "translatedAtHash": "03675753d74f"
     },
     {
@@ -566,8 +566,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/semantic_find.md",
-      "size": 37957,
-      "hash": "92b23c001081",
+      "size": 37756,
+      "hash": "db5484c31340",
       "translatedAtHash": "7e30135ddc67"
     },
     {
@@ -575,8 +575,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/skill_suggestion.md",
-      "size": 39391,
-      "hash": "c59bf591db3d",
+      "size": 39213,
+      "hash": "28f226e22279",
       "translatedAtHash": "fb53dc000c8b"
     },
     {
@@ -584,8 +584,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/twitch_chat_filter.md",
-      "size": 24676,
-      "hash": "5cb7a3d1d62e",
+      "size": 23845,
+      "hash": "dee24bd42eee",
       "translatedAtHash": "5cb7a3d1d62e"
     },
     {
@@ -593,8 +593,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/basic_memory.md",
-      "size": 28845,
-      "hash": "8e894e5b93ac",
+      "size": 28776,
+      "hash": "a20988baa7e9",
       "translatedAtHash": "8e894e5b93ac"
     },
     {
@@ -602,8 +602,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "primitives/box.md",
-      "size": 8955,
-      "hash": "d75c3d1d52e9",
+      "size": 8121,
+      "hash": "146447926f0c",
       "translatedAtHash": "d75c3d1d52e9"
     },
     {
@@ -611,8 +611,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "images.md",
-      "size": 22198,
-      "hash": "431c82177ee4",
+      "size": 20616,
+      "hash": "51a3d9b918bb",
       "translatedAtHash": "dff7a319d723"
     },
     {
@@ -620,8 +620,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/usage/basic.md",
-      "size": 20454,
-      "hash": "25a9e959ef68",
+      "size": 17244,
+      "hash": "1fc442976f7e",
       "translatedAtHash": "25a9e959ef68"
     },
     {
@@ -629,8 +629,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/usage/advanced.md",
-      "size": 8932,
-      "hash": "30d88a3443a7",
+      "size": 7798,
+      "hash": "fa7fae1657df",
       "translatedAtHash": "30d88a3443a7"
     },
     {
@@ -638,8 +638,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/api/types/assets.md",
-      "size": 9633,
-      "hash": "b4e4e7c56607",
+      "size": 5568,
+      "hash": "47af1b9213a6",
       "translatedAtHash": "b4e4e7c56607"
     },
     {
