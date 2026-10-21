@@ -116,8 +116,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "confidence.md",
-      "size": 11310,
-      "hash": "ff8338dfc857",
+      "size": 11286,
+      "hash": "f06c0d1bf579",
       "translatedAtHash": "5c325ec0c0b6"
     },
     {
@@ -161,8 +161,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/score.md",
-      "size": 20251,
-      "hash": "350ce08644c5",
+      "size": 20215,
+      "hash": "b29e3969fe63",
       "translatedAtHash": "ee6afe3494b8"
     },
     {
@@ -288,7 +288,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/clients/async.md",
       "size": 17602,
-      "hash": "21ba9548c262",
+      "hash": "58ac60888473",
       "translatedAtHash": "f45f04e87431"
     },
     {
@@ -297,7 +297,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/clients/sync.md",
       "size": 17009,
-      "hash": "e14f05a6f021",
+      "hash": "1eb59b9bd937",
       "translatedAtHash": "55a144c0161e"
     },
     {
@@ -315,7 +315,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/exceptions.md",
       "size": 3363,
-      "hash": "1227a3546b3e",
+      "hash": "5f7fa99b8067",
       "translatedAtHash": "c1cec8b4f1e4"
     },
     {
@@ -324,7 +324,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/retries.md",
       "size": 7121,
-      "hash": "f4742dcb379c",
+      "hash": "6ef903204ee1",
       "translatedAtHash": "bdf94b25ae1d"
     },
     {
@@ -333,7 +333,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/types/common.md",
       "size": 2373,
-      "hash": "29befb7452ca",
+      "hash": "397cecb926e2",
       "translatedAtHash": "bda3f01322aa"
     },
     {
@@ -342,7 +342,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/types/questions.md",
       "size": 25402,
-      "hash": "ed8800eb7f13",
+      "hash": "b003bb00a4a1",
       "translatedAtHash": "cbad949affff"
     },
     {
@@ -351,7 +351,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/types/responses.md",
       "size": 34486,
-      "hash": "08b198a7d70e",
+      "hash": "db555b83d24b",
       "translatedAtHash": "7b0167d010dc"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5809,
-      "hash": "20eb1a849059",
+      "size": 5770,
+      "hash": "7027a0aa1ee5",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
@@ -639,7 +639,7 @@
       "kind": "official",
       "officialPath": "sdk/python/api/types/assets.md",
       "size": 5568,
-      "hash": "47af1b9213a6",
+      "hash": "1b86174a3d6f",
       "translatedAtHash": "b4e4e7c56607"
     },
     {

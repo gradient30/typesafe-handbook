@@ -1,5 +1,156 @@
 [
   {
+    "id": "202610212101",
+    "capturedAt": "2026-10-21T21:01:36.312Z",
+    "summary": "13 处官网变动（新增 0 / 改动 11 / 删除 2）",
+    "llmsHash": "e817e4789909",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "confidence",
+        "title": "Confidence",
+        "officialUrl": "https://docs.typesafe.ai/confidence",
+        "handbookHref": "/docs/confidence",
+        "location": "侧栏「TypeSafe 基础」→「Confidence」· 本站 /docs/confidence",
+        "prevHash": "ff8338dfc857",
+        "nextHash": "f06c0d1bf579",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/score",
+        "title": "Score",
+        "officialUrl": "https://docs.typesafe.ai/primitives/score",
+        "handbookHref": "/docs/primitives/score",
+        "location": "侧栏「原语」→「Score」· 本站 /docs/primitives/score",
+        "prevHash": "350ce08644c5",
+        "nextHash": "b29e3969fe63",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/clients/async",
+        "title": "Asynchronous client",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/clients/async",
+        "handbookHref": "/docs/sdk/python/api/clients/async",
+        "location": "侧栏「SDK」→「Asynchronous client」· 本站 /docs/sdk/python/api/clients/async",
+        "prevHash": "21ba9548c262",
+        "nextHash": "58ac60888473",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/clients/sync",
+        "title": "Synchronous client",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/clients/sync",
+        "handbookHref": "/docs/sdk/python/api/clients/sync",
+        "location": "侧栏「SDK」→「Synchronous client」· 本站 /docs/sdk/python/api/clients/sync",
+        "prevHash": "e14f05a6f021",
+        "nextHash": "1eb59b9bd937",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/exceptions",
+        "title": "Exceptions",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/exceptions",
+        "handbookHref": "/docs/sdk/python/api/exceptions",
+        "location": "侧栏「SDK」→「Exceptions」· 本站 /docs/sdk/python/api/exceptions",
+        "prevHash": "1227a3546b3e",
+        "nextHash": "5f7fa99b8067",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/retries",
+        "title": "Retries",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/retries",
+        "handbookHref": "/docs/sdk/python/api/retries",
+        "location": "侧栏「SDK」→「Retries」· 本站 /docs/sdk/python/api/retries",
+        "prevHash": "f4742dcb379c",
+        "nextHash": "6ef903204ee1",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/common",
+        "title": "Common types",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/common",
+        "handbookHref": "/docs/sdk/python/api/types/common",
+        "location": "侧栏「SDK」→「Common types」· 本站 /docs/sdk/python/api/types/common",
+        "prevHash": "29befb7452ca",
+        "nextHash": "397cecb926e2",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/questions",
+        "title": "Questions",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/questions",
+        "handbookHref": "/docs/sdk/python/api/types/questions",
+        "location": "侧栏「SDK」→「Questions」· 本站 /docs/sdk/python/api/types/questions",
+        "prevHash": "ed8800eb7f13",
+        "nextHash": "b003bb00a4a1",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/responses",
+        "title": "Answers and responses",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/responses",
+        "handbookHref": "/docs/sdk/python/api/types/responses",
+        "location": "侧栏「SDK」→「Answers and responses」· 本站 /docs/sdk/python/api/types/responses",
+        "prevHash": "08b198a7d70e",
+        "nextHash": "db555b83d24b",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "agent-skill",
+        "title": "Agent skill",
+        "officialUrl": "https://docs.typesafe.ai/agent-skill",
+        "handbookHref": "/docs/agent-skill",
+        "location": "侧栏「参考」→「Agent skill」· 本站 /docs/agent-skill",
+        "prevHash": "20eb1a849059",
+        "nextHash": "7027a0aa1ee5",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/assets",
+        "title": "Assets",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/assets",
+        "handbookHref": "/docs/sdk/python/api/types/assets",
+        "location": "侧栏「SDK」→「Assets」· 本站 /docs/sdk/python/api/types/assets",
+        "prevHash": "47af1b9213a6",
+        "nextHash": "1b86174a3d6f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610211617",
     "capturedAt": "2026-10-21T16:17:51.184Z",
     "summary": "2 处官网变动（新增 0 / 改动 0 / 删除 2）",
