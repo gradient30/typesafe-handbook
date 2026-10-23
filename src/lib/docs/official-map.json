@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 6768,
-      "hash": "4ce5643abae7",
+      "size": 7344,
+      "hash": "a683e3db391d",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -44,8 +44,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction.md",
-      "size": 4718,
-      "hash": "30e2506faa5c",
+      "size": 4958,
+      "hash": "bef47e726abf",
       "translatedAtHash": "8fa5dd1b6e7d"
     },
     {
@@ -53,8 +53,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/introduction/coding-agents",
-      "size": 3979,
-      "hash": "5792981eb6fd",
+      "size": 4411,
+      "hash": "fa152e077faf",
       "translatedAtHash": "591c36ffd02b"
     },
     {
@@ -62,8 +62,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/machine-learning-primer.md",
-      "size": 4869,
-      "hash": "2301e72f824b",
+      "size": 4893,
+      "hash": "76befed8d1f8",
       "translatedAtHash": "45e6a22bc175"
     },
     {
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 14098,
-      "hash": "aa49f2401941",
+      "size": 14458,
+      "hash": "64774d7c7b11",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -80,8 +80,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/how-to-build-with-system-one.md",
-      "size": 19367,
-      "hash": "c989afb3016c",
+      "size": 19727,
+      "hash": "5f415266e969",
       "translatedAtHash": "d9f4d34c1349"
     },
     {
@@ -89,8 +89,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/state.md",
-      "size": 3629,
-      "hash": "9c28bbde4b72",
+      "size": 3821,
+      "hash": "1a4a8acf96bf",
       "translatedAtHash": "0c78c1a347bd"
     },
     {
@@ -98,8 +98,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/system-one.md",
-      "size": 3957,
-      "hash": "863717e7be24",
+      "size": 4269,
+      "hash": "55dda6c80c2d",
       "translatedAtHash": "bd5ecf9c18ad"
     },
     {
@@ -116,8 +116,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "confidence.md",
-      "size": 11352,
-      "hash": "7f6a26b9d361",
+      "size": 11448,
+      "hash": "4c72bbd74c7e",
       "translatedAtHash": "5c325ec0c0b6"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 14997,
-      "hash": "c3f1cc2b1405",
+      "size": 15597,
+      "hash": "c6e7de429b67",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -134,8 +134,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/advanced.md",
-      "size": 4424,
-      "hash": "3c43b3afabc7",
+      "size": 4496,
+      "hash": "be24dd3907bb",
       "translatedAtHash": "7fc102da5106"
     },
     {
@@ -143,8 +143,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/choice.md",
-      "size": 15279,
-      "hash": "4fa536c30d21",
+      "size": 15639,
+      "hash": "0ff127cbdb24",
       "translatedAtHash": "4c55085131f8"
     },
     {
@@ -152,8 +152,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/noul.md",
-      "size": 16149,
-      "hash": "b2c42f857186",
+      "size": 16677,
+      "hash": "5f2b8356c4b8",
       "translatedAtHash": "8b04eed7b25e"
     },
     {
@@ -161,8 +161,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/score.md",
-      "size": 20248,
-      "hash": "62733b02673d",
+      "size": 20656,
+      "hash": "2c225d901599",
       "translatedAtHash": "ee6afe3494b8"
     },
     {
@@ -170,8 +170,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns.md",
-      "size": 1603,
-      "hash": "39bca95a50b2",
+      "size": 1747,
+      "hash": "cd7ca04398b8",
       "translatedAtHash": "570ac5ae2a45"
     },
     {
@@ -188,8 +188,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/confidence-routing.md",
-      "size": 3410,
-      "hash": "e5b4ffa4537f",
+      "size": 3458,
+      "hash": "3da502d95c1a",
       "translatedAtHash": "7a4de8d39a24"
     },
     {
@@ -206,8 +206,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/intent-routing.md",
-      "size": 4292,
-      "hash": "e966ca7e3758",
+      "size": 4316,
+      "hash": "50db5989ad01",
       "translatedAtHash": "84b670d502b3"
     },
     {
@@ -215,8 +215,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos.md",
-      "size": 702,
-      "hash": "70235e2c8c35",
+      "size": 726,
+      "hash": "695cb61a2464",
       "translatedAtHash": "df111cec8c26"
     },
     {
@@ -224,8 +224,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos/smart-home.md",
-      "size": 3778,
-      "hash": "1adab498373c",
+      "size": 3802,
+      "hash": "a5266590787d",
       "translatedAtHash": "155c0af9a4ae"
     },
     {
@@ -233,8 +233,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk.md",
-      "size": 904,
-      "hash": "aa185ea7bd17",
+      "size": 976,
+      "hash": "b97cd2416fd7",
       "translatedAtHash": "bbd9d2eaad4c"
     },
     {
@@ -251,8 +251,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/javascript/api.md",
-      "size": 4221,
-      "hash": "1a9c9c5df628",
+      "size": 5685,
+      "hash": "fab1929f7a52",
       "translatedAtHash": "e8abd954c9eb"
     },
     {
@@ -269,8 +269,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python.md",
-      "size": 3759,
-      "hash": "0cc13581f62c",
+      "size": 4023,
+      "hash": "d387f05ff937",
       "translatedAtHash": "6b8fa1084362"
     },
     {
@@ -278,8 +278,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api.md",
-      "size": 734,
-      "hash": "b11ed6c6d037",
+      "size": 926,
+      "hash": "2aec412055b9",
       "translatedAtHash": "fd58d0024e62"
     },
     {
@@ -287,8 +287,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/async.md",
-      "size": 17683,
-      "hash": "6bc647661a45",
+      "size": 18307,
+      "hash": "7a43cb72b67f",
       "translatedAtHash": "f45f04e87431"
     },
     {
@@ -296,8 +296,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/sync.md",
-      "size": 17090,
-      "hash": "994cdb06b67b",
+      "size": 17714,
+      "hash": "4e6de649d923",
       "translatedAtHash": "55a144c0161e"
     },
     {
@@ -332,8 +332,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/common.md",
-      "size": 2379,
-      "hash": "0814acb23c4f",
+      "size": 2475,
+      "hash": "55e6fba34e01",
       "translatedAtHash": "bda3f01322aa"
     },
     {
@@ -341,8 +341,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/questions.md",
-      "size": 25507,
-      "hash": "75c3e196d9b2",
+      "size": 26179,
+      "hash": "b3bf70c2fbb7",
       "translatedAtHash": "cbad949affff"
     },
     {
@@ -350,8 +350,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/responses.md",
-      "size": 34534,
-      "hash": "46c6c98c56bd",
+      "size": 34822,
+      "hash": "24a8588aafd3",
       "translatedAtHash": "7b0167d010dc"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5779,
-      "hash": "002a2d47ad93",
+      "size": 5875,
+      "hash": "ef6bc1f9cb27",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
@@ -404,8 +404,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "model-jaggedness/jev-1.13.md",
-      "size": 9409,
-      "hash": "432a59c984e2",
+      "size": 9601,
+      "hash": "f4bef6bdad41",
       "translatedAtHash": "5d471be7c8d2"
     },
     {
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 7736,
-      "hash": "097a427491eb",
+      "size": 8144,
+      "hash": "cedda2a0708e",
       "translatedAtHash": "b643bc957614"
     },
     {
@@ -422,8 +422,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoformat.md",
-      "size": 40929,
-      "hash": "e9bd454a13d4",
+      "size": 40953,
+      "hash": "ecb5e8734128",
       "translatedAtHash": "c23355f56ea5"
     },
     {
@@ -548,8 +548,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/rerank_typesafe.md",
-      "size": 25750,
-      "hash": "a91e5b5e7e0a",
+      "size": 25894,
+      "hash": "663abfeab390",
       "translatedAtHash": "5397e56dcdcf"
     },
     {
@@ -575,8 +575,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/skill_suggestion.md",
-      "size": 39222,
-      "hash": "64fb3a054143",
+      "size": 39342,
+      "hash": "20cfa3dd1fa8",
       "translatedAtHash": "fb53dc000c8b"
     },
     {
@@ -593,8 +593,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/basic_memory.md",
-      "size": 28791,
-      "hash": "913b7dd8ceb9",
+      "size": 28911,
+      "hash": "39ba57d1b6ac",
       "translatedAtHash": "8e894e5b93ac"
     },
     {
@@ -602,8 +602,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "primitives/box.md",
-      "size": 8133,
-      "hash": "218545c5e4d6",
+      "size": 8229,
+      "hash": "424b860634a5",
       "translatedAtHash": "d75c3d1d52e9"
     },
     {
@@ -611,8 +611,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "images.md",
-      "size": 20655,
-      "hash": "c95a4c596fd7",
+      "size": 20991,
+      "hash": "b6836110409e",
       "translatedAtHash": "dff7a319d723"
     },
     {
@@ -620,8 +620,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/usage/basic.md",
-      "size": 17265,
-      "hash": "9dae23bd5cfa",
+      "size": 17409,
+      "hash": "1cefaa5afc26",
       "translatedAtHash": "25a9e959ef68"
     },
     {
@@ -629,8 +629,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/usage/advanced.md",
-      "size": 7801,
-      "hash": "601a3d48b421",
+      "size": 7849,
+      "hash": "2034ee6fe017",
       "translatedAtHash": "30d88a3443a7"
     },
     {
@@ -638,8 +638,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/api/types/assets.md",
-      "size": 5571,
-      "hash": "f6acb853d481",
+      "size": 5595,
+      "hash": "0c8e02645d37",
       "translatedAtHash": "b4e4e7c56607"
     },
     {
@@ -665,8 +665,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "api/errors.md",
-      "size": 2698,
-      "hash": "e3ee2d4b80b1",
+      "size": 2722,
+      "hash": "e0465b1d78a0",
       "translatedAtHash": "0aee0bfc3052"
     }
   ]
