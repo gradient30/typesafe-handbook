@@ -1,5 +1,57 @@
 [
   {
+    "id": "202610230231",
+    "capturedAt": "2026-10-23T02:31:09.726Z",
+    "summary": "4 处官网变动（新增 0 / 改动 2 / 删除 2）",
+    "llmsHash": "e817e4789909",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/entity_alignment",
+        "title": "Knowledge graph entity alignment",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/entity_alignment",
+        "handbookHref": "/docs/cookbooks/entity_alignment",
+        "location": "侧栏「食谱」→「Knowledge graph entity alignment」· 本站 /docs/cookbooks/entity_alignment",
+        "prevHash": "98c8a50a13ab",
+        "nextHash": "0c8eda7b9f90",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/llm_guardrails",
+        "title": "Guardrails for LLMs",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/llm_guardrails",
+        "handbookHref": "/docs/cookbooks/llm_guardrails",
+        "location": "侧栏「食谱」→「Guardrails for LLMs」· 本站 /docs/cookbooks/llm_guardrails",
+        "prevHash": "7482a1f9358c",
+        "nextHash": "8831a11d09c1",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610222058",
     "capturedAt": "2026-10-22T20:58:22.417Z",
     "summary": "45 处官网变动（新增 0 / 改动 43 / 删除 2）",

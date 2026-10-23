@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-22",
+  "capturedAt": "2026-10-23",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "e817e4789909",
   "docs": [
@@ -494,8 +494,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/entity_alignment.md",
-      "size": 16707,
-      "hash": "98c8a50a13ab",
+      "size": 16650,
+      "hash": "0c8eda7b9f90",
       "translatedAtHash": "efa473b53ff4"
     },
     {
@@ -521,8 +521,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/llm_guardrails.md",
-      "size": 22776,
-      "hash": "7482a1f9358c",
+      "size": 22764,
+      "hash": "8831a11d09c1",
       "translatedAtHash": "fb5935988e2c"
     },
     {
