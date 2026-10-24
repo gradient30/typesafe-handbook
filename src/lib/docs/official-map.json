@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-23",
+  "capturedAt": "2026-10-24",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "e817e4789909",
   "docs": [
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 8144,
-      "hash": "cedda2a0708e",
+      "size": 8275,
+      "hash": "bed299c24098",
       "translatedAtHash": "b643bc957614"
     },
     {
@@ -602,8 +602,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "primitives/box.md",
-      "size": 8229,
-      "hash": "424b860634a5",
+      "size": 8148,
+      "hash": "dbefafbf95d8",
       "translatedAtHash": "d75c3d1d52e9"
     },
     {

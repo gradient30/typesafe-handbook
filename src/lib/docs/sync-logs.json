@@ -1,5 +1,57 @@
 [
   {
+    "id": "202610240229",
+    "capturedAt": "2026-10-24T02:29:36.578Z",
+    "summary": "4 处官网变动（新增 0 / 改动 2 / 删除 2）",
+    "llmsHash": "e817e4789909",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "cedda2a0708e",
+        "nextHash": "bed299c24098",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/box",
+        "title": "Box",
+        "officialUrl": "https://docs.typesafe.ai/primitives/box",
+        "handbookHref": "/docs/primitives/box",
+        "location": "侧栏「原语」→「Box」· 本站 /docs/primitives/box",
+        "prevHash": "424b860634a5",
+        "nextHash": "dbefafbf95d8",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610232047",
     "capturedAt": "2026-10-23T20:47:51.727Z",
     "summary": "43 处官网变动（新增 0 / 改动 41 / 删除 2）",
