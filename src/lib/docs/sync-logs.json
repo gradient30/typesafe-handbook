@@ -1,5 +1,46 @@
 [
   {
+    "id": "202610262207",
+    "capturedAt": "2026-10-26T22:07:26.628Z",
+    "summary": "3 处官网变动（新增 0 / 改动 0 / 删除 3）",
+    "llmsHash": "e817e4789909",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "patterns/confidence-routing",
+        "title": "patterns/confidence-routing",
+        "officialUrl": "https://docs.typesafe.ai/patterns/confidence-routing",
+        "handbookHref": "/docs/patterns/confidence-routing",
+        "location": "侧栏「模式」→「patterns/confidence-routing」· 本站 /docs/patterns/confidence-routing",
+        "prevHash": "3da502d95c1a",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610261753",
     "capturedAt": "2026-10-26T17:53:37.571Z",
     "summary": "2 处官网变动（新增 0 / 改动 0 / 删除 2）",
