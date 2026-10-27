@@ -1,5 +1,189 @@
 [
   {
+    "id": "202610272136",
+    "capturedAt": "2026-10-27T21:36:09.267Z",
+    "summary": "16 处官网变动（新增 0 / 改动 14 / 删除 2）",
+    "llmsHash": "1d941a91eef5",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "introduction",
+        "title": "Introduction",
+        "officialUrl": "https://docs.typesafe.ai/introduction",
+        "handbookHref": "/",
+        "location": "侧栏「入门」→「Introduction」· 本站 /",
+        "prevHash": "bef47e726abf",
+        "nextHash": "990033bd2f27",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "introduction/quickstart",
+        "title": "Quick start",
+        "officialUrl": "https://docs.typesafe.ai/introduction/quickstart",
+        "handbookHref": "/docs/introduction/quickstart",
+        "location": "侧栏「入门」→「Quick start」· 本站 /docs/introduction/quickstart",
+        "prevHash": "64774d7c7b11",
+        "nextHash": "0dcfa30493b0",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "concepts/how-to-build-with-system-one",
+        "title": "How to build with TypeSafe",
+        "officialUrl": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one",
+        "handbookHref": "/docs/concepts/how-to-build-with-system-one",
+        "location": "侧栏「TypeSafe 基础」→「How to build with TypeSafe」· 本站 /docs/concepts/how-to-build-with-system-one",
+        "prevHash": "5f415266e969",
+        "nextHash": "c359f1be0747",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "concepts/use-case-map",
+        "title": "Example use cases",
+        "officialUrl": "https://docs.typesafe.ai/concepts/use-case-map",
+        "handbookHref": "/docs/concepts/use-case-map",
+        "location": "侧栏「TypeSafe 基础」→「Example use cases」· 本站 /docs/concepts/use-case-map",
+        "prevHash": "e4b19e93edcb",
+        "nextHash": "811e4bb3e587",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives",
+        "title": "Primitives (Questions)",
+        "officialUrl": "https://docs.typesafe.ai/primitives",
+        "handbookHref": "/docs/primitives",
+        "location": "侧栏「原语」→「Primitives (Questions)」· 本站 /docs/primitives",
+        "prevHash": "c6e7de429b67",
+        "nextHash": "aa57ef910c39",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/advanced",
+        "title": "Advanced: structure",
+        "officialUrl": "https://docs.typesafe.ai/primitives/advanced",
+        "handbookHref": "/docs/primitives/advanced",
+        "location": "侧栏「原语」→「Advanced: structure」· 本站 /docs/primitives/advanced",
+        "prevHash": "be24dd3907bb",
+        "nextHash": "44487b9e31d6",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/choice",
+        "title": "Choice",
+        "officialUrl": "https://docs.typesafe.ai/primitives/choice",
+        "handbookHref": "/docs/primitives/choice",
+        "location": "侧栏「原语」→「Choice」· 本站 /docs/primitives/choice",
+        "prevHash": "0ff127cbdb24",
+        "nextHash": "6a5028407d27",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/noul",
+        "title": "Noul",
+        "officialUrl": "https://docs.typesafe.ai/primitives/noul",
+        "handbookHref": "/docs/primitives/noul",
+        "location": "侧栏「原语」→「Noul」· 本站 /docs/primitives/noul",
+        "prevHash": "5f2b8356c4b8",
+        "nextHash": "d9e61d8eb02e",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/score",
+        "title": "Score",
+        "officialUrl": "https://docs.typesafe.ai/primitives/score",
+        "handbookHref": "/docs/primitives/score",
+        "location": "侧栏「原语」→「Score」· 本站 /docs/primitives/score",
+        "prevHash": "2c225d901599",
+        "nextHash": "8b587ce8e9d9",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "patterns",
+        "title": "Patterns",
+        "officialUrl": "https://docs.typesafe.ai/patterns",
+        "handbookHref": "/docs/patterns",
+        "location": "侧栏「模式」→「Patterns」· 本站 /docs/patterns",
+        "prevHash": "cd7ca04398b8",
+        "nextHash": "d159c5f48647",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "patterns/fan-out",
+        "title": "Speculative fan-out",
+        "officialUrl": "https://docs.typesafe.ai/patterns/fan-out",
+        "handbookHref": "/docs/patterns/fan-out",
+        "location": "侧栏「模式」→「Speculative fan-out」· 本站 /docs/patterns/fan-out",
+        "prevHash": "7374e45cd147",
+        "nextHash": "a33fc9ce0fd5",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "agent-skill",
+        "title": "Agent skill",
+        "officialUrl": "https://docs.typesafe.ai/agent-skill",
+        "handbookHref": "/docs/agent-skill",
+        "location": "侧栏「参考」→「Agent skill」· 本站 /docs/agent-skill",
+        "prevHash": "ef6bc1f9cb27",
+        "nextHash": "d1188c10d658",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "legal",
+        "title": "Legal",
+        "officialUrl": "https://docs.typesafe.ai/legal",
+        "handbookHref": "/docs/legal",
+        "location": "侧栏「参考」→「Legal」· 本站 /docs/legal",
+        "prevHash": "cc96ee6f2d53",
+        "nextHash": "63060fe526d6",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "bed299c24098",
+        "nextHash": "1c56aeadeec0",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610271701",
     "capturedAt": "2026-10-27T17:01:14.758Z",
     "summary": "2 处官网变动（新增 0 / 改动 0 / 删除 2）",

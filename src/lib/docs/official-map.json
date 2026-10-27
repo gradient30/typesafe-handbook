@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-10-27",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "fc5bfe047a82",
+  "llmsHash": "1d941a91eef5",
   "docs": [
     {
       "slug": "architecture",
@@ -44,8 +44,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction.md",
-      "size": 4958,
-      "hash": "bef47e726abf",
+      "size": 4957,
+      "hash": "990033bd2f27",
       "translatedAtHash": "8fa5dd1b6e7d"
     },
     {
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 14458,
-      "hash": "64774d7c7b11",
+      "size": 14597,
+      "hash": "0dcfa30493b0",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -80,8 +80,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/how-to-build-with-system-one.md",
-      "size": 19727,
-      "hash": "5f415266e969",
+      "size": 19743,
+      "hash": "c359f1be0747",
       "translatedAtHash": "d9f4d34c1349"
     },
     {
@@ -107,8 +107,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/use-case-map.md",
-      "size": 9869,
-      "hash": "e4b19e93edcb",
+      "size": 9865,
+      "hash": "811e4bb3e587",
       "translatedAtHash": "8fcbbe46f7b5"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 15597,
-      "hash": "c6e7de429b67",
+      "size": 15603,
+      "hash": "aa57ef910c39",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -134,8 +134,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/advanced.md",
-      "size": 4496,
-      "hash": "be24dd3907bb",
+      "size": 4517,
+      "hash": "44487b9e31d6",
       "translatedAtHash": "7fc102da5106"
     },
     {
@@ -143,8 +143,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/choice.md",
-      "size": 15639,
-      "hash": "0ff127cbdb24",
+      "size": 15642,
+      "hash": "6a5028407d27",
       "translatedAtHash": "4c55085131f8"
     },
     {
@@ -152,8 +152,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/noul.md",
-      "size": 16677,
-      "hash": "5f2b8356c4b8",
+      "size": 16686,
+      "hash": "d9e61d8eb02e",
       "translatedAtHash": "8b04eed7b25e"
     },
     {
@@ -161,8 +161,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/score.md",
-      "size": 20656,
-      "hash": "2c225d901599",
+      "size": 20653,
+      "hash": "8b587ce8e9d9",
       "translatedAtHash": "ee6afe3494b8"
     },
     {
@@ -170,8 +170,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns.md",
-      "size": 1747,
-      "hash": "cd7ca04398b8",
+      "size": 1750,
+      "hash": "d159c5f48647",
       "translatedAtHash": "570ac5ae2a45"
     },
     {
@@ -197,8 +197,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/fan-out.md",
-      "size": 4109,
-      "hash": "7374e45cd147",
+      "size": 4112,
+      "hash": "a33fc9ce0fd5",
       "translatedAtHash": "8d7a251ea6b7"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5875,
-      "hash": "ef6bc1f9cb27",
+      "size": 5987,
+      "hash": "d1188c10d658",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
@@ -395,8 +395,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "legal.md",
-      "size": 1168,
-      "hash": "cc96ee6f2d53",
+      "size": 1202,
+      "hash": "63060fe526d6",
       "translatedAtHash": "2d4a97a13e7b"
     },
     {
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 8275,
-      "hash": "bed299c24098",
+      "size": 8353,
+      "hash": "1c56aeadeec0",
       "translatedAtHash": "b643bc957614"
     },
     {
