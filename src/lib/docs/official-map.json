@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-26",
+  "capturedAt": "2026-10-27",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "e817e4789909",
+  "llmsHash": "fc5bfe047a82",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 7344,
-      "hash": "a683e3db391d",
+      "size": 7610,
+      "hash": "818c4d690f07",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -647,8 +647,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "api/system-one.md",
-      "size": 28858,
-      "hash": "5e6261f6f621",
+      "size": 29761,
+      "hash": "a5c68bb00afd",
       "translatedAtHash": "5e6261f6f621"
     },
     {
@@ -656,8 +656,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "api/list-models.md",
-      "size": 5123,
-      "hash": "58ecfc2de394",
+      "size": 6026,
+      "hash": "652d1d39ee6c",
       "translatedAtHash": "58ecfc2de394"
     },
     {
@@ -668,6 +668,15 @@
       "size": 2722,
       "hash": "e0465b1d78a0",
       "translatedAtHash": "0aee0bfc3052"
+    },
+    {
+      "slug": "cookbooks/intelliprompter",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "cookbooks/intelliprompter.md",
+      "size": 14694,
+      "hash": "07f7ea9f86e3",
+      "translatedAtHash": null
     }
   ]
 }
