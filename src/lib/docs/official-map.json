@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-27",
+  "capturedAt": "2026-10-28",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "1d941a91eef5",
   "docs": [
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 14597,
-      "hash": "0dcfa30493b0",
+      "size": 14480,
+      "hash": "3b09e6289f15",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5987,
-      "hash": "d1188c10d658",
+      "size": 5870,
+      "hash": "61840dc76f79",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
