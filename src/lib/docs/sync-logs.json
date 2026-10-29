@@ -1,5 +1,167 @@
 [
   {
+    "id": "202610290327",
+    "capturedAt": "2026-10-29T03:27:40.475Z",
+    "summary": "14 处官网变动（新增 3 / 改动 9 / 删除 2）",
+    "llmsHash": "e1c29b2c68b6",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "cookbooks",
+        "title": "Cookbooks",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks",
+        "handbookHref": "/docs/cookbooks",
+        "location": "侧栏「食谱」→「Cookbooks」· 本站 /docs/cookbooks",
+        "prevHash": "818c4d690f07",
+        "nextHash": "34d43d7d3b66",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/autoformat",
+        "title": "Structure recovery",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/autoformat",
+        "handbookHref": "/docs/cookbooks/autoformat",
+        "location": "侧栏「食谱」→「Structure recovery」· 本站 /docs/cookbooks/autoformat",
+        "prevHash": "ecb5e8734128",
+        "nextHash": "1b5c347f3bd6",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/autoresearch_feature_discovery",
+        "title": "Autoresearch feature discovery",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/autoresearch_feature_discovery",
+        "handbookHref": "/docs/cookbooks/autoresearch_feature_discovery",
+        "location": "侧栏「食谱」→「Autoresearch feature discovery」· 本站 /docs/cookbooks/autoresearch_feature_discovery",
+        "prevHash": "3b0d2849f46b",
+        "nextHash": "ae4c5a8a97f0",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/classification_using_confidence",
+        "title": "Classification using confidence",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/classification_using_confidence",
+        "handbookHref": "/docs/cookbooks/classification_using_confidence",
+        "location": "侧栏「食谱」→「Classification using confidence」· 本站 /docs/cookbooks/classification_using_confidence",
+        "prevHash": "82c46b83463a",
+        "nextHash": "ec6c8966e666",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/date_extraction_cookbook",
+        "title": "Date extraction",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/date_extraction_cookbook",
+        "handbookHref": "/docs/cookbooks/date_extraction_cookbook",
+        "location": "侧栏「食谱」→「Date extraction」· 本站 /docs/cookbooks/date_extraction_cookbook",
+        "prevHash": "7be9d428531d",
+        "nextHash": "f8d3cea8006f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/parallel_questions",
+        "title": "Parallel questions",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/parallel_questions",
+        "handbookHref": "/docs/cookbooks/parallel_questions",
+        "location": "侧栏「食谱」→「Parallel questions」· 本站 /docs/cookbooks/parallel_questions",
+        "prevHash": "99430b2845ba",
+        "nextHash": "6d45efd023c5",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/rerank_typesafe",
+        "title": "Re-ranking",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/rerank_typesafe",
+        "handbookHref": "/docs/cookbooks/rerank_typesafe",
+        "location": "侧栏「食谱」→「Re-ranking」· 本站 /docs/cookbooks/rerank_typesafe",
+        "prevHash": "663abfeab390",
+        "nextHash": "7780285e664b",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/semantic_find",
+        "title": "Line-by-line search",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/semantic_find",
+        "handbookHref": "/docs/cookbooks/semantic_find",
+        "location": "侧栏「食谱」→「Line-by-line search」· 本站 /docs/cookbooks/semantic_find",
+        "prevHash": "db5484c31340",
+        "nextHash": "b1625c3a5930",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/twitch_chat_filter",
+        "title": "Twitch chat filter",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/twitch_chat_filter",
+        "handbookHref": "/docs/cookbooks/twitch_chat_filter",
+        "location": "侧栏「食谱」→「Twitch chat filter」· 本站 /docs/cookbooks/twitch_chat_filter",
+        "prevHash": "dee24bd42eee",
+        "nextHash": "ea9691f2c0e8",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "added",
+        "slug": "cookbooks/reading_scanned_documents",
+        "title": "Reading a scanned vaccination record",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/reading_scanned_documents",
+        "handbookHref": "/docs/cookbooks/reading_scanned_documents",
+        "location": "侧栏「食谱」→「Reading a scanned vaccination record」· 本站 /docs/cookbooks/reading_scanned_documents",
+        "prevHash": null,
+        "nextHash": "a6bbe2955719",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "cookbooks/ocr_confidence_bounding_boxes",
+        "title": "OCR confidence and bounding boxes",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/ocr_confidence_bounding_boxes",
+        "handbookHref": "/docs/cookbooks/ocr_confidence_bounding_boxes",
+        "location": "侧栏「食谱」→「OCR confidence and bounding boxes」· 本站 /docs/cookbooks/ocr_confidence_bounding_boxes",
+        "prevHash": null,
+        "nextHash": "59ba64769bee",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "cookbooks/feeder_watch",
+        "title": "Feeder-cam visit log",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/feeder_watch",
+        "handbookHref": "/docs/cookbooks/feeder_watch",
+        "location": "侧栏「食谱」→「Feeder-cam visit log」· 本站 /docs/cookbooks/feeder_watch",
+        "prevHash": null,
+        "nextHash": "23aeeaf85750",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      }
+    ]
+  },
+  {
     "id": "202610282200",
     "capturedAt": "2026-10-28T22:00:19.413Z",
     "summary": "3 处官网变动（新增 0 / 改动 1 / 删除 2）",
