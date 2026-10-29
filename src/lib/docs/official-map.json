@@ -422,8 +422,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoformat.md",
-      "size": 41021,
-      "hash": "1b5c347f3bd6",
+      "size": 39219,
+      "hash": "7e922ee5158d",
       "translatedAtHash": "c23355f56ea5"
     },
     {
@@ -449,8 +449,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/classification_using_confidence.md",
-      "size": 30811,
-      "hash": "ec6c8966e666",
+      "size": 30256,
+      "hash": "c734d99aed77",
       "translatedAtHash": "20afd8e6c651"
     },
     {
@@ -485,8 +485,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/date_extraction_cookbook.md",
-      "size": 20044,
-      "hash": "f8d3cea8006f",
+      "size": 19389,
+      "hash": "80855ed9ce98",
       "translatedAtHash": "c216cb3d293a"
     },
     {
@@ -503,8 +503,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/function_calling.md",
-      "size": 18577,
-      "hash": "a3b296e445f9",
+      "size": 18919,
+      "hash": "d5f7e326c37b",
       "translatedAtHash": "d6301a7e0e6e"
     },
     {
@@ -530,8 +530,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/parallel_questions.md",
-      "size": 48776,
-      "hash": "6d45efd023c5",
+      "size": 48093,
+      "hash": "812cb3caf807",
       "translatedAtHash": "53dfe4516fd6"
     },
     {
@@ -548,8 +548,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/rerank_typesafe.md",
-      "size": 26140,
-      "hash": "7780285e664b",
+      "size": 22504,
+      "hash": "4617c051ed13",
       "translatedAtHash": "5397e56dcdcf"
     },
     {
@@ -566,8 +566,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/semantic_find.md",
-      "size": 37913,
-      "hash": "b1625c3a5930",
+      "size": 37067,
+      "hash": "960031d22992",
       "translatedAtHash": "7e30135ddc67"
     },
     {
