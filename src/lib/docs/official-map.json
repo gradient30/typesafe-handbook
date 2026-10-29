@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-10-29",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "e1c29b2c68b6",
+  "llmsHash": "acb32d4b1635",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 8655,
-      "hash": "34d43d7d3b66",
+      "size": 8648,
+      "hash": "76cf33bc98cc",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -539,8 +539,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/pre_parsed_value_extraction_cookbook.md",
-      "size": 12476,
-      "hash": "71e547a710e4",
+      "size": 13066,
+      "hash": "bab2948436a5",
       "translatedAtHash": "c9ebb87b822b"
     },
     {
@@ -593,8 +593,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/basic_memory.md",
-      "size": 28911,
-      "hash": "39ba57d1b6ac",
+      "size": 27292,
+      "hash": "8db01b5539ac",
       "translatedAtHash": "8e894e5b93ac"
     },
     {
