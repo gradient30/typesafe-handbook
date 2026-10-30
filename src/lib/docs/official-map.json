@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-10-30",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "9e4b70ab9a13",
+  "llmsHash": "a31827402dbb",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 8653,
-      "hash": "d06e1f72b2ca",
+      "size": 8927,
+      "hash": "64f4a7d98d16",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -62,8 +62,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/machine-learning-primer.md",
-      "size": 4893,
-      "hash": "76befed8d1f8",
+      "size": 4910,
+      "hash": "0e2e773ae3c8",
       "translatedAtHash": "45e6a22bc175"
     },
     {
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 14480,
-      "hash": "3b09e6289f15",
+      "size": 14948,
+      "hash": "9a51bdc66a1b",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -80,8 +80,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/how-to-build-with-system-one.md",
-      "size": 19743,
-      "hash": "c359f1be0747",
+      "size": 19854,
+      "hash": "7d8e326acf50",
       "translatedAtHash": "d9f4d34c1349"
     },
     {
@@ -107,8 +107,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/use-case-map.md",
-      "size": 9865,
-      "hash": "811e4bb3e587",
+      "size": 10032,
+      "hash": "b38160b5a659",
       "translatedAtHash": "8fcbbe46f7b5"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 15603,
-      "hash": "aa57ef910c39",
+      "size": 15612,
+      "hash": "8315980ad0e4",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -233,8 +233,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk.md",
-      "size": 976,
-      "hash": "b97cd2416fd7",
+      "size": 982,
+      "hash": "de04dc0886a6",
       "translatedAtHash": "bbd9d2eaad4c"
     },
     {
@@ -269,8 +269,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python.md",
-      "size": 4023,
-      "hash": "d387f05ff937",
+      "size": 4185,
+      "hash": "1fb138baff1d",
       "translatedAtHash": "6b8fa1084362"
     },
     {
@@ -287,8 +287,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/async.md",
-      "size": 18307,
-      "hash": "7a43cb72b67f",
+      "size": 18426,
+      "hash": "f64dfe403caf",
       "translatedAtHash": "f45f04e87431"
     },
     {
@@ -296,8 +296,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/clients/sync.md",
-      "size": 17714,
-      "hash": "4e6de649d923",
+      "size": 17833,
+      "hash": "54dcc4ac9e56",
       "translatedAtHash": "55a144c0161e"
     },
     {
@@ -341,8 +341,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/questions.md",
-      "size": 26179,
-      "hash": "b3bf70c2fbb7",
+      "size": 26284,
+      "hash": "bfda82fabca4",
       "translatedAtHash": "cbad949affff"
     },
     {
@@ -350,8 +350,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/responses.md",
-      "size": 34822,
-      "hash": "24a8588aafd3",
+      "size": 34894,
+      "hash": "95cc38e26e4b",
       "translatedAtHash": "7b0167d010dc"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5870,
-      "hash": "61840dc76f79",
+      "size": 5914,
+      "hash": "fc33df2cc502",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
@@ -611,8 +611,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "images.md",
-      "size": 20991,
-      "hash": "b6836110409e",
+      "size": 21136,
+      "hash": "cacc916cf2f5",
       "translatedAtHash": "dff7a319d723"
     },
     {
@@ -620,8 +620,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/usage/basic.md",
-      "size": 17409,
-      "hash": "1cefaa5afc26",
+      "size": 18625,
+      "hash": "940ad66c7f70",
       "translatedAtHash": "25a9e959ef68"
     },
     {
@@ -629,8 +629,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/usage/advanced.md",
-      "size": 7849,
-      "hash": "2034ee6fe017",
+      "size": 8115,
+      "hash": "cc596a1526b7",
       "translatedAtHash": "30d88a3443a7"
     },
     {
@@ -701,8 +701,17 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/feeder_watch.md",
-      "size": 35170,
-      "hash": "23aeeaf85750",
+      "size": 35202,
+      "hash": "dd631b47457f",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "cookbooks/cart_from_primitives",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "cookbooks/cart_from_primitives.md",
+      "size": 15539,
+      "hash": "ddb13892d32b",
       "translatedAtHash": null
     }
   ]
