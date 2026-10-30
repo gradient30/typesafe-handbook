@@ -1,5 +1,68 @@
 [
   {
+    "id": "202610300329",
+    "capturedAt": "2026-10-30T03:29:40.394Z",
+    "summary": "5 处官网变动（新增 0 / 改动 3 / 删除 2）",
+    "llmsHash": "9e4b70ab9a13",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "cookbooks",
+        "title": "Cookbooks",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks",
+        "handbookHref": "/docs/cookbooks",
+        "location": "侧栏「食谱」→「Cookbooks」· 本站 /docs/cookbooks",
+        "prevHash": "76cf33bc98cc",
+        "nextHash": "d06e1f72b2ca",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/semantic_find",
+        "title": "Line-by-line search",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/semantic_find",
+        "handbookHref": "/docs/cookbooks/semantic_find",
+        "location": "侧栏「食谱」→「Line-by-line search」· 本站 /docs/cookbooks/semantic_find",
+        "prevHash": "960031d22992",
+        "nextHash": "a3432b7d6c15",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/twitch_chat_filter",
+        "title": "Twitch chat filter",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/twitch_chat_filter",
+        "handbookHref": "/docs/cookbooks/twitch_chat_filter",
+        "location": "侧栏「食谱」→「Twitch chat filter」· 本站 /docs/cookbooks/twitch_chat_filter",
+        "prevHash": "ea9691f2c0e8",
+        "nextHash": "0ae7621f4d3a",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610292222",
     "capturedAt": "2026-10-29T22:22:02.973Z",
     "summary": "5 处官网变动（新增 0 / 改动 3 / 删除 2）",
