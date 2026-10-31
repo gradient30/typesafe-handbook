@@ -1,5 +1,35 @@
 [
   {
+    "id": "202610311124",
+    "capturedAt": "2026-10-31T11:24:50.499Z",
+    "summary": "2 处官网变动（新增 0 / 改动 0 / 删除 2）",
+    "llmsHash": "f3da84717d0e",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610310314",
     "capturedAt": "2026-10-31T03:14:31.187Z",
     "summary": "4 处官网变动（新增 0 / 改动 2 / 删除 2）",
