@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-30",
+  "capturedAt": "2026-10-31",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "a31827402dbb",
+  "llmsHash": "f3da84717d0e",
   "docs": [
     {
       "slug": "architecture",
@@ -36,7 +36,7 @@
       "kind": "official",
       "officialPath": "/cookbooks",
       "size": 8927,
-      "hash": "64f4a7d98d16",
+      "hash": "3c758acd7d40",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -575,8 +575,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/skill_suggestion.md",
-      "size": 39342,
-      "hash": "20cfa3dd1fa8",
+      "size": 41156,
+      "hash": "0f6c4356c130",
       "translatedAtHash": "fb53dc000c8b"
     },
     {
