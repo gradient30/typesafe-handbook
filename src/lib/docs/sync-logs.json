@@ -1,5 +1,255 @@
 [
   {
+    "id": "202611010312",
+    "capturedAt": "2026-11-01T03:12:29.935Z",
+    "summary": "22 处官网变动（新增 0 / 改动 20 / 删除 2）",
+    "llmsHash": "d1d4589f2a4b",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "cookbooks",
+        "title": "Cookbooks",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks",
+        "handbookHref": "/docs/cookbooks",
+        "location": "侧栏「食谱」→「Cookbooks」· 本站 /docs/cookbooks",
+        "prevHash": "3c758acd7d40",
+        "nextHash": "202b3c51956d",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/autoformat",
+        "title": "Structure recovery",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/autoformat",
+        "handbookHref": "/docs/cookbooks/autoformat",
+        "location": "侧栏「食谱」→「Structure recovery」· 本站 /docs/cookbooks/autoformat",
+        "prevHash": "7e922ee5158d",
+        "nextHash": "15dc71443bed",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/autoresearch_feature_discovery",
+        "title": "Autoresearch feature discovery",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/autoresearch_feature_discovery",
+        "handbookHref": "/docs/cookbooks/autoresearch_feature_discovery",
+        "location": "侧栏「食谱」→「Autoresearch feature discovery」· 本站 /docs/cookbooks/autoresearch_feature_discovery",
+        "prevHash": "ae4c5a8a97f0",
+        "nextHash": "c2880def9596",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/citation_check",
+        "title": "Double-checking citations",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/citation_check",
+        "handbookHref": "/docs/cookbooks/citation_check",
+        "location": "侧栏「食谱」→「Double-checking citations」· 本站 /docs/cookbooks/citation_check",
+        "prevHash": "ad91d38e7efc",
+        "nextHash": "c51ab05d5a45",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/classification_using_confidence",
+        "title": "Classification using confidence",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/classification_using_confidence",
+        "handbookHref": "/docs/cookbooks/classification_using_confidence",
+        "location": "侧栏「食谱」→「Classification using confidence」· 本站 /docs/cookbooks/classification_using_confidence",
+        "prevHash": "c734d99aed77",
+        "nextHash": "5db8a4f2c46a",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/classifying_rag_passages",
+        "title": "Classifying RAG passages",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/classifying_rag_passages",
+        "handbookHref": "/docs/cookbooks/classifying_rag_passages",
+        "location": "侧栏「食谱」→「Classifying RAG passages」· 本站 /docs/cookbooks/classifying_rag_passages",
+        "prevHash": "933e4dff10b7",
+        "nextHash": "d268e5887d5d",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_choice_cookbook",
+        "title": "Self-consistency: choices",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_choice_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_choice_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: choices」· 本站 /docs/cookbooks/consistency_choice_cookbook",
+        "prevHash": "29c783687984",
+        "nextHash": "47eb6fd57ab7",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_noul_cookbook",
+        "title": "Self-consistency: nouls",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_noul_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: nouls」· 本站 /docs/cookbooks/consistency_noul_cookbook",
+        "prevHash": "321e29f0a67e",
+        "nextHash": "7e917d97cafa",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/date_extraction_cookbook",
+        "title": "Date extraction",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/date_extraction_cookbook",
+        "handbookHref": "/docs/cookbooks/date_extraction_cookbook",
+        "location": "侧栏「食谱」→「Date extraction」· 本站 /docs/cookbooks/date_extraction_cookbook",
+        "prevHash": "80855ed9ce98",
+        "nextHash": "58e91aeb180f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/entity_alignment",
+        "title": "Knowledge graph entity alignment",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/entity_alignment",
+        "handbookHref": "/docs/cookbooks/entity_alignment",
+        "location": "侧栏「食谱」→「Knowledge graph entity alignment」· 本站 /docs/cookbooks/entity_alignment",
+        "prevHash": "0c8eda7b9f90",
+        "nextHash": "1ce459bebf2b",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/function_calling",
+        "title": "Function calling",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/function_calling",
+        "handbookHref": "/docs/cookbooks/function_calling",
+        "location": "侧栏「食谱」→「Function calling」· 本站 /docs/cookbooks/function_calling",
+        "prevHash": "d5f7e326c37b",
+        "nextHash": "f3b51a00a8c5",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/llm_guardrails",
+        "title": "Guardrails for LLMs",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/llm_guardrails",
+        "handbookHref": "/docs/cookbooks/llm_guardrails",
+        "location": "侧栏「食谱」→「Guardrails for LLMs」· 本站 /docs/cookbooks/llm_guardrails",
+        "prevHash": "8831a11d09c1",
+        "nextHash": "c2f7e568ce44",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/parallel_questions",
+        "title": "Parallel questions",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/parallel_questions",
+        "handbookHref": "/docs/cookbooks/parallel_questions",
+        "location": "侧栏「食谱」→「Parallel questions」· 本站 /docs/cookbooks/parallel_questions",
+        "prevHash": "812cb3caf807",
+        "nextHash": "8943cb34d867",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/pre_parsed_value_extraction_cookbook",
+        "title": "Pre-parsed value extraction",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/pre_parsed_value_extraction_cookbook",
+        "handbookHref": "/docs/cookbooks/pre_parsed_value_extraction_cookbook",
+        "location": "侧栏「食谱」→「Pre-parsed value extraction」· 本站 /docs/cookbooks/pre_parsed_value_extraction_cookbook",
+        "prevHash": "bab2948436a5",
+        "nextHash": "fa63d09f635f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/sde_cascade",
+        "title": "SDE cascade",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/sde_cascade",
+        "handbookHref": "/docs/cookbooks/sde_cascade",
+        "location": "侧栏「食谱」→「SDE cascade」· 本站 /docs/cookbooks/sde_cascade",
+        "prevHash": "c69d71fae569",
+        "nextHash": "b46d86423e3d",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/skill_suggestion",
+        "title": "Skill suggestion",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/skill_suggestion",
+        "handbookHref": "/docs/cookbooks/skill_suggestion",
+        "location": "侧栏「食谱」→「Skill suggestion」· 本站 /docs/cookbooks/skill_suggestion",
+        "prevHash": "0f6c4356c130",
+        "nextHash": "e60e2397242f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/twitch_chat_filter",
+        "title": "Twitch chat filter",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/twitch_chat_filter",
+        "handbookHref": "/docs/cookbooks/twitch_chat_filter",
+        "location": "侧栏「食谱」→「Twitch chat filter」· 本站 /docs/cookbooks/twitch_chat_filter",
+        "prevHash": "0ae7621f4d3a",
+        "nextHash": "ba1764e9f96d",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/basic_memory",
+        "title": "Simple memory system",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/basic_memory",
+        "handbookHref": "/docs/cookbooks/basic_memory",
+        "location": "侧栏「食谱」→「Simple memory system」· 本站 /docs/cookbooks/basic_memory",
+        "prevHash": "8db01b5539ac",
+        "nextHash": "bbfe22506bee",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/intelliprompter",
+        "title": "Intelliprompter",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/intelliprompter",
+        "handbookHref": "/docs/cookbooks/intelliprompter",
+        "location": "侧栏「食谱」→「Intelliprompter」· 本站 /docs/cookbooks/intelliprompter",
+        "prevHash": "07f7ea9f86e3",
+        "nextHash": "c4a8833740ea",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/cart_from_primitives",
+        "title": "Shopping cart",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/cart_from_primitives",
+        "handbookHref": "/docs/cookbooks/cart_from_primitives",
+        "location": "侧栏「食谱」→「Shopping cart」· 本站 /docs/cookbooks/cart_from_primitives",
+        "prevHash": "ddb13892d32b",
+        "nextHash": "a1f2fe7d1368",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202610312047",
     "capturedAt": "2026-10-31T20:47:17.160Z",
     "summary": "2 处官网变动（新增 0 / 改动 0 / 删除 2）",
