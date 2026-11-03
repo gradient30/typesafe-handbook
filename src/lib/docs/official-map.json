@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-11-03",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "332e045484e3",
+  "llmsHash": "6f03634616b2",
   "docs": [
     {
       "slug": "architecture",
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 8353,
-      "hash": "1c56aeadeec0",
+      "size": 8341,
+      "hash": "825b0e0d9652",
       "translatedAtHash": "b643bc957614"
     },
     {
@@ -712,6 +712,24 @@
       "officialPath": "cookbooks/cart_from_primitives.md",
       "size": 15148,
       "hash": "9358dbd4a853",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "model-jaggedness",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "model-jaggedness.md",
+      "size": 9513,
+      "hash": "833624833c56",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "changelog",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "changelog.md",
+      "size": 1220,
+      "hash": "4d34d20732b4",
       "translatedAtHash": null
     }
   ]

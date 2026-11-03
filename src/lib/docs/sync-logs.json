@@ -1,5 +1,79 @@
 [
   {
+    "id": "202611031315",
+    "capturedAt": "2026-11-03T13:15:03.145Z",
+    "summary": "6 处官网变动（新增 2 / 改动 1 / 删除 3）",
+    "llmsHash": "6f03634616b2",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "model-jaggedness/jev-1.13",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「model-jaggedness/jev-1.13」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "8af0f8ff8aeb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "models",
+        "title": "Models",
+        "officialUrl": "https://docs.typesafe.ai/models",
+        "handbookHref": "/docs/models",
+        "location": "侧栏「参考」→「Models」· 本站 /docs/models",
+        "prevHash": "1c56aeadeec0",
+        "nextHash": "825b0e0d9652",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "added",
+        "slug": "model-jaggedness",
+        "title": "Model jaggedness",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness",
+        "handbookHref": "/docs/model-jaggedness",
+        "location": "侧栏「参考」→「Model jaggedness」· 本站 /docs/model-jaggedness",
+        "prevHash": null,
+        "nextHash": "833624833c56",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "changelog",
+        "title": "Model changelog",
+        "officialUrl": "https://docs.typesafe.ai/changelog",
+        "handbookHref": "/docs/changelog",
+        "location": "侧栏「参考」→「Model changelog」· 本站 /docs/changelog",
+        "prevHash": null,
+        "nextHash": "4d34d20732b4",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      }
+    ]
+  },
+  {
     "id": "202611030011",
     "capturedAt": "2026-11-03T00:11:56.061Z",
     "summary": "29 处官网变动（新增 0 / 改动 27 / 删除 2）",
