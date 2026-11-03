@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-11-03",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "6f03634616b2",
+  "llmsHash": "d31d6cd16a67",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 8961,
-      "hash": "8fbfbfa38b44",
+      "size": 9098,
+      "hash": "649694abb976",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -152,8 +152,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/noul.md",
-      "size": 16686,
-      "hash": "d9e61d8eb02e",
+      "size": 16698,
+      "hash": "8cadacdd0e70",
       "translatedAtHash": "8b04eed7b25e"
     },
     {
@@ -467,8 +467,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_choice_cookbook.md",
-      "size": 48369,
-      "hash": "ce470d6c8486",
+      "size": 45599,
+      "hash": "2f23539a4942",
       "translatedAtHash": "adbff767c226"
     },
     {
@@ -476,8 +476,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_noul_cookbook.md",
-      "size": 31028,
-      "hash": "8996ea4ab894",
+      "size": 38085,
+      "hash": "e08e7d680ca7",
       "translatedAtHash": "037ce3ab766d"
     },
     {
@@ -512,8 +512,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/hierarchical_classification.md",
-      "size": 35236,
-      "hash": "74558db32506",
+      "size": 33022,
+      "hash": "1eb00ceb99d0",
       "translatedAtHash": "2b1b095b8730"
     },
     {
