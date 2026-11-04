@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-11-04",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "d31d6cd16a67",
+  "llmsHash": "b3e4faebf44c",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 9098,
-      "hash": "649694abb976",
+      "size": 9073,
+      "hash": "bda2ca241e24",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -44,8 +44,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction.md",
-      "size": 4957,
-      "hash": "990033bd2f27",
+      "size": 4952,
+      "hash": "0afe5fdd93fe",
       "translatedAtHash": "8fa5dd1b6e7d"
     },
     {
@@ -53,8 +53,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/introduction/coding-agents",
-      "size": 4411,
-      "hash": "fa152e077faf",
+      "size": 4428,
+      "hash": "3b01cfdbf37f",
       "translatedAtHash": "591c36ffd02b"
     },
     {
@@ -62,8 +62,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/machine-learning-primer.md",
-      "size": 4910,
-      "hash": "0e2e773ae3c8",
+      "size": 4905,
+      "hash": "be68e3dc6edc",
       "translatedAtHash": "45e6a22bc175"
     },
     {
@@ -80,8 +80,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/how-to-build-with-system-one.md",
-      "size": 19854,
-      "hash": "7d8e326acf50",
+      "size": 19802,
+      "hash": "959269398d53",
       "translatedAtHash": "d9f4d34c1349"
     },
     {
@@ -107,8 +107,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/use-case-map.md",
-      "size": 10032,
-      "hash": "b38160b5a659",
+      "size": 10027,
+      "hash": "b811c5f96480",
       "translatedAtHash": "8fcbbe46f7b5"
     },
     {
@@ -116,8 +116,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "confidence.md",
-      "size": 11448,
-      "hash": "4c72bbd74c7e",
+      "size": 14159,
+      "hash": "3f15502effc8",
       "translatedAtHash": "5c325ec0c0b6"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 15612,
-      "hash": "8315980ad0e4",
+      "size": 16518,
+      "hash": "6827aeac1807",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -143,8 +143,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/choice.md",
-      "size": 15642,
-      "hash": "6a5028407d27",
+      "size": 15647,
+      "hash": "a3f3ded62c00",
       "translatedAtHash": "4c55085131f8"
     },
     {
@@ -152,8 +152,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/noul.md",
-      "size": 16698,
-      "hash": "8cadacdd0e70",
+      "size": 16697,
+      "hash": "c53213dda017",
       "translatedAtHash": "8b04eed7b25e"
     },
     {
@@ -161,8 +161,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/score.md",
-      "size": 20653,
-      "hash": "8b587ce8e9d9",
+      "size": 20657,
+      "hash": "93c593881a2c",
       "translatedAtHash": "ee6afe3494b8"
     },
     {
@@ -170,8 +170,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns.md",
-      "size": 1750,
-      "hash": "d159c5f48647",
+      "size": 3224,
+      "hash": "53b248a5d01f",
       "translatedAtHash": "570ac5ae2a45"
     },
     {
@@ -179,8 +179,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/composite-scoring.md",
-      "size": 3066,
-      "hash": "8ac4ec2e8112",
+      "size": 3379,
+      "hash": "cb79c491a039",
       "translatedAtHash": "538f42d614fb"
     },
     {
@@ -188,8 +188,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/confidence-routing.md",
-      "size": 3458,
-      "hash": "3da502d95c1a",
+      "size": 6041,
+      "hash": "306f9aa152ee",
       "translatedAtHash": "7a4de8d39a24"
     },
     {
@@ -197,8 +197,8 @@
       "section": "patterns",
       "kind": "official",
       "officialPath": "patterns/fan-out.md",
-      "size": 4112,
-      "hash": "a33fc9ce0fd5",
+      "size": 4389,
+      "hash": "9113aae0c8a1",
       "translatedAtHash": "8d7a251ea6b7"
     },
     {
@@ -224,8 +224,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos/smart-home.md",
-      "size": 3802,
-      "hash": "a5266590787d",
+      "size": 3770,
+      "hash": "05e139e00b5b",
       "translatedAtHash": "155c0af9a4ae"
     },
     {
@@ -377,8 +377,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "agent-skill.md",
-      "size": 5914,
-      "hash": "fc33df2cc502",
+      "size": 6195,
+      "hash": "5858202f260f",
       "translatedAtHash": "5ed8f74a1337"
     },
     {
@@ -431,8 +431,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoresearch_feature_discovery.md",
-      "size": 70821,
-      "hash": "ab24f463b8f5",
+      "size": 70781,
+      "hash": "342df74dff77",
       "translatedAtHash": "af2595f41e8c"
     },
     {
@@ -440,8 +440,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/citation_check.md",
-      "size": 15577,
-      "hash": "d0d4f512a418",
+      "size": 15581,
+      "hash": "952615ff6a20",
       "translatedAtHash": "2497e2c62a4c"
     },
     {
@@ -458,8 +458,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/classifying_rag_passages.md",
-      "size": 32936,
-      "hash": "015aebdd0ef1",
+      "size": 32942,
+      "hash": "f51b975c2abc",
       "translatedAtHash": "fbe9208da48e"
     },
     {
@@ -467,8 +467,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_choice_cookbook.md",
-      "size": 45599,
-      "hash": "2f23539a4942",
+      "size": 45543,
+      "hash": "a54b09202e99",
       "translatedAtHash": "adbff767c226"
     },
     {
@@ -476,8 +476,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_noul_cookbook.md",
-      "size": 38085,
-      "hash": "e08e7d680ca7",
+      "size": 38034,
+      "hash": "9b616bed7543",
       "translatedAtHash": "037ce3ab766d"
     },
     {
@@ -485,8 +485,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/date_extraction_cookbook.md",
-      "size": 19251,
-      "hash": "40b1d0333f77",
+      "size": 19931,
+      "hash": "a0f31646adbb",
       "translatedAtHash": "c216cb3d293a"
     },
     {
@@ -503,8 +503,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/function_calling.md",
-      "size": 19148,
-      "hash": "3368b82965fe",
+      "size": 19150,
+      "hash": "181ab970c1dd",
       "translatedAtHash": "d6301a7e0e6e"
     },
     {
@@ -512,8 +512,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/hierarchical_classification.md",
-      "size": 33022,
-      "hash": "1eb00ceb99d0",
+      "size": 33020,
+      "hash": "31f2672f3ca5",
       "translatedAtHash": "2b1b095b8730"
     },
     {
@@ -521,8 +521,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/llm_guardrails.md",
-      "size": 23740,
-      "hash": "f4f3a574d6c0",
+      "size": 23723,
+      "hash": "21d8572f670c",
       "translatedAtHash": "fb5935988e2c"
     },
     {
@@ -530,8 +530,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/parallel_questions.md",
-      "size": 48142,
-      "hash": "bb5dc23dbaf9",
+      "size": 48137,
+      "hash": "17b0dc4e64a8",
       "translatedAtHash": "53dfe4516fd6"
     },
     {
@@ -539,8 +539,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/pre_parsed_value_extraction_cookbook.md",
-      "size": 12725,
-      "hash": "01aaf367d60f",
+      "size": 12836,
+      "hash": "d6298b951b8b",
       "translatedAtHash": "c9ebb87b822b"
     },
     {
@@ -548,8 +548,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/rerank_typesafe.md",
-      "size": 22217,
-      "hash": "703f371f140a",
+      "size": 22172,
+      "hash": "70cf8376c731",
       "translatedAtHash": "5397e56dcdcf"
     },
     {
@@ -557,8 +557,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/sde_cascade.md",
-      "size": 25832,
-      "hash": "1a2439254877",
+      "size": 25813,
+      "hash": "df5d5d0d7dfc",
       "translatedAtHash": "03675753d74f"
     },
     {
@@ -566,8 +566,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/semantic_find.md",
-      "size": 37253,
-      "hash": "015c3fcf8ce5",
+      "size": 37248,
+      "hash": "aa7bde2d8c6a",
       "translatedAtHash": "7e30135ddc67"
     },
     {
@@ -575,8 +575,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/skill_suggestion.md",
-      "size": 41871,
-      "hash": "8380f9d2afe4",
+      "size": 42128,
+      "hash": "5d96d3c5a19d",
       "translatedAtHash": "fb53dc000c8b"
     },
     {
@@ -593,8 +593,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/basic_memory.md",
-      "size": 27052,
-      "hash": "40bcc56932f8",
+      "size": 27203,
+      "hash": "85abc86921a9",
       "translatedAtHash": "8e894e5b93ac"
     },
     {
@@ -602,8 +602,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "primitives/box.md",
-      "size": 7440,
-      "hash": "609b5ed5121c",
+      "size": 7442,
+      "hash": "1e7205e4c0a5",
       "translatedAtHash": "d75c3d1d52e9"
     },
     {
@@ -674,8 +674,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/intelliprompter.md",
-      "size": 14450,
-      "hash": "338d1c54c0f9",
+      "size": 14438,
+      "hash": "375784b525f3",
       "translatedAtHash": null
     },
     {
@@ -692,8 +692,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/ocr_confidence_bounding_boxes.md",
-      "size": 21909,
-      "hash": "01b76bd50a64",
+      "size": 21913,
+      "hash": "c6182a78e5df",
       "translatedAtHash": null
     },
     {
@@ -719,8 +719,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "model-jaggedness.md",
-      "size": 9513,
-      "hash": "833624833c56",
+      "size": 9536,
+      "hash": "346df70d89d5",
       "translatedAtHash": null
     },
     {
@@ -730,6 +730,33 @@
       "officialPath": "changelog.md",
       "size": 1220,
       "hash": "4d34d20732b4",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "patterns/noul-screen",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "patterns/noul-screen.md",
+      "size": 6709,
+      "hash": "b2e3ea24d9ae",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "patterns/companion-noul",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "patterns/companion-noul.md",
+      "size": 7506,
+      "hash": "b8300f33fc49",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "patterns/probability-routing",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "patterns/probability-routing.md",
+      "size": 5348,
+      "hash": "51851a1d8944",
       "translatedAtHash": null
     }
   ]
