@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-11-04",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "b3e4faebf44c",
+  "llmsHash": "51c062e7d90b",
   "docs": [
     {
       "slug": "architecture",
@@ -215,8 +215,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos.md",
-      "size": 726,
-      "hash": "695cb61a2464",
+      "size": 1481,
+      "hash": "c89b79bad49e",
       "translatedAtHash": "df111cec8c26"
     },
     {
@@ -224,8 +224,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos/smart-home.md",
-      "size": 3770,
-      "hash": "05e139e00b5b",
+      "size": 3388,
+      "hash": "7a9765549150",
       "translatedAtHash": "155c0af9a4ae"
     },
     {
@@ -611,8 +611,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "images.md",
-      "size": 21136,
-      "hash": "cacc916cf2f5",
+      "size": 21186,
+      "hash": "bfd4f8aa9f7a",
       "translatedAtHash": "dff7a319d723"
     },
     {
@@ -757,6 +757,15 @@
       "officialPath": "patterns/probability-routing.md",
       "size": 5348,
       "hash": "51851a1d8944",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "demos/airbnb-listing-search",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "demos/airbnb-listing-search.md",
+      "size": 8966,
+      "hash": "e6ab5b3fe1b3",
       "translatedAtHash": null
     }
   ]
