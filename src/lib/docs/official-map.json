@@ -89,8 +89,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "concepts/state.md",
-      "size": 3952,
-      "hash": "fd7467d31670",
+      "size": 3750,
+      "hash": "cd53b693dd68",
       "translatedAtHash": "0c78c1a347bd"
     },
     {
@@ -413,8 +413,8 @@
       "section": "reference",
       "kind": "official",
       "officialPath": "models.md",
-      "size": 8556,
-      "hash": "f38388fdcbcf",
+      "size": 8177,
+      "hash": "09ff62cff4c5",
       "translatedAtHash": "b643bc957614"
     },
     {
@@ -584,8 +584,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/twitch_chat_filter.md",
-      "size": 22679,
-      "hash": "6d5625edb91f",
+      "size": 22482,
+      "hash": "3c7f2a1fc399",
       "translatedAtHash": "5cb7a3d1d62e"
     },
     {
