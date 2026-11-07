@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-11-06",
+  "capturedAt": "2026-11-07",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "51c062e7d90b",
+  "llmsHash": "ef36aa3d3778",
   "docs": [
     {
       "slug": "architecture",
@@ -35,8 +35,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "/cookbooks",
-      "size": 9073,
-      "hash": "bda2ca241e24",
+      "size": 9139,
+      "hash": "fc4354fbf1ae",
       "translatedAtHash": "0fa0717f3815"
     },
     {
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 15195,
-      "hash": "7fad38ac7a45",
+      "size": 15156,
+      "hash": "63931dedc218",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 16367,
-      "hash": "463a475b4e49",
+      "size": 16368,
+      "hash": "cc7a8b0a455b",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -422,8 +422,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoformat.md",
-      "size": 39139,
-      "hash": "83f2ce123f4d",
+      "size": 40138,
+      "hash": "65cb89ebcfe8",
       "translatedAtHash": "c23355f56ea5"
     },
     {
@@ -431,8 +431,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoresearch_feature_discovery.md",
-      "size": 70781,
-      "hash": "342df74dff77",
+      "size": 76088,
+      "hash": "558202964022",
       "translatedAtHash": "af2595f41e8c"
     },
     {
@@ -440,8 +440,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/citation_check.md",
-      "size": 15581,
-      "hash": "952615ff6a20",
+      "size": 15674,
+      "hash": "cc06529eae92",
       "translatedAtHash": "2497e2c62a4c"
     },
     {
@@ -449,8 +449,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/classification_using_confidence.md",
-      "size": 30285,
-      "hash": "7f5d742afa0c",
+      "size": 30287,
+      "hash": "4e670e1a4035",
       "translatedAtHash": "20afd8e6c651"
     },
     {
@@ -458,8 +458,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/classifying_rag_passages.md",
-      "size": 32942,
-      "hash": "f51b975c2abc",
+      "size": 32624,
+      "hash": "8e690b013a92",
       "translatedAtHash": "fbe9208da48e"
     },
     {
@@ -485,8 +485,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/date_extraction_cookbook.md",
-      "size": 19931,
-      "hash": "a0f31646adbb",
+      "size": 19966,
+      "hash": "0163076bd5f1",
       "translatedAtHash": "c216cb3d293a"
     },
     {
@@ -503,8 +503,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/function_calling.md",
-      "size": 19150,
-      "hash": "181ab970c1dd",
+      "size": 19195,
+      "hash": "9b69a54781e0",
       "translatedAtHash": "d6301a7e0e6e"
     },
     {
@@ -530,8 +530,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/parallel_questions.md",
-      "size": 48137,
-      "hash": "17b0dc4e64a8",
+      "size": 48243,
+      "hash": "4cff480c25f8",
       "translatedAtHash": "53dfe4516fd6"
     },
     {
@@ -548,8 +548,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/rerank_typesafe.md",
-      "size": 22172,
-      "hash": "70cf8376c731",
+      "size": 22174,
+      "hash": "fc2084d66cc9",
       "translatedAtHash": "5397e56dcdcf"
     },
     {
@@ -557,8 +557,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/sde_cascade.md",
-      "size": 25813,
-      "hash": "df5d5d0d7dfc",
+      "size": 20554,
+      "hash": "a75f202cece3",
       "translatedAtHash": "03675753d74f"
     },
     {
@@ -566,8 +566,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/semantic_find.md",
-      "size": 37248,
-      "hash": "aa7bde2d8c6a",
+      "size": 37384,
+      "hash": "3af2fc3769ed",
       "translatedAtHash": "7e30135ddc67"
     },
     {
@@ -675,7 +675,7 @@
       "kind": "official",
       "officialPath": "cookbooks/intelliprompter.md",
       "size": 14438,
-      "hash": "375784b525f3",
+      "hash": "f8dc5bcf3cdf",
       "translatedAtHash": null
     },
     {
