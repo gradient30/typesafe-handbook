@@ -1,5 +1,145 @@
 [
   {
+    "id": "202611122258",
+    "capturedAt": "2026-11-12T22:58:00.225Z",
+    "summary": "12 处官网变动（新增 1 / 改动 7 / 删除 4）",
+    "llmsHash": "72eb4022ce08",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "patterns/intent-routing",
+        "title": "patterns/intent-routing",
+        "officialUrl": "https://docs.typesafe.ai/patterns/intent-routing",
+        "handbookHref": "/docs/patterns/intent-routing",
+        "location": "侧栏「模式」→「patterns/intent-routing」· 本站 /docs/patterns/intent-routing",
+        "prevHash": "50db5989ad01",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "demos",
+        "title": "Made with Jev",
+        "officialUrl": "https://docs.typesafe.ai/demos",
+        "handbookHref": "/docs/demos",
+        "location": "侧栏「演示」→「Made with Jev」· 本站 /docs/demos",
+        "prevHash": "c89b79bad49e",
+        "nextHash": "ee8115aa11d4",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/javascript",
+        "title": "JavaScript SDK",
+        "officialUrl": "https://docs.typesafe.ai/sdk/javascript",
+        "handbookHref": "/docs/sdk/javascript",
+        "location": "侧栏「SDK」→「JavaScript SDK」· 本站 /docs/sdk/javascript",
+        "prevHash": "e97bef8031ae",
+        "nextHash": "9d4220755e91",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python",
+        "title": "TypeSafe Python SDK",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python",
+        "handbookHref": "/docs/sdk/python",
+        "location": "侧栏「SDK」→「TypeSafe Python SDK」· 本站 /docs/sdk/python",
+        "prevHash": "1fb138baff1d",
+        "nextHash": "062643b66b11",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/questions",
+        "title": "Questions",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/questions",
+        "handbookHref": "/docs/sdk/python/api/types/questions",
+        "location": "侧栏「SDK」→「Questions」· 本站 /docs/sdk/python/api/types/questions",
+        "prevHash": "bfda82fabca4",
+        "nextHash": "84b3760a3b8e",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "model-jaggedness/jev-1.13",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「model-jaggedness/jev-1.13」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "8af0f8ff8aeb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_choice_cookbook",
+        "title": "Self-consistency: choices",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_choice_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_choice_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: choices」· 本站 /docs/cookbooks/consistency_choice_cookbook",
+        "prevHash": "1ce13d80d849",
+        "nextHash": "7ca6a19b5428",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_noul_cookbook",
+        "title": "Self-consistency: nouls",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_noul_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: nouls」· 本站 /docs/cookbooks/consistency_noul_cookbook",
+        "prevHash": "5456605e07c1",
+        "nextHash": "6ce83cacfed3",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/api/types/assets",
+        "title": "Assets",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/api/types/assets",
+        "handbookHref": "/docs/sdk/python/api/types/assets",
+        "location": "侧栏「SDK」→「Assets」· 本站 /docs/sdk/python/api/types/assets",
+        "prevHash": "0c8e02645d37",
+        "nextHash": "7096594f14e7",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "added",
+        "slug": "demos/content-audit",
+        "title": "Content audits with Jev",
+        "officialUrl": "https://docs.typesafe.ai/demos/content-audit",
+        "handbookHref": "/docs/demos/content-audit",
+        "location": "侧栏「演示」→「Content audits with Jev」· 本站 /docs/demos/content-audit",
+        "prevHash": null,
+        "nextHash": "38d262c55224",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      }
+    ]
+  },
+  {
     "id": "202611121414",
     "capturedAt": "2026-11-12T14:14:40.844Z",
     "summary": "4 处官网变动（新增 0 / 改动 0 / 删除 4）",

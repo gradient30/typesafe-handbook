@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-11-12",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "153c171f945e",
+  "llmsHash": "72eb4022ce08",
   "docs": [
     {
       "slug": "architecture",
@@ -215,8 +215,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos.md",
-      "size": 1481,
-      "hash": "c89b79bad49e",
+      "size": 1760,
+      "hash": "ee8115aa11d4",
       "translatedAtHash": "df111cec8c26"
     },
     {
@@ -242,8 +242,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/javascript.md",
-      "size": 6874,
-      "hash": "e97bef8031ae",
+      "size": 6872,
+      "hash": "9d4220755e91",
       "translatedAtHash": "25ba04f5b558"
     },
     {
@@ -269,8 +269,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python.md",
-      "size": 4185,
-      "hash": "1fb138baff1d",
+      "size": 4181,
+      "hash": "062643b66b11",
       "translatedAtHash": "6b8fa1084362"
     },
     {
@@ -341,8 +341,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/api/types/questions.md",
-      "size": 26284,
-      "hash": "bfda82fabca4",
+      "size": 26149,
+      "hash": "84b3760a3b8e",
       "translatedAtHash": "cbad949affff"
     },
     {
@@ -467,8 +467,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_choice_cookbook.md",
-      "size": 53953,
-      "hash": "1ce13d80d849",
+      "size": 50368,
+      "hash": "7ca6a19b5428",
       "translatedAtHash": "adbff767c226"
     },
     {
@@ -476,8 +476,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/consistency_noul_cookbook.md",
-      "size": 45832,
-      "hash": "5456605e07c1",
+      "size": 42761,
+      "hash": "6ce83cacfed3",
       "translatedAtHash": "037ce3ab766d"
     },
     {
@@ -638,8 +638,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "sdk/python/api/types/assets.md",
-      "size": 5595,
-      "hash": "0c8e02645d37",
+      "size": 5541,
+      "hash": "7096594f14e7",
       "translatedAtHash": "b4e4e7c56607"
     },
     {
@@ -784,6 +784,15 @@
       "officialPath": "cookbooks/infinite_cardinality_choice.md",
       "size": 64743,
       "hash": "e9c3b8defdcf",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "demos/content-audit",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "demos/content-audit.md",
+      "size": 10919,
+      "hash": "38d262c55224",
       "translatedAtHash": null
     }
   ]
