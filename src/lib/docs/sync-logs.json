@@ -1,5 +1,167 @@
 [
   {
+    "id": "202611120452",
+    "capturedAt": "2026-11-12T04:52:38.436Z",
+    "summary": "14 处官网变动（新增 0 / 改动 10 / 删除 4）",
+    "llmsHash": "153c171f945e",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "concepts/use-case-map",
+        "title": "Use cases",
+        "officialUrl": "https://docs.typesafe.ai/concepts/use-case-map",
+        "handbookHref": "/docs/concepts/use-case-map",
+        "location": "侧栏「TypeSafe 基础」→「Use cases」· 本站 /docs/concepts/use-case-map",
+        "prevHash": "b811c5f96480",
+        "nextHash": "2ae16aed7cc3",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "patterns/intent-routing",
+        "title": "patterns/intent-routing",
+        "officialUrl": "https://docs.typesafe.ai/patterns/intent-routing",
+        "handbookHref": "/docs/patterns/intent-routing",
+        "location": "侧栏「模式」→「patterns/intent-routing」· 本站 /docs/patterns/intent-routing",
+        "prevHash": "50db5989ad01",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "model-jaggedness/jev-1.13",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「model-jaggedness/jev-1.13」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "8af0f8ff8aeb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/autoformat",
+        "title": "Structure recovery",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/autoformat",
+        "handbookHref": "/docs/cookbooks/autoformat",
+        "location": "侧栏「食谱」→「Structure recovery」· 本站 /docs/cookbooks/autoformat",
+        "prevHash": "ca8e57d2d8a1",
+        "nextHash": "fd11f29faa6a",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_choice_cookbook",
+        "title": "Self-consistency: choices",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_choice_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_choice_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: choices」· 本站 /docs/cookbooks/consistency_choice_cookbook",
+        "prevHash": "10f1873e1fd6",
+        "nextHash": "1ce13d80d849",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/consistency_noul_cookbook",
+        "title": "Self-consistency: nouls",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/consistency_noul_cookbook",
+        "handbookHref": "/docs/cookbooks/consistency_noul_cookbook",
+        "location": "侧栏「食谱」→「Self-consistency: nouls」· 本站 /docs/cookbooks/consistency_noul_cookbook",
+        "prevHash": "f840a387c35f",
+        "nextHash": "5456605e07c1",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/date_extraction_cookbook",
+        "title": "Date extraction",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/date_extraction_cookbook",
+        "handbookHref": "/docs/cookbooks/date_extraction_cookbook",
+        "location": "侧栏「食谱」→「Date extraction」· 本站 /docs/cookbooks/date_extraction_cookbook",
+        "prevHash": "17748989a8ac",
+        "nextHash": "a1e4e6ca758a",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/function_calling",
+        "title": "Function calling",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/function_calling",
+        "handbookHref": "/docs/cookbooks/function_calling",
+        "location": "侧栏「食谱」→「Function calling」· 本站 /docs/cookbooks/function_calling",
+        "prevHash": "48f74ee6da40",
+        "nextHash": "a984c79b24d3",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/hierarchical_classification",
+        "title": "Hierarchical classification",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/hierarchical_classification",
+        "handbookHref": "/docs/cookbooks/hierarchical_classification",
+        "location": "侧栏「食谱」→「Hierarchical classification」· 本站 /docs/cookbooks/hierarchical_classification",
+        "prevHash": "05524a4cce37",
+        "nextHash": "edfe9d0f59ae",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/parallel_questions",
+        "title": "Parallel questions",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/parallel_questions",
+        "handbookHref": "/docs/cookbooks/parallel_questions",
+        "location": "侧栏「食谱」→「Parallel questions」· 本站 /docs/cookbooks/parallel_questions",
+        "prevHash": "16f519150031",
+        "nextHash": "dfbd550c3fd2",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/rerank_typesafe",
+        "title": "Re-ranking",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/rerank_typesafe",
+        "handbookHref": "/docs/cookbooks/rerank_typesafe",
+        "location": "侧栏「食谱」→「Re-ranking」· 本站 /docs/cookbooks/rerank_typesafe",
+        "prevHash": "e1e470d43484",
+        "nextHash": "5cc36ddb6c7a",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/sde_cascade",
+        "title": "SDE cascade",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/sde_cascade",
+        "handbookHref": "/docs/cookbooks/sde_cascade",
+        "location": "侧栏「食谱」→「SDE cascade」· 本站 /docs/cookbooks/sde_cascade",
+        "prevHash": "f75ded5d9317",
+        "nextHash": "8beab8b259bc",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202611112350",
     "capturedAt": "2026-11-11T23:50:48.415Z",
     "summary": "4 处官网变动（新增 0 / 改动 0 / 删除 4）",
