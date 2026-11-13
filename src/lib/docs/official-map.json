@@ -224,8 +224,8 @@
       "section": "demos",
       "kind": "official",
       "officialPath": "demos/smart-home.md",
-      "size": 3388,
-      "hash": "7a9765549150",
+      "size": 3240,
+      "hash": "35ac22f310f3",
       "translatedAtHash": "155c0af9a4ae"
     },
     {
@@ -764,8 +764,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "demos/airbnb-listing-search.md",
-      "size": 8966,
-      "hash": "e6ab5b3fe1b3",
+      "size": 9049,
+      "hash": "c62b1f421906",
       "translatedAtHash": null
     },
     {
