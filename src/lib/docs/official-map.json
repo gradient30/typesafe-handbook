@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-17",
+  "capturedAt": "2026-11-18",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "72eb4022ce08",
   "docs": [
@@ -503,8 +503,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/function_calling.md",
-      "size": 24522,
-      "hash": "1a8754583eed",
+      "size": 32176,
+      "hash": "412eee250669",
       "translatedAtHash": "d6301a7e0e6e"
     },
     {
