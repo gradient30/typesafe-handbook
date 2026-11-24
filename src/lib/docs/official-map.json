@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-23",
+  "capturedAt": "2026-11-24",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "72eb4022ce08",
   "docs": [
@@ -71,8 +71,8 @@
       "section": "start",
       "kind": "official",
       "officialPath": "introduction/quickstart.md",
-      "size": 15156,
-      "hash": "63931dedc218",
+      "size": 15157,
+      "hash": "b0fa76045443",
       "translatedAtHash": "c30183944985"
     },
     {
@@ -116,8 +116,8 @@
       "section": "foundations",
       "kind": "official",
       "officialPath": "confidence.md",
-      "size": 14159,
-      "hash": "3f15502effc8",
+      "size": 15336,
+      "hash": "ec579d5a7d57",
       "translatedAtHash": "5c325ec0c0b6"
     },
     {
@@ -125,8 +125,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives.md",
-      "size": 16368,
-      "hash": "cc7a8b0a455b",
+      "size": 16460,
+      "hash": "2e0d0a93270c",
       "translatedAtHash": "eb51deaaa836"
     },
     {
@@ -143,8 +143,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/choice.md",
-      "size": 15647,
-      "hash": "a3f3ded62c00",
+      "size": 15871,
+      "hash": "bf6a70e89c2f",
       "translatedAtHash": "4c55085131f8"
     },
     {
@@ -152,8 +152,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/noul.md",
-      "size": 16697,
-      "hash": "c53213dda017",
+      "size": 16754,
+      "hash": "c413f26e14bf",
       "translatedAtHash": "8b04eed7b25e"
     },
     {
@@ -161,8 +161,8 @@
       "section": "primitives",
       "kind": "official",
       "officialPath": "primitives/score.md",
-      "size": 20657,
-      "hash": "93c593881a2c",
+      "size": 20693,
+      "hash": "1ebc5e4763bd",
       "translatedAtHash": "ee6afe3494b8"
     },
     {

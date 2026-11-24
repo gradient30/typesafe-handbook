@@ -1,5 +1,123 @@
 [
   {
+    "id": "202611240336",
+    "capturedAt": "2026-11-24T03:36:40.443Z",
+    "summary": "10 处官网变动（新增 0 / 改动 6 / 删除 4）",
+    "llmsHash": "72eb4022ce08",
+    "changes": [
+      {
+        "kind": "modified",
+        "slug": "introduction/quickstart",
+        "title": "Quick start",
+        "officialUrl": "https://docs.typesafe.ai/introduction/quickstart",
+        "handbookHref": "/docs/introduction/quickstart",
+        "location": "侧栏「入门」→「Quick start」· 本站 /docs/introduction/quickstart",
+        "prevHash": "63931dedc218",
+        "nextHash": "b0fa76045443",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "confidence",
+        "title": "Confidence",
+        "officialUrl": "https://docs.typesafe.ai/confidence",
+        "handbookHref": "/docs/confidence",
+        "location": "侧栏「TypeSafe 基础」→「Confidence」· 本站 /docs/confidence",
+        "prevHash": "3f15502effc8",
+        "nextHash": "ec579d5a7d57",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives",
+        "title": "Primitives (Questions)",
+        "officialUrl": "https://docs.typesafe.ai/primitives",
+        "handbookHref": "/docs/primitives",
+        "location": "侧栏「原语」→「Primitives (Questions)」· 本站 /docs/primitives",
+        "prevHash": "cc7a8b0a455b",
+        "nextHash": "2e0d0a93270c",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/choice",
+        "title": "Choice",
+        "officialUrl": "https://docs.typesafe.ai/primitives/choice",
+        "handbookHref": "/docs/primitives/choice",
+        "location": "侧栏「原语」→「Choice」· 本站 /docs/primitives/choice",
+        "prevHash": "a3f3ded62c00",
+        "nextHash": "bf6a70e89c2f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/noul",
+        "title": "Noul",
+        "officialUrl": "https://docs.typesafe.ai/primitives/noul",
+        "handbookHref": "/docs/primitives/noul",
+        "location": "侧栏「原语」→「Noul」· 本站 /docs/primitives/noul",
+        "prevHash": "c53213dda017",
+        "nextHash": "c413f26e14bf",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "primitives/score",
+        "title": "Score",
+        "officialUrl": "https://docs.typesafe.ai/primitives/score",
+        "handbookHref": "/docs/primitives/score",
+        "location": "侧栏「原语」→「Score」· 本站 /docs/primitives/score",
+        "prevHash": "93c593881a2c",
+        "nextHash": "1ebc5e4763bd",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "patterns/intent-routing",
+        "title": "patterns/intent-routing",
+        "officialUrl": "https://docs.typesafe.ai/patterns/intent-routing",
+        "handbookHref": "/docs/patterns/intent-routing",
+        "location": "侧栏「模式」→「patterns/intent-routing」· 本站 /docs/patterns/intent-routing",
+        "prevHash": "50db5989ad01",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "model-jaggedness/jev-1.13",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「model-jaggedness/jev-1.13」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "8af0f8ff8aeb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      }
+    ]
+  },
+  {
     "id": "202611231649",
     "capturedAt": "2026-11-23T16:49:44.878Z",
     "summary": "4 处官网变动（新增 0 / 改动 0 / 删除 4）",
