@@ -1,5 +1,101 @@
 [
   {
+    "id": "202611251626",
+    "capturedAt": "2026-11-25T16:26:39.587Z",
+    "summary": "8 处官网变动（新增 3 / 改动 1 / 删除 4）",
+    "llmsHash": "eec0841a2dbb",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "patterns/intent-routing",
+        "title": "patterns/intent-routing",
+        "officialUrl": "https://docs.typesafe.ai/patterns/intent-routing",
+        "handbookHref": "/docs/patterns/intent-routing",
+        "location": "侧栏「模式」→「patterns/intent-routing」· 本站 /docs/patterns/intent-routing",
+        "prevHash": "50db5989ad01",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "sdk/python/changelog",
+        "title": "Changelog",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/changelog",
+        "handbookHref": "/docs/sdk/python/changelog",
+        "location": "侧栏「SDK」→「Changelog」· 本站 /docs/sdk/python/changelog",
+        "prevHash": "854a9ff2823c",
+        "nextHash": "818e94409465",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "model-jaggedness/jev-1.13",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「model-jaggedness/jev-1.13」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "8af0f8ff8aeb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "added",
+        "slug": "integrations",
+        "title": "Integrations",
+        "officialUrl": "https://docs.typesafe.ai/integrations",
+        "handbookHref": "/docs/integrations",
+        "location": "侧栏「参考」→「Integrations」· 本站 /docs/integrations",
+        "prevHash": null,
+        "nextHash": "a89e759ef662",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "cookbooks/langchain_quickstart",
+        "title": "LangChain quickstart",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/langchain_quickstart",
+        "handbookHref": "/docs/cookbooks/langchain_quickstart",
+        "location": "侧栏「食谱」→「LangChain quickstart」· 本站 /docs/cookbooks/langchain_quickstart",
+        "prevHash": null,
+        "nextHash": "52df41c32dea",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      },
+      {
+        "kind": "added",
+        "slug": "cookbooks/langchain_safety_gate",
+        "title": "Tool-call safety gate",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/langchain_safety_gate",
+        "handbookHref": "/docs/cookbooks/langchain_safety_gate",
+        "location": "侧栏「食谱」→「Tool-call safety gate」· 本站 /docs/cookbooks/langchain_safety_gate",
+        "prevHash": null,
+        "nextHash": "ca3f0f3bc19a",
+        "note": "官网新增页面，等待每日例行汉化写入中文页。"
+      }
+    ]
+  },
+  {
     "id": "202611250145",
     "capturedAt": "2026-11-25T01:45:07.573Z",
     "summary": "4 处官网变动（新增 0 / 改动 0 / 删除 4）",

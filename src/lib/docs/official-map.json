@@ -1,7 +1,7 @@
 {
   "capturedAt": "2026-11-25",
   "source": "https://docs.typesafe.ai/llms.txt",
-  "llmsHash": "72eb4022ce08",
+  "llmsHash": "eec0841a2dbb",
   "docs": [
     {
       "slug": "architecture",
@@ -359,8 +359,8 @@
       "section": "sdk",
       "kind": "official",
       "officialPath": "sdk/python/changelog.md",
-      "size": 2638,
-      "hash": "854a9ff2823c",
+      "size": 2739,
+      "hash": "818e94409465",
       "translatedAtHash": "5a106cf423ea"
     },
     {
@@ -793,6 +793,33 @@
       "officialPath": "demos/content-audit.md",
       "size": 10919,
       "hash": "38d262c55224",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "integrations",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "integrations.md",
+      "size": 1062,
+      "hash": "a89e759ef662",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "cookbooks/langchain_quickstart",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "cookbooks/langchain_quickstart.md",
+      "size": 18436,
+      "hash": "52df41c32dea",
+      "translatedAtHash": null
+    },
+    {
+      "slug": "cookbooks/langchain_safety_gate",
+      "section": "other",
+      "kind": "official",
+      "officialPath": "cookbooks/langchain_safety_gate.md",
+      "size": 56412,
+      "hash": "ca3f0f3bc19a",
       "translatedAtHash": null
     }
   ]
