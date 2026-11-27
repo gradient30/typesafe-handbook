@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-26",
+  "capturedAt": "2026-11-27",
   "source": "https://docs.typesafe.ai/llms.txt",
   "llmsHash": "eec0841a2dbb",
   "docs": [
@@ -422,8 +422,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/autoformat.md",
-      "size": 42133,
-      "hash": "204501b29229",
+      "size": 41784,
+      "hash": "556b32deda6f",
       "translatedAtHash": "c23355f56ea5"
     },
     {
@@ -513,7 +513,7 @@
       "kind": "official",
       "officialPath": "cookbooks/hierarchical_classification.md",
       "size": 34611,
-      "hash": "8629c8dfc782",
+      "hash": "3da75f3dacdf",
       "translatedAtHash": "2b1b095b8730"
     },
     {
@@ -566,8 +566,8 @@
       "section": "cookbooks",
       "kind": "official",
       "officialPath": "cookbooks/semantic_find.md",
-      "size": 39625,
-      "hash": "16736767e0c3",
+      "size": 39227,
+      "hash": "079ad29748c9",
       "translatedAtHash": "7e30135ddc67"
     },
     {
@@ -818,8 +818,8 @@
       "section": "other",
       "kind": "official",
       "officialPath": "cookbooks/langchain_safety_gate.md",
-      "size": 56412,
-      "hash": "ca3f0f3bc19a",
+      "size": 56472,
+      "hash": "3f06975fb90f",
       "translatedAtHash": null
     }
   ]

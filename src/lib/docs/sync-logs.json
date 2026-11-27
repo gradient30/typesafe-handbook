@@ -1,5 +1,101 @@
 [
   {
+    "id": "202611270117",
+    "capturedAt": "2026-11-27T01:17:00.755Z",
+    "summary": "8 处官网变动（新增 0 / 改动 4 / 删除 4）",
+    "llmsHash": "eec0841a2dbb",
+    "changes": [
+      {
+        "kind": "removed",
+        "slug": "patterns/intent-routing",
+        "title": "patterns/intent-routing",
+        "officialUrl": "https://docs.typesafe.ai/patterns/intent-routing",
+        "handbookHref": "/docs/patterns/intent-routing",
+        "location": "侧栏「模式」→「patterns/intent-routing」· 本站 /docs/patterns/intent-routing",
+        "prevHash": "50db5989ad01",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "sdk/python/usage",
+        "title": "sdk/python/usage",
+        "officialUrl": "https://docs.typesafe.ai/sdk/python/usage",
+        "handbookHref": "/docs/sdk/python/usage",
+        "location": "侧栏「SDK」→「sdk/python/usage」· 本站 /docs/sdk/python/usage",
+        "prevHash": "bd11cbe5cbcb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "api",
+        "title": "api",
+        "officialUrl": "https://docs.typesafe.ai/api",
+        "handbookHref": "/docs/api",
+        "location": "侧栏「参考」→「api」· 本站 /docs/api",
+        "prevHash": "37f0f3a41917",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "removed",
+        "slug": "model-jaggedness/jev-1.13",
+        "title": "model-jaggedness/jev-1.13",
+        "officialUrl": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+        "handbookHref": "/docs/model-jaggedness/jev-1.13",
+        "location": "侧栏「参考」→「model-jaggedness/jev-1.13」· 本站 /docs/model-jaggedness/jev-1.13",
+        "prevHash": "8af0f8ff8aeb",
+        "nextHash": null,
+        "note": "官网索引里已经找不到这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/autoformat",
+        "title": "Structure recovery",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/autoformat",
+        "handbookHref": "/docs/cookbooks/autoformat",
+        "location": "侧栏「食谱」→「Structure recovery」· 本站 /docs/cookbooks/autoformat",
+        "prevHash": "204501b29229",
+        "nextHash": "556b32deda6f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/hierarchical_classification",
+        "title": "Hierarchical classification",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/hierarchical_classification",
+        "handbookHref": "/docs/cookbooks/hierarchical_classification",
+        "location": "侧栏「食谱」→「Hierarchical classification」· 本站 /docs/cookbooks/hierarchical_classification",
+        "prevHash": "8629c8dfc782",
+        "nextHash": "3da75f3dacdf",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/semantic_find",
+        "title": "Line-by-line search",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/semantic_find",
+        "handbookHref": "/docs/cookbooks/semantic_find",
+        "location": "侧栏「食谱」→「Line-by-line search」· 本站 /docs/cookbooks/semantic_find",
+        "prevHash": "16736767e0c3",
+        "nextHash": "079ad29748c9",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      },
+      {
+        "kind": "modified",
+        "slug": "cookbooks/langchain_safety_gate",
+        "title": "Tool-call safety gate",
+        "officialUrl": "https://docs.typesafe.ai/cookbooks/langchain_safety_gate",
+        "handbookHref": "/docs/cookbooks/langchain_safety_gate",
+        "location": "侧栏「食谱」→「Tool-call safety gate」· 本站 /docs/cookbooks/langchain_safety_gate",
+        "prevHash": "ca3f0f3bc19a",
+        "nextHash": "3f06975fb90f",
+        "note": "官网正文哈希变化，对照表标「待更新」，下一次例行汉化会重译这一页。"
+      }
+    ]
+  },
+  {
     "id": "202611261600",
     "capturedAt": "2026-11-26T16:00:16.792Z",
     "summary": "4 处官网变动（新增 0 / 改动 0 / 删除 4）",
